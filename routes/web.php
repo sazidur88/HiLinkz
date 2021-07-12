@@ -102,9 +102,7 @@ Route::POST('/manage-ex-students/update-alumni-status', [ExStudentController::cl
 
 // Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
 
-Route::get('/app-development', function () {
-    return view('web.service.mobile-index');
-})->name('app_development');
+Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
 
 Route::get('/consultancy', function () {
     return view('web.service.consultancy-index');
