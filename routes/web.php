@@ -73,26 +73,6 @@ Route::group(['middleware' => ['auth']], function () {
 });
 
 
-/*
------------------------------------------------------------
- ==== Manage Alumni starts Here  ===
------------------------------------------------------------
-*/
-Route::GET('/manage-alumni/create/{user_id}', [AlumniController::class, 'create'])->name('manage_alumni.create_non_resource')->middleware('auth');
-Route::resource('manage_alumni', AlumniController::class)->middleware('auth');
-
-
-
-
-/*
------------------------------------------------------------
- ==== Manage ExStudents starts Here  ===
------------------------------------------------------------
-*/
-
-Route::get('/manage-ex-students-list', [ExStudentController::class, 'index'])->middleware('auth')->name('manage_ex_students');
-Route::POST('/manage-ex-students/update-alumni-status', [ExStudentController::class, 'update_alumni_status'])->middleware('auth')->name('manage_ex_students.update_alumni_status');
-
 
 /*
 -----------------------------------------------------------
@@ -100,7 +80,7 @@ Route::POST('/manage-ex-students/update-alumni-status', [ExStudentController::cl
 -----------------------------------------------------------
 */
 
-// Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
+Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
 
 Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
 
@@ -108,7 +88,7 @@ Route::get('/consultancy', function () {
     return view('web.service.consultancy-index');
 })->name('consultancy');
 
-Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+// Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
 
 
 /*

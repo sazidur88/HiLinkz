@@ -9,7 +9,20 @@
 @endsection
 
 @section('content')
-
+<!-- Start Breadcrump Area  -->
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--17" data-black-overlay="5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="rn-page-title text-center pt--100">
+                    <h2 class="title theme-gradient">Cntact With Us</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrump Area  -->
 <!-- Start Contact Address Area  -->
 <div class="rn-contact-address-area rn-section-gap bg_color--5">
     <div class="container">
@@ -23,6 +36,7 @@
                     <div class="inner">
                         <h4 class="title">Contact via Phone</h4>
                         <p><a href="tel:+8801719347688">+88 01719-347688</a></p>
+                        <p><a href="tel:+88017075381238">+88 01707-538123</a></p>
                     </div>
                 </div>
             </div>
@@ -37,6 +51,7 @@
                     <div class="inner">
                         <h4 class="title">Email Address</h4>
                         <p><a href="mailto:info@hilinkz.com">info@hilinkz.com</a></p>
+                        <p><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></p>
                     </div>
                 </div>
             </div>
@@ -96,7 +111,7 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="thumbnail mb_md--40 mb_sm--40">
-                        <img src="{{asset('assets/images/about/contact-2.jpg')}}" alt="trydo" />
+                        <img src="{{asset('assets/images/about/LetsTalk.jpg')}}" alt="trydo" />
                     </div>
                 </div>
             </div>

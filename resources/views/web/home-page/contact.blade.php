@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="thumbnail mb_md--40 mb_sm--40">
-                        <img src="{{asset('assets/images/about/contact-2.jpg')}}" alt="trydo" />
+                        <img src="{{asset('assets/images/about/LetsTalk.jpg')}}" alt="trydo" />
                     </div>
                 </div>
             </div>

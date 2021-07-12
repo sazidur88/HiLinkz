@@ -25,8 +25,6 @@
                     <li>
                         <img src="{{asset('assets/images/brand/c-10.png')}}" alt="Logo Images" />
                     </li>
-
-
                 </ul>
             </div>
         </div>

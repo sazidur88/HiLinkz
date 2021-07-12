@@ -14,19 +14,21 @@
                     <nav class="mainmenunav d-lg-block navbar-example2">
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu nav nav-pills">
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#service">Service</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#team">Team</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link smoth-animation" href="#team">Team</a></li> -->
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#testimonial">Testimonial</a>
                             </li>
                             <!-- <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">Blog</a></li> -->
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#contact">Contact</a></li>
+                            
                         </ul>
                         <!-- End Mainmanu Nav -->
                     </nav>
+ 
                     <div class="header-btn">
                         <!-- <a class="rn-btn" href="#"> -->
                             <!-- <span>buy now</span> -->
