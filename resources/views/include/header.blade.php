@@ -14,7 +14,7 @@
                     <nav class="mainmenunav d-lg-block navbar-example2">
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu nav nav-pills">
-                            <li class="nav-item"><a class="nav-link smoth-animation active" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#service">Service</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a>

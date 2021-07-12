@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="{{asset('assets/css/vendor/lightbox.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/plugins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/style.css')}}"> -->
+
 
     <!-- Custom CSS Area -->
     @yield('custom_styles')
