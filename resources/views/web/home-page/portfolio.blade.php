@@ -13,7 +13,7 @@
                         "spaceBetween": 15, 
                         "slidesToShow": 3, 
                         "slidesToScroll": 1, 
-                        "arrows": false, 
+                        "arrows": true, 
                         "infinite": true,
                         "dots": true
                     }' data-slick-responsive='[
