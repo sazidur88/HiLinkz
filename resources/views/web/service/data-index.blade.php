@@ -9,7 +9,7 @@
 @endsection
 @section('content')
 <!-- Start Breadcrump Area  -->
-<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--5" data-black-overlay="5">
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--12" data-black-overlay="5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -39,17 +39,9 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <div class="details mt_md--30 mt_sm--30">
-                                    <p class="text-justify">but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing</p>
+                                    <p class="text-justify">All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence, for its survival and future growth. According to Forrester “Business Intelligence is a set of methodologies, processes, platforms, applications, architectures, and technologies that transform raw data into meaningful and useful information used to enable more effective strategic, tactical, and operational insights and decision-making”.</p>
 
-                                    <p class="text-justify">hidden in the middle of text. All the Lorem Ipsum generators tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet.</p>
-                                    <h4 class="title">Proceess of metel</h4>
-                                    <ul class="liststyle bullet">
-                                        <li>Yet this above sewed flirted opened ouch</li>
-                                        <li>Goldfinch realistic sporadic ingenuous</li>
-                                        <li>Abominable this abidin far successfully then like piquan</li>
-                                        <li>Risus commodo viverra</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                    </ul>
+                                    <p class="text-justify">For example, through access to BI applications, a bank’s branch manager can determine who are the most profitable customers and which customers they should work on. Such intelligence often requires the following steps:</p>
                                 </div>
                             </div>
                         </div>
@@ -59,14 +51,13 @@
                         <div class="row sercice-details-content align-items-center">
                             <div class="col-lg-6 col-12 order-2 order-lg-1">
                                 <div class="details mt_md--30 mt_sm--30">
-                                    <p>but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing</p>
-                                    <p>hidden in the middle of text. All the Lorem Ipsum generators tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet.</p>
-                                    <h4 class="title">Our Working Process</h4>
+                                <h4 class="title">Proceess of metel</h4>
                                     <ul class="liststyle bullet">
-                                        <li>Yet this above sewed flirted opened ouch</li>
-                                        <li>Goldfinch realistic sporadic ingenuous</li>
-                                        <li>Abominable this abidin far successfully then like piquan</li>
+                                        <li>Step 1) Raw Data from corporate databases is extracted. The data could be spread across multiple heterogeneous systems.</li>
+                                        <li>Step 2) The data is cleaned and transformed into the data warehouse. The table can be linked, and data cubes are formed.</li>
+                                        <li>Step 3) Using BI systems the user can ask queries, request ad-hoc reports or conduct any other analysis.</li>
                                     </ul>
+                                    <p>We work on each three steps as clients needed.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-12 order-1 order-lg-2">

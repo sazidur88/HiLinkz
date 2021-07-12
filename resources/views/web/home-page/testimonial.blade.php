@@ -1,4 +1,4 @@
-<div class="rn-testimonial-area rn-section-gap bg_color--5" id="testimonial">
+<div class="rn-testimonial-area rn-section-gap bg_color--1" id="testimonial">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

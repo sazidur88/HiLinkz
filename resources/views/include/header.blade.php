@@ -2,11 +2,9 @@
             <div class="header-wrapper" id="header-wrapper">
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html">
-                            <!-- <img class="logo-1" src="{{asset('assets/images/logo/logo-light.png')}}" alt="Logo Images"> -->
+                        <a href="/">
                             <img class="logo-1 logo" src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo Images">
-                            <!-- <img class="logo-2" src="{{asset('assets/images/logo/logo-all-dark.png')}}" alt="Logo Images"> -->
-                            <img class="logo-2"  style="width: 150px;" src="{{asset('assets/images/logo/HLINKZ-Logo-Transperant.png')}}" alt="Logo Images">
+                            <img class="logo-2 logo" src="{{asset('assets/images/logo/HLINKZ-Logo-Transperant.png')}}" alt="Logo Images">
                         </a>
                     </div>
                 </div>

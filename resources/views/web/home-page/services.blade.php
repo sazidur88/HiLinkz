@@ -30,13 +30,13 @@
             <!-- Start Single Service  -->
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="single-service service__style--2 bg-color-gray">
-                    <a href="service-details.html">
+                    <a href="{{route('it_solutions')}}">
                         <div class="service">
                             <div class="icon">
                                 <i data-feather="layers"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title">IT solutions and Services</h3>
+                                <h3 class="title">IT solutions & Services</h3>
                                 <!-- style="text-align:justify" -->
                                 <p>We take the burden of IT management on behalf of organizations so that they can focus on their core business...</p>
                             </div>
@@ -49,7 +49,7 @@
             <!-- Start Single Service  -->
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="single-service service__style--2 bg-color-gray">
-                    <a href="service-details.html">
+                    <a href="{{route('data-intelligence')}}">
                         <div class="service">
                             <div class="icon">
                                 <i data-feather="cloud-lightning"></i>
@@ -104,7 +104,7 @@
             <!-- Start Single Service  -->
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="single-service service__style--2 bg-color-gray">
-                    <a href="service-details.html">
+                    <a href="{{route('all_services')}}">
                         <div class="service">
                             <div class="icon">
                                 <i data-feather="activity"></i>

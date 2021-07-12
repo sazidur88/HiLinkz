@@ -1,12 +1,12 @@
 <div class="rn-counterup-area rn-section-gap bg_color--5">
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <div class="section-single-title text-center">
                     <h3 class="fontWeight500">Our Fun Facts</h3>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <!-- Start Single Counterup  -->
             <div class="col-lg-3 col-md-3 col-sm-6 col-12">

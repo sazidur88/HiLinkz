@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
+use App\Http\Controllers\Web\ServiceController;
 use App\Http\Controllers\CommonControllers\DashboardController;
-use App\Http\Controllers\web\ServiceController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
@@ -50,7 +50,6 @@ Route::POST('/profile_photo_upload', [DashboardController::class, 'profile_photo
 
 
 
-
 /*
 -----------------------------------------------------------
  ==== Edit Profile Start  Here  ===
@@ -79,16 +78,13 @@ Route::group(['middleware' => ['auth']], function () {
  ==== Service-Details  ===
 -----------------------------------------------------------
 */
-
-Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
-
+// Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
+Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
 Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
-
-Route::get('/consultancy', function () {
-    return view('web.service.consultancy-index');
-})->name('consultancy');
-
-// Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+Route::view('/consultancy', 'web.service.consultancy-index')->name('consultancy');
+Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
+Route::view('/data-intelligence', 'web.service.data-index')->name('data-intelligence');
+Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 
 
 /*

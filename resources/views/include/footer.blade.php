@@ -21,8 +21,8 @@
                             <div class="footer-widget">
                                 <h4>Quick Link</h4>
                                 <ul class="ft-link">
-                                    <li><a href="portfolio.html">Work</a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="/">Home Page</a></li>
+                                    <li><a href="{{route('all_services')}}">Our Services</a></li>
                                     <li><a href="{{route('contact_form')}}">Let's Talk</a></li>
                                 </ul>
                             </div>
@@ -33,8 +33,8 @@
                             <div class="footer-widget">
                                 <h4>Say Hello</h4>
                                 <ul class="ft-link">
-                                    <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                                    <li><a href="mailto:hr@example.com">hr@example.com</a></li>
+                                    <li><a href="mailto:info@hilinkz.com">info@hilinkz.com</a></li>
+                                    <li><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></li>
                                 </ul>
 
                                 <div class="social-share-inner">

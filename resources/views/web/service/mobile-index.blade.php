@@ -34,7 +34,7 @@
                             <div class="row sercice-details-content pb--80 align-items-center">
                                 <div class="col-lg-6 col-12">
                                     <div class="thumb">
-                                        <img class="w-100" src="assets/images/service/service-01.png" alt="Service Images" />
+                                        <img class="w-100" src="{{asset('assets/images/service/service-01.png')}}" alt="Service Images" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="col-lg-6 col-12 order-1 order-lg-2">
                                     <div class="thumb position-relative">
-                                        <img class="w-100" src="assets/images/service/service-02.png" alt="Service Images" />
+                                        <img class="w-100" src="{{asset('assets/images/service/service-02.png')}}" alt="Service Images" />
                                         <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a>
                                     </div>
                                 </div>
