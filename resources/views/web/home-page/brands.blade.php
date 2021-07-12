@@ -1,4 +1,4 @@
-<div class="rn-brand-area rn-section-gap bg_color--1">
+<div class="rn-brand-area rn-section-gap bg_color--1" id="brands">
     <div class="container">
         <div class="row mb-50">
             <div class="col-lg-12">
