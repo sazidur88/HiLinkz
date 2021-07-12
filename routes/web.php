@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
 use App\Http\Controllers\CommonControllers\DashboardController;
+use App\Http\Controllers\web\ServiceController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
@@ -99,7 +100,7 @@ Route::POST('/manage-ex-students/update-alumni-status', [ExStudentController::cl
 -----------------------------------------------------------
 */
 
-Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
+// Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
 
 Route::get('/app-development', function () {
     return view('web.service.mobile-index');
@@ -108,6 +109,9 @@ Route::get('/app-development', function () {
 Route::get('/consultancy', function () {
     return view('web.service.consultancy-index');
 })->name('consultancy');
+
+Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+
 
 /*
 -----------------------------------------------------------
