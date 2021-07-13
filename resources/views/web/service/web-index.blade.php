@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient">WEBSITE DEVELOPMENT</h2>
+                    <h2 class="title theme-gradient">WEB DEVELOPMENT</h2>
                     <p>Fresh From The Press Discription</p>
                 </div>
             </div>
