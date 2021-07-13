@@ -38,7 +38,7 @@ class ContactUsController extends Controller
         $contact->seen = 0;
         $contact->save();
 
-        return "OK";
+        return back();
     }
 
 
@@ -55,29 +55,8 @@ class ContactUsController extends Controller
             'messages' => $messages,
         ]);
 
-
-        // $data = array(
-        //     'm_found' =>false,
-        //     'seen_count' => 0,
-        // );
-
-        // if ($messages->isEmpty())
-        //     return view('admin.view_inbox')->with('data',$data);
-
-
-        // $seen_count = ContactUs::where('seen',0)->count();
-
-        // $data = array(
-        //     'm_found' =>true,
-        //     'seen_count' => $seen_count,
-        //     'messages' => $messages,
-        // );
-
-
-        // return view('admin.view_inbox')->with('data',$data);
-        
-
     }
+
 
     public function view_individual_message(Request $request)
     {

@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="/" class="brand-link">
         <img src="{{asset('assets/images/favicon.png')}}" alt="SMET Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Dashboard</span>
+        <span class="brand-text font-weight-light">HiLinkz Dashboard</span>
     </a>
 
     <!-- Sidebar -->

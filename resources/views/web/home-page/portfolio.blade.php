@@ -25,68 +25,68 @@
 
 
             <!-- Start Single Gallery -->
-            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="assets/images/portfolio/HiLinkzDemoLandscape1.png">
+            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="http://lpgautogasbd.com/" target="_blank">
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/portfolio/HiLinkzDemoLandscape1.png" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape1.png')}}" alt="Portfolio Images">
                         </div>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <p>Web Design</p>
-                            <h4>T-shirt design is the part of design</h4>
+                            <p>Web Application</p>
+                            <h4>LPG Autogas Owners’ Association</h4>
                         </div>
                     </div>
                 </div>
             </a>
             <!-- End Single Gallery -->
             <!-- Start Single Gallery -->
-            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="assets/images/portfolio/HiLinkzDemoLandscape2.png">
+            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="http://ryogas.com/" target="_blank">
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/portfolio/HiLinkzDemoLandscape2.png" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape2.png')}}" alt="Portfolio Images">
                         </div>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <p>App Development</p>
-                            <h4>The service provide for designer</h4>
+                            <p>Web Application</p>
+                            <h4>RyoGas</h4>
                         </div>
                     </div>
                 </div>
             </a>
             <!-- End Single Gallery -->
             <!-- Start Single Gallery -->
-            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--3 cat--1" href="assets/images/portfolio/HiLinkzDemoLandscape3.png">
+            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--3 cat--1" href="http://www.shornokishoree.org/" target="_blank">
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/portfolio/HiLinkzDemoLandscape3.png" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape3.png')}}" alt="Portfolio Images">
                         </div>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <p>Web Design</p>
-                            <h4>Mobile App landing Design</h4>
+                            <p>Web Application</p>
+                            <h4>SHORNOKISHOREE Network Foundation</h4>
                         </div>
                     </div>
                 </div>
             </a>
             <!-- End Single Gallery -->
             <!-- Start Single Gallery -->
-            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="assets/images/portfolio/big/dp-big--portfolio-01.jpg">
+            <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="http://smet.ryogas.com/" target="_blank">
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/portfolio/HiLinkzDemoLandscape4.png" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape4.png')}}" alt="Portfolio Images">
                         </div>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <p>Web Design</p>
-                            <h4>T-shirt design is the part of design</h4>
+                            <p>Web Application</p>
+                            <h4>SMET Services</h4>
                         </div>
                     </div>
                 </div>
