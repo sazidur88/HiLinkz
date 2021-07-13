@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
 use App\Http\Controllers\Web\ServiceController;
+use App\Http\Controllers\Web\ContactFormController;
 use App\Http\Controllers\CommonControllers\DashboardController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
@@ -92,4 +93,4 @@ Route::view('/all-services', 'web.service.all-services-index')->name('all_servic
  ==== Contact-Form  ===
 -----------------------------------------------------------
 */
-Route::get('/contact-form', 'Web\ContactFormController@index')->name('contact_form');
+Route::get('/contact-form', [ContactFormController::class, 'index'])->name('contact_form');

@@ -29,7 +29,7 @@
             <!-- Start Single Counterup  -->
             <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                 <div class="rn-counterup counterup_style--1">
-                    <h5 class="counter count">3</h5>
+                    <h5 class="counter count">5</h5>
                     <p class="description">Years of Support</p>
                 </div>
             </div>
