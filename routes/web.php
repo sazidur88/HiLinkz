@@ -80,7 +80,8 @@ Route::group(['middleware' => ['auth']], function () {
 -----------------------------------------------------------
 */
 // Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
-Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+// Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+Route::view('/web-development', 'web.service.web-index')->name('web_development');
 Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
 Route::view('/consultancy', 'web.service.consultancy-index')->name('consultancy');
 Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
