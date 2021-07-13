@@ -75,13 +75,12 @@
                 </div>
             </a>
             <!-- End Single Gallery -->
-
             <!-- Start Single Gallery -->
             <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="assets/images/portfolio/big/dp-big--portfolio-01.jpg">
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/portfolio/dp-portfolio-01.jpg" alt="Portfolio Images">
+                            <img src="assets/images/portfolio/HiLinkzDemoLandscape4.png" alt="Portfolio Images">
                         </div>
                     </div>
                     <div class="content">
@@ -93,6 +92,8 @@
                 </div>
             </a>
             <!-- End Single Gallery -->
+
+
         </div>
 
     </div>

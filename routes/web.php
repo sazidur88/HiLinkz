@@ -3,7 +3,6 @@
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
 use App\Http\Controllers\Web\ServiceController;
-// use App\Http\Controllers\Web\ContactFormController;
 use App\Http\Controllers\CommonControllers\DashboardController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
@@ -88,10 +87,14 @@ Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
 Route::view('/data-intelligence', 'web.service.data-index')->name('data-intelligence');
 Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 
-
 /*
 -----------------------------------------------------------
  ==== Contact-Form  ===
 -----------------------------------------------------------
 */
-Route::get('/contact-form', [App\Http\Controllers\Web\ContactFormController::class, 'index'])->name('contact_form');
+Route::view('/contact-form', 'web.contact.contact-index')->name('contact_form');
+Route::POST('/contact_us_send_message', [App\Http\Controllers\Web\ContactUsController::class, 'contact_us_send_message'])->name('contact_us_send_message');
+// Admin
+// Contact Us
+Route::get('/view-inbox-messages',[App\Http\Controllers\Web\ContactUsController::class, 'view_inbox_messages'])->middleware('auth')->name('view_inbox_messages');
+Route::POST('/view_individual_message',[App\Http\Controllers\Web\ContactUsController::class, 'view_individual_message'])->middleware('auth')->name('view_individual_message');

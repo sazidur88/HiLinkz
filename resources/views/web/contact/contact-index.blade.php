@@ -90,17 +90,22 @@
                         </p>
                     </div>
                     <div class="form-wrapper">
-                        <form>
+                    <form action="{{route('contact_us_send_message')}}" method="POST" >
+                        @csrf
+
                             <label>
-                                <input type="text" name="name" id="item01" placeholder="Your Name *" />
+                                <input type="text" name="name" id="item01" placeholder="Your Name *" required/>
                             </label>
 
                             <label>
-                                <input type="text" name="email" id="item02" placeholder="Your email *">
+                                <input type="text" name="email" id="item02" placeholder="Your email *" required>
                             </label>
 
                             <label>
                                 <input type="text" name="subject" id="item03" placeholder="Write a Subject">
+                            </label>
+                            <label>
+                                <input type="text" name="phone" id="item04" placeholder="Your phone no.">
                             </label>
                             <label>
                                 <textarea id="item04" name="message" placeholder="Your Message"></textarea>
