@@ -31,6 +31,7 @@
                             <label>
                                 <textarea id="item04" name="message" placeholder="Your Message"></textarea>
                             </label>
+                            
                             <button class="rn-button-style--2 btn_solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                         </form>
                     </div>

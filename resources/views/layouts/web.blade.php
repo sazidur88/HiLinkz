@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>HiLinkz || Partnership in Growth</title>
+    <title>HiLinkz - Partnership in Growth</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/vendor/lightbox.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/plugins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <!-- Owl Carousel -->
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.carousel.css')}}"> -->
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.theme.default.css')}}"> -->
 
 
     <!-- Custom CSS Area -->
@@ -51,7 +54,7 @@
 
         @include('include.messages')
         <!-- Error/Success Message Show -->
-        <div class="container pt-2">
+        <div class="container">
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
                     <strong>Whoops!</strong> There were some problems with your input.<br><br>
@@ -134,6 +137,8 @@
     <script src="{{asset('assets/js/plugins/plugins.js')}}"></script>
     <script src="{{asset('assets/js/vendor/js.cookie.js')}}"></script>
     <script src="{{asset('assets/js/vendor/jquery.style.switcher.js')}}"></script>
+    <!-- Owl Carousel  -->
+    <!-- <script src="{{asset('assets/js/owl_carousel.js')}}"></script> -->
     <!-- Main JS -->
     <script src="{{asset('assets/js/main.js')}}"></script>
 
