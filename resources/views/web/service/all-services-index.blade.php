@@ -174,8 +174,7 @@
             <div class="col-lg-12 pb--70">
 
             </div>
-            <div class="button-group mt--30 text-center">
-                <!-- <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View All Services  </span><i class="fas fa-arrow-right"></i></a> -->
+            <div class="button-group mt--30 text-center">                <!-- <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View All Services  </span><i class="fas fa-arrow-right"></i></a> -->
 
             </div>
         </div>

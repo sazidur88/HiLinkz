@@ -36,7 +36,6 @@
                             <div class="col-lg-6 col-12">
                                 <div class="details mt_md--30 mt_sm--30">
                                     <p class="text-justify">Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software systems for businesses. Since organizations need a wide array of solutions and services, our goal is to provide and maintain excellent IT services to organizations. In short, we take the burden of IT management on behalf of organizations so that they can focus on their core business.</p>
-
                                     <p class="text-justify">While procuring IT solutions and services very often organizations make mistakes in choosing the right products, thus creating many troubles and hindering growth of actual business. The reason behind this is that organizations do not know what they actually need and what to expect from the procured services. There is considerable understanding gaps because IT management is not the core business of these organizations. As a result they purchase services that under delivers their expectations or over delivers to increase the total cost. We like to provide the right solutions and services for optimum results in a cost effective way. </p>
 
 

@@ -61,6 +61,7 @@
                                 <ul class="ft-link">
                                     <li><a href="mailto:info@hilinkz.com">info@hilinkz.com</a></li>
                                     <li><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></li>
+                                    <li><a href="tel: +8801719347688"> +88 01719-347688</a></li>
                                 </ul>
 
                                 <div class="social-share-inner">
