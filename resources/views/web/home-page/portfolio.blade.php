@@ -58,7 +58,6 @@
                 </div>
             </a>
             <!-- End Single Gallery -->
-
             <!-- Start Single Gallery -->
             <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="http://smet.ryogas.com/" target="_blank">
                 <div class="portfolio-static">
@@ -87,15 +86,12 @@
                     <div class="content">
                         <div class="inner">
                             <p>Web Application</p>
-                            <h4>SMET Services</h4>
+                            <h4>CPSCR Student's Association</h4>
                         </div>
                     </div>
                 </div>
             </a>
             <!-- End Single Gallery -->
-
-
         </div>
-
     </div>
 </div>

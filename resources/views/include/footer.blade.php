@@ -2,7 +2,7 @@
 <footer class="footer-area footer-default">
     <div class="footer-wrapper">
         <div class="row align-items-end row--0">
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="footer-left">
                     <div class="inner">
                         <span>Ready To Do This</span>
@@ -12,12 +12,38 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
+            </div> -->
+            <div class="col-lg-12">
                 <div class="footer-right" data-black-overlay="6">
                     <div class="row">
                         <!-- Start Single Widget -->
-                        <div class="col-lg-6 col-sm-6 col-12">
+                        <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="footer-widget">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="inner">
+                                        <!-- <div class="logo">
+                                            <a href="/">
+                                                <div class="logo text-center text-sm-left mb_sm--10">
+                                                    <a href="#">
+                                                        <img src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo images" />
+                                                    </a>
+                                                </div>
+                                            </a>
+                                        </div> -->
+                                        <h1 class="text-white">HiLinkz</h1>
+
+                                    </div>
+                                </div>
+                                <div class="content text-left footer-widget mb_sm--20" >
+                                    <p style="color: #9B9DAA">Established in 2015, HiLinkz aimed to provide IT consultancy services to organizations. Today it develops Web and mobile applications as well as collaborates with other IT organizations to provide the best solutions and services to its customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget  -->
+                        <div class="col-lg-2 col-sm-6 col-12">
+                        </div>
+                        <!-- Start Single Widget -->
+                        <div class="col-lg-3 col-sm-6 col-12">
                             <div class="footer-widget">
                                 <h4>Quick Link</h4>
                                 <ul class="ft-link">
@@ -29,7 +55,7 @@
                         </div>
                         <!-- End Single Widget  -->
                         <!-- Start Single Widget -->
-                        <div class="col-lg-6 col-sm-6 col-12 mt_mobile--30">
+                        <div class="col-lg-3 col-sm-6 col-12 mt_mobile--30">
                             <div class="footer-widget">
                                 <h4>Say Hello</h4>
                                 <ul class="ft-link">
