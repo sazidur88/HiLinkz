@@ -83,7 +83,7 @@
 
                 <!-- End Single Gallery -->
                 <!-- Start Single Gallery -->
-                <a style="" class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('all_services')}}">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('digital_marketing')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
@@ -102,7 +102,7 @@
                 <!-- End Single Gallery -->
                 <!-- Start Single Gallery -->
 
-                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('web_development')}}">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('consultancy')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
@@ -121,7 +121,7 @@
                 <!-- End Single Gallery -->
                 <!-- Start Single Gallery -->
 
-                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('app_development')}}">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('it_solutions')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
@@ -140,7 +140,7 @@
 
                 <!-- End Single Gallery -->
                 <!-- Start Single Gallery -->
-                <a style="" class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('all_services')}}">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('data_intelligence')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">

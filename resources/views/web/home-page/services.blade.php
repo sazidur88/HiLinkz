@@ -53,7 +53,7 @@
                 <!-- End Single Gallery -->
 
                 <!-- Start Single Gallery -->
-                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="/all-services">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('digital_marketing')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
@@ -131,7 +131,7 @@
             <!-- Start Single Service  -->
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="single-service service__style--2 bg-color-gray">
-                    <a href="{{route('data-intelligence')}}">
+                    <a href="{{route('data_intelligence')}}">
                         <div class="service">
                             <div class="icon">
                                 <i data-feather="cloud-lightning"></i>

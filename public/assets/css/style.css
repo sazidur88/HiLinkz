@@ -4332,6 +4332,26 @@ p:last-child {
     background-image: url(../images/bg/bg-image-30.jpg);
 }
 
+/* BG CUSTOM IMAGES */
+.bg_image--app {
+    background-image: url(../images/bg/HiLinkzAppDevelopment.jpg);
+}
+.bg_image--consul {
+    background-image: url(../images/bg/HiLinkzConsultency.jpg);
+}
+.bg_image--data {
+    background-image: url(../images/bg/HiLinkzData.jpg);
+}
+.bg_image--digmk {
+    background-image: url(../images/bg/HiLinkzDigitalMarketing.jpg);
+}
+.bg_image--it {
+    background-image: url(../images/bg/HiLinkzIT.jpg);
+}
+.bg_image--web {
+    background-image: url(../images/bg/HiLinkzWebdevelopment.jpg);
+}
+
 .font--1 {
     font-size: 1px !important;
 }

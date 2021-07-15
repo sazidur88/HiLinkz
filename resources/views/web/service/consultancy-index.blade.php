@@ -9,12 +9,12 @@
 @endsection
 @section('content')
 <!-- Start Breadcrump Area  -->
-<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--5" data-black-overlay="5">
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--consul" data-black-overlay="5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient">Consultancy</h2>
+                    <h2 class="title theme-gradient">CONSULTENCY</h2>
                     <p>Fresh From The Press Discription</p>
                 </div>
             </div>

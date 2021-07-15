@@ -84,7 +84,8 @@ Route::view('/web-development', 'web.service.web-index')->name('web_development'
 Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
 Route::view('/consultancy', 'web.service.consultancy-index')->name('consultancy');
 Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
-Route::view('/data-intelligence', 'web.service.data-index')->name('data-intelligence');
+Route::view('/data-intelligence', 'web.service.data-index')->name('data_intelligence');
+Route::view('/digital-marketing', 'web.service.digital-marketing-index')->name('digital_marketing');
 Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 
 /*
