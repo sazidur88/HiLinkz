@@ -11490,6 +11490,8 @@ ul.social-share.social-style--2.color-black li a:hover {
     font-weight: 500;
     margin-bottom: 30px;
     opacity: 0.75;
+    margin-top: 50px;
+    /* no top */
 }
 
 @media only screen and (max-width: 767px) {
