@@ -122,13 +122,13 @@
                                 <textarea id="item04" name="message" placeholder="Your Message"></textarea>
                             </label>
                             <div class="form-row">
-                                <div class="captcha col-md-6 form-group text-center">
+                                <div class="captcha col-md-8 form-group text-center">
                                     <span class="mr-2">{!! captcha_img() !!}</span>
                                     <button type="button" class="btn btn-danger" id="captcha_reload">
                                         &#x21bb;
                                     </button>
                                 </div>
-                                <div class="col-md-6 form-group">
+                                <div class="col-md-4 form-group">
                                     <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha" name="captcha" required>
                                 </div>
 
