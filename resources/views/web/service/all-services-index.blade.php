@@ -15,7 +15,7 @@
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
                     <h2 class="title theme-gradient">OUR SERVICES</h2>
-                    <p>Fresh From The Press Discription</p>
+                    <!-- <p>Fresh From The Press Discription</p> -->
                 </div>
             </div>
         </div>
@@ -49,14 +49,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/c.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniebDevelopment.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8">
+                            <div class="inner p-3 bg_color--8">
                                 <h4>Web Development</h4>
-                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -68,14 +68,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/e.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8 ">
+                            <div class="inner p-3 bg_color--8 ">
                                 <h4>App Development</h4>
-                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -87,14 +87,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/f.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8 ">
+                            <div class="inner p-3 bg_color--8 ">
                                 <h4>Digital Marketing</h4>
-                                <p>We can boost up your business growth connecting with thousands of internet users using digital marketing ring mobility and agility to their.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">We can boost up your business growth connecting with thousands of internet users using digital marketing ring mobility and agility to their.</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -106,14 +106,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/c.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8">
+                            <div class="inner p-3 bg_color--8">
                                 <h4>Consultancy</h4>
-                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -125,14 +125,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/e.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniIT.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8">
+                            <div class="inner p-3 bg_color--8">
                                 <h4>IT solutions and Services</h4>
-                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software...</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -144,14 +144,14 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/f.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniData.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
-                            <div class="inner bg_color--8">
+                            <div class="inner p-3 bg_color--8">
                                 <h4>Data Intelligence</h4>
-                                <p>We can boost up your business growth connecting with thousands of internet users using digital marketing ring mobility and agility to their.</p>
-                                <span class="text font-italic">Learn more </span><i class="fas fa-arrow-right"></i>
+                                <p class="text-left">All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence, for its survival and future growth.</p>
+                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>

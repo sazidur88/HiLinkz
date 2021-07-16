@@ -1,4 +1,4 @@
-@extends('layouts.web')
+@extends('layouts.web-inner')
 
 @section('custom_styles')
 <style type="text/css">
@@ -15,7 +15,7 @@
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
                     <h2 class="title theme-gradient">DIGITAL MARKETING</h2>
-                    <p>Fresh From The Press Discription</p>
+                    <!-- <p>Fresh From The Press Discription</p> -->
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             </div>
         </div>
     </div>
-    <div class="button-group mt--30 text-center">
+    <div class="button-group mt--30 pb--50 text-center">
         <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View More Services </span><i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
@@ -98,7 +98,7 @@
             <div class="row row--35 align-items-start">
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
-                        <h2 class="title">Get To Work</h2>
+                        <h2 class="title">Get Started</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
                             <a href="tel: +8801719347688"> +88 01719-347688</a> or email:
                             <a href="mailto:info@hilinkz.com">info@hilinkz.com</a>

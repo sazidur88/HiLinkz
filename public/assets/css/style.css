@@ -5093,6 +5093,10 @@ img.react-parallax-bgimage {
      Section Separation 
  ==========================*/
 
+.lm-pb--5 {
+    padding: 10px !important;
+}
+
 .rn-section-gap {
     padding: 120px 0;
 }
@@ -11889,6 +11893,14 @@ ul.social-share.social-style--2.color-black li a:hover {
         left: 20px;
         right: 20px;
     }
+}
+/* custom */
+
+.content .inner .lm--hover:hover {
+    color: #f9004d;
+    /* font-size: 14px; */
+    transition: 0.2s;
+
 }
 
 .portfolio .content .inner p {

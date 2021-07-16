@@ -4,6 +4,23 @@
             <div class="row row--35 align-items-start">
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
+                        @include('include.messages')
+                        <!-- Error/Success Message Show -->
+                        @section('mgs')
+                        <div class="container">
+                            @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
+
+                        </div>
+                        @endsection
                         <h2 class="title">Get To Work</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
                             <a href="tel: +8801719347688"> +88 01719-347688</a> or email:

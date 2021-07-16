@@ -48,7 +48,7 @@
     </div>
     <div class="main-page">
         <!-- Start Header Area -->
-        @include('include.header')
+        @include('include.header-inner')
         <!-- End Header Area -->
 
 
