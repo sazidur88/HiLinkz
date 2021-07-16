@@ -30,10 +30,11 @@
                                                 </div>
                                             </a>
                                         </div> -->
-                                        <h1 class="text-white">HiLinkz</h1>
 
                                     </div>
                                 </div>
+                                <h1 class="text-white">HiLinkz</h1>
+
                                 <div class="content text-left footer-widget mb_sm--20" >
                                     <p style="color: #9B9DAA">Established in 2015, HiLinkz aimed to provide IT consultancy services to organizations. Today it develops Web and mobile applications as well as collaborates with other IT organizations to provide the best solutions and services to its customers.</p>
                                 </div>

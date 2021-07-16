@@ -20,9 +20,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/vendor/lightbox.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/plugins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    <!-- Owl Carousel -->
-    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.carousel.css')}}"> -->
-    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.theme.default.css')}}"> -->
 
 
     <!-- Custom CSS Area -->
@@ -139,8 +136,6 @@
     <script src="{{asset('assets/js/plugins/plugins.js')}}"></script>
     <script src="{{asset('assets/js/vendor/js.cookie.js')}}"></script>
     <script src="{{asset('assets/js/vendor/jquery.style.switcher.js')}}"></script>
-    <!-- Owl Carousel  -->
-    <!-- <script src="{{asset('assets/js/owl_carousel.js')}}"></script> -->
     <!-- Main JS -->
     <script src="{{asset('assets/js/main.js')}}"></script>
 
