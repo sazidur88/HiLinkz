@@ -13614,6 +13614,12 @@ a.item-portfolio-static {
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .bg_image--app {
+        background-position: 78% center;
+    }
+}
+
 
 /*------------------------
  Slider Styles  

@@ -15,8 +15,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient">Cntact With Us</h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                    <h2 class="title theme-gradient">Contact With Us</h2>
+                    <!-- <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p> -->
                 </div>
             </div>
         </div>

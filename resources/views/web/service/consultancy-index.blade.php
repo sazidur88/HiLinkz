@@ -31,10 +31,10 @@
                     <div class="service-details-inner">
                         <div class="inner">
                             <!-- Start Single Content  -->
-                            <div class="row sercice-details-content pb--80 align-items-center">
+                            <div class="row sercice-details-content align-items-center">
                                 <div class="col-lg-6 col-12">
                                     <div class="thumb">
-                                        <img class="w-100" src="assets/images/service/service-01.png" alt="Service Images" />
+                                        <img class="w-100" src="assets/images/service/consultency/HiLinkz 800-600Consultency.jpg" alt="Service Images" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">

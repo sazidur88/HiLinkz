@@ -48,7 +48,7 @@
                         <div class="row sercice-details-content align-items-center bg_color--3 pt--80 pb--80">
                             <div class="col-lg-6 col-12">
                                 <div class="thumb">
-                                    <img class="w-100" src="{{asset('assets/images/service/s-2.jpg')}}" alt="Service Images" />
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600Office Automation Software.jpg')}}" alt="Service Images" />
                                 </div>
                             </div>
                             <div class="col-lg-6 col-12">
@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-lg-6 col-12 order-1 order-lg-2">
                                 <div class="thumb position-relative">
-                                    <img class="w-100" src="{{asset('assets/images/service/s-2.jpg')}}" alt="Service Images" />
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600SaaS Application Development.jpg')}}" alt="Service Images" />
                                     <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                         <div class="row sercice-details-content align-items-center bg_color--3 pt--80 pb--80">
                             <div class="col-lg-6 col-12">
                                 <div class="thumb">
-                                    <img class="w-100" src="{{asset('assets/images/service/s-2.jpg')}}" alt="Service Images" />
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600Responsive Web Design.jpg')}}" alt="Service Images" />
                                 </div>
                             </div>
                             <div class="col-lg-6 col-12">
@@ -114,7 +114,7 @@
                             </div>
                             <div class="col-lg-6 col-12 order-1 order-lg-2">
                                 <div class="thumb position-relative">
-                                    <img class="w-100" src="{{asset('assets/images/service/s-2.jpg')}}" alt="Service Images" />
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600System Architecture and Design.jpg')}}" alt="Service Images" />
                                     <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
                                 </div>
                             </div>

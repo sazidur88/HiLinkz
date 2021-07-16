@@ -112,7 +112,7 @@
                         <div class="content text-center">
                             <div class="inner p-3 bg_color--8 ">
                                 <h4>Digital Marketing</h4>
-                                <p class="text-left">We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing, such as SEO ...</p>
+                                <p class="text-left">We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing...</p>
                                 <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
