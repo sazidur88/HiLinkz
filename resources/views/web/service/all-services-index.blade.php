@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-12">
-                <div class="single-column">
+                <div class="single-column text-justify">
                     <h3 class="tilte text-center">HiLinkz delivers exponential growth through innovative technology solutions</h3>
                     <p>Technology is continually evolving, providing endless opportunities for improving productivity, connecting to your customers, and discovering new products and services. Digital transformation can radically improve your business through the strategic application of modern technology for processes, products, and assets. As a top app development agency, we have over a decade of expertise in building innovative technology solutions for our clients, ranging from small businesses through large global corporations.</p>
                 </div>
@@ -68,7 +68,7 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniebDevelopment.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">
@@ -106,7 +106,7 @@
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
-                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting.jpg')}}" alt="Portfolio Images">
+                                <img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Portfolio Images">
                             </div>
                         </div>
                         <div class="content text-center">

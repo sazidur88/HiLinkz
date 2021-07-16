@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-12">
-                <div class="single-column">
+                <div class="single-column text-justify">
                     <h3 class="tilte text-center">Digital Marketing</h3>
                     <p>We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing such as a) Search Engine Optimization (SEO) b) Social media marketing c) Email marketing d) Blogging e) Website marketing f) Paid search / contextual advertising and so on. We have a great team of digital marketing who can do the marketing as required by our customers. </p>
                     <p>Our designers are excellent at showcasing any company on the Web. Our software engineers are very good at developing custom business applications for SMEs and large enterprises. They are highly skilled when it comes to scalability and security. We have a defined process to develop quality and reliable software. </p>

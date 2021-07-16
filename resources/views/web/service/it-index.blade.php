@@ -32,6 +32,11 @@
                     <div class="inner">
                         <!-- Start Single Content  -->
                         <div class="row sercice-details-content pb--80 align-items-center">
+                            <div class="col-lg-6 col-12">
+                                <div class="thumb">
+                                    <img class="w-100" src="{{asset('assets/images/service/it/IT640-640.jpg')}}" alt="Service Images" />
+                                </div>
+                            </div>
 
                             <div class="col-lg-6 col-12">
                                 <div class="details mt_md--30 mt_sm--30">
@@ -42,11 +47,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="thumb">
-                                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600IT SOLUTIONS _ SERVICES.jpg')}}" alt="Service Images" />
-                                </div>
-                            </div>
                         </div>
                         <!-- End Single Content  -->
 
@@ -54,6 +54,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="button-group mt--30 text-center">
+        <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View More Services </span><i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 

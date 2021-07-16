@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-12">
-                <div class="single-column">
+                <div class="single-column text-justify">
                     <h3 class="tilte text-center">App Development</h3>
                     <p>We have highly skilled mobile app developers who over the years have acquired extensive know how and experience. We turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business. </p>
                     <p>Over the last decade use of mobile devices such as smartphones, tables have exploded. Almost everywhere, everyone is using mobile devices. Accessing information through mobile devices is a lot easier than before. As a result, almost all business processes can be transformed to mobile apps. This offers companies a great opportunity to transform their operations by taking a mobile first approach. Custom mobile applications can improve business process management, better customer relations and innovate new revenue channels. </p>

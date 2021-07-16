@@ -10,7 +10,7 @@
 
 @section('content')
 <!-- Start Breadcrump Area  -->
-<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--17" data-black-overlay="5">
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--contact" data-black-overlay="5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

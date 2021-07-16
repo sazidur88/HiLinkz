@@ -4351,6 +4351,9 @@ p:last-child {
 .bg_image--web {
     background-image: url(../images/bg/HiLinkzWebdevelopment.jpg);
 }
+.bg_image--contact {
+    background-image: url(../images/bg/HiLinkzContactUS.jpg);
+}
 
 .font--1 {
     font-size: 1px !important;
@@ -13617,6 +13620,24 @@ a.item-portfolio-static {
 @media only screen and (max-width: 575px) {
     .bg_image--app {
         background-position: 78% center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .bg_image--it {
+        background-position: 25% left;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .bg_image--digital {
+        background-position: 78% center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .bg_image--17 {
+        background-position: 45% center;
     }
 }
 
