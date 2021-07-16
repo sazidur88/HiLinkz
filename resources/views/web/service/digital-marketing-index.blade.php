@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <div class="details mt_md--30 mt_sm--30">
-                                    <h4 class="title">Search engine optimization (SEO)</h4>
+                                    <h4 class="title">SEO</h4>
                                     <p class="text-justify">SEO stands for Search Engine Optimization. SEO is the process of taking steps to help a website or piece of content to be shown towards the top of the page when someone searches for something in Google. If SEO is applied properly then the website or the content reaches the target customers in an “organic” way, meaning that the company doest need payment for such advertisements. Otherwise companies may need to opt for paid advertisement. </p>
                                     <div class="button-group mt--30">
                                         <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
@@ -87,7 +87,7 @@
             </div>
         </div>
     </div>
-    <div class="button-group mt--30 pb--50 text-center">
+    <div class="button-group mt--30 text-center">
         <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View More Services </span><i class="fas fa-arrow-right"></i></a>
     </div>
 </div>

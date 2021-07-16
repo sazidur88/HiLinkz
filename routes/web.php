@@ -95,7 +95,13 @@ Route::view('/all-services', 'web.service.all-services-index')->name('all_servic
 */
 Route::view('/contact-form', 'web.contact.contact-index')->name('contact_form');
 Route::POST('/contact_us_send_message', [App\Http\Controllers\Web\ContactUsController::class, 'contact_us_send_message'])->name('contact_us_send_message');
+Route::get('/refresh-captcha', [App\Http\Controllers\Web\ContactUsController::class, 'refreshCaptcha'])->name('reload_captcha');
+
+
 // Admin
 // Contact Us
 Route::get('/view-inbox-messages',[App\Http\Controllers\Web\ContactUsController::class, 'view_inbox_messages'])->middleware('auth')->name('view_inbox_messages');
 Route::POST('/view_individual_message',[App\Http\Controllers\Web\ContactUsController::class, 'view_individual_message'])->middleware('auth')->name('view_individual_message');
+
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.web')
+@extends('layouts.web-inner')
 
 @section('custom_styles')
 <style type="text/css">
@@ -39,7 +39,7 @@
 </div>
 <!-- End Column Area  -->
 
-<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative">
+<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative pb--120">
     <div class="rn-masonary-wrapper">
         <div class="wrapper plr--70 plr_sm--30 plr_md--30">
             <div class="gallery-wrapper gallery-grid mesonry-list grid-metro3" id="">
@@ -162,12 +162,11 @@
     </div>
     <div class="button-group mt--30 text-center">
         <!-- <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View All Services </span><i class="fas fa-arrow-right"></i></a> -->
-
     </div>
 </div>
 
 <!-- Start Blog Details Area  -->
-
+{{--
 <div class="rn-blog-details pb--70 bg_color--1">
     <div class="container">
         <div class="row">
@@ -246,8 +245,7 @@
         </div>
     </div>
 </div>
-</div>
-</div>
+--}}
 <!-- End Blog Details Area  -->
 
 

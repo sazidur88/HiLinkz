@@ -77,7 +77,7 @@
 <!-- End Contact Address Area  -->
 
 <!-- Start Contact Area  -->
-<div class="rn-contact-area rn-section-gap bg_color--5" id="contact">
+<div class="rn-contact-area rn-section-gap bg_color--5 contact" id="contact">
     <div class="contact-form--1">
         <div class="container">
             <div class="row row--35 align-items-start">
@@ -90,11 +90,20 @@
                         </p>
                     </div>
                     <div class="form-wrapper">
-                    <form action="{{route('contact_us_send_message')}}" method="POST" >
-                        @csrf
+                        @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div><br />
+                        @endif
+                        <form action="{{route('contact_us_send_message')}}" method="POST" class="php-email-form mt-4">
+                            @csrf
 
                             <label>
-                                <input type="text" name="name" id="item01" placeholder="Your Name *" required/>
+                                <input type="text" name="name" id="item01" placeholder="Your Name *" required />
                             </label>
 
                             <label>
@@ -110,6 +119,24 @@
                             <label>
                                 <textarea id="item04" name="message" placeholder="Your Message"></textarea>
                             </label>
+                            <div class="form-row">
+                                <div class="captcha col-md-6 form-group text-center">
+                                    <span class="mr-2">{!! captcha_img() !!}</span>
+                                    <button type="button" class="btn btn-danger" id="captcha_reload">
+                                        &#x21bb;
+                                    </button>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha" name="captcha" required>
+                                </div>
+
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
                             <button class="rn-button-style--2 btn_solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                         </form>
                     </div>
@@ -125,4 +152,19 @@
 </div>
 <!-- End Contact Area  -->
 
+@endsection
+
+@section('extra_js')
+{{--Captcha--}}
+<script type="text/javascript">
+    $('#refresh-captcha').click(function() {
+        $.ajax({
+            type: 'GET',
+            url: 'refresh-captcha',
+            success: function(data) {
+                $(".captcha span").html(data.captcha);
+            }
+        });
+    });
+</script>
 @endsection
