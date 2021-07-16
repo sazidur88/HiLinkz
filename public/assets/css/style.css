@@ -5103,7 +5103,12 @@ img.react-parallax-bgimage {
 
 .rn-section-gap-all-s {
     /* padding: 120px 0; */
-    padding: 0px 80px 0;
+    padding: 120px 80px 0;
+}
+
+.rn-section-gap-all-a {
+    /* padding: 120px 0; */
+    padding: 120px 0px;
 }
 
 .rn-section-gap-heading {

@@ -54,7 +54,7 @@
 
         @include('include.messages')
         <!-- Error/Success Message Show -->
-        <div class="container">
+        <!-- <div class="container">
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
                     <strong>Whoops!</strong> There were some problems with your input.<br><br>
@@ -65,7 +65,7 @@
                     </ul>
                 </div>
             @endif
-        </div>
+        </div> -->
         
         <!-- Start Content Area -->
         @yield('content')

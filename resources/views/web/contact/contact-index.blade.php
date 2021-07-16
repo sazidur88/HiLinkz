@@ -1,4 +1,4 @@
-@extends('layouts.web')
+@extends('layouts.web-inner')
 
 @section('custom_styles')
 <style type="text/css">
@@ -6,8 +6,6 @@
         width: 150px;
     }
 </style>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 @endsection
 
 @section('content')
@@ -92,6 +90,7 @@
                         </p>
                     </div>
                     <div class="form-wrapper">
+
                         @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -101,7 +100,8 @@
                             </ul>
                         </div><br />
                         @endif
-                        <form action="{{route('contact_us_send_message')}}" method="POST" class="php-email-form mt-4">
+
+                        <form action="{{route('contact_us_send_message')}}" method="POST" class="">
                             @csrf
 
                             <label>
@@ -121,6 +121,7 @@
                             <label>
                                 <textarea id="item04" name="message" placeholder="Your Message"></textarea>
                             </label>
+                            {{--
                             <div class="form-row">
                                 <div class="captcha col-md-6 form-group text-center">
                                     <span class="mr-2">{!! captcha_img() !!}</span>
@@ -139,6 +140,7 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
+                            --}}
                             <button class="rn-button-style--2 btn_solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                         </form>
                     </div>
@@ -158,6 +160,7 @@
 
 @section('extra_js')
 {{--Captcha--}}
+{{--
 <script type="text/javascript">
     $('#refresh-captcha').click(function() {
         $.ajax({
@@ -169,4 +172,6 @@
         });
     });
 </script>
+--}}
+
 @endsection

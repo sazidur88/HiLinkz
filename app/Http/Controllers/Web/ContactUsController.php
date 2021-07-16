@@ -19,7 +19,7 @@ class ContactUsController extends Controller
             'name' => 'required',
             'email' => 'required',
             'subject' => 'required',
-            'captcha' => 'required|captcha',
+            // 'captcha' => 'required|captcha',
         ]);
 
 
@@ -38,7 +38,7 @@ class ContactUsController extends Controller
         $contact->seen = 0;
         $contact->save();
 
-        return "OK";
+        return back();
     }
 
     public function refreshCaptcha()
