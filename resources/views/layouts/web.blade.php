@@ -52,8 +52,10 @@
         <!-- End Header Area -->
 
 
-        @include('include.messages')
         <!-- Error/Success Message Show -->
+        <!-- @include('include.messages')
+
+
         <div class="container">
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
@@ -65,7 +67,7 @@
                     </ul>
                 </div>
             @endif
-        </div>
+        </div> -->
         
         <!-- Start Content Area -->
         @yield('content')
