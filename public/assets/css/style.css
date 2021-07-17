@@ -11910,6 +11910,12 @@ ul.social-share.social-style--2.color-black li a:hover {
     transition: 0.2s;
 
 }
+.content .lm--hover:hover {
+    color: #f9004d;
+    /* font-size: 14px; */
+    transition: 0.2s;
+
+}
 
 .portfolio .content .inner p {
     color: #c6c9d8;
@@ -13320,12 +13326,15 @@ a.item-portfolio-static {
  -------------------------------*/
 
 .standard-service .thumbnai img {
-    border-radius: 5px;
+    border-radius: 2px;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
 }
 
 .standard-service .content h3 {
     font-size: 19px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
     font-weight: 600;
 }
