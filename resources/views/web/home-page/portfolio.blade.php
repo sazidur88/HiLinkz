@@ -13,6 +13,8 @@
                         "spaceBetween": 15, 
                         "slidesToShow": 3, 
                         "slidesToScroll": 1, 
+                        "autoplay": true,
+                        "autoplaySpeed": 1800,
                         "arrows": true, 
                         "infinite": true,
                         "dots": true
@@ -21,8 +23,6 @@
                     {"breakpoint":770, "settings": {"slidesToShow": 2}},
                     {"breakpoint":490, "settings": {"slidesToShow": 1}}
                     ]'>
-
-
 
             <!-- Start Single Gallery -->
             <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--1" href="http://lpgautogasbd.com/" target="_blank">

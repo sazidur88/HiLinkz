@@ -17242,6 +17242,9 @@ ul.social-transparent li a:hover {
     font-weight: 300;
     color: #717173;
     padding: 0;
+      /* text-align: justify; */
+  /* text-justify: inter-word; */
+
 }
 
 .about-inner .section-title p.description a {
@@ -17528,6 +17531,16 @@ ul.social-transparent li a:hover {
         margin-bottom: 18px;
     }
 }
+
+/* service details h4 custom */
+.page-description-category {
+    font-size: 1.5em !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 25px;
+    /* text-decoration: underline; */
+}
+
 
 #particles-js {
     position: absolute;

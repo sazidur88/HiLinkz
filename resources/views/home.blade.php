@@ -5,21 +5,27 @@
     img.logo {
         width: 150px;
     }
+
     .zoom {
         width: 100%;
         transition: 0.4s all ease-in-out;
     }
+
     .zoom:hover {
         /* background-color: #f8f9fc; */
         /* background-color: #f8f9fcda; */
         transform: scale(1.01);
     }
+
     .standard-service .thumbnai img {
-    border-radius: 3px;
-    /* height: 210px;
+        border-radius: 3px;
+        /* height: 210px;
     width: 400px;
     object-fit: cover; */
-}
+    }
+    .title-h3{
+        font-size: 2em !important;
+    }
 </style>
 @endsection
 @section('content')

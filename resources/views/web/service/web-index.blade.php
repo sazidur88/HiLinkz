@@ -70,7 +70,7 @@
                                     <h4 class="title">SaaS Application Development</h4>
                                     <p class="text-justify">Software as a Service (SaaS) also known as "on-demand software" is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. The software architecture of a SaaS model, often known as multitenant architecture or multitenancy, is quite challenging and our software engineers are very adept at this. We have successfully developed the RyoGas system at ryogas.com as a SaaS model, where multiple gas stations manage their day to day activities on subscription basis.</p>
                                     <div class="button-group mt--30">
-                                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
                                     <h4 class="title">Responsive Web Design</h4>
                                     <p class="text-justify">People are spending more and more time on mobile devices, especially smartphones for different reasons. For example, customers use it to find products and services, employees use it to access data and communicate with coworkers, visitors access websites to find information from social media advertisements and so on. Businesses rely more on mobile devices to connect with customers, employees and other stakeholders. Modern mobile devices are so powerful that they can run web applications optimally and efficiently. Thus mobile friendly web applications are not a necessity but a must have option. We leverage UI frameworks like Bootstrap to build web applications that fit across devices smoothly e.g. desktop, tablets and smartphones. </p>
                                     <div class="button-group mt--30">
-                                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                     <p class="text-justify">Our software engineers start a project with system design and application architecture. Depending on business needs we choose the technology stack and the framework. Even for a simple application we choose a Model-View-Controller (MVC) framework as an architectural pattern that separates an application into three main logical components Model, View, and Controller. In service oriented architecture we choose microservice frameworks to develop APIs. </p>
                                     <p class="text-justify">Our APIs and microservice architecture strive to stand the test of time. We extensively use all the standard practices of a framework e.g. ORM (Object Relational Mappers) for designing our models. We apply OOAD (Object Oriented Analysis and Design) for domain modeling; design patterns for solving common problems that help us build highly scalable, maintainable and testable software. </p>
                                     <div class="button-group mt--30">
-                                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -116,6 +116,62 @@
                                 <div class="thumb position-relative">
                                     <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600System Architecture and Design.jpg')}}" alt="Service Images" />
                                     <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Content  -->
+                        <!-- Start Single Content  -->
+                        <div class="row sercice-details-content align-items-center bg_color--3 pt--80 pb--80">
+                            <div class="col-lg-6 col-12">
+                                <div class="thumb">
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600Office Automation Software.jpg')}}" alt="Service Images" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="details mt_md--30 mt_sm--30">
+                                    <h4 class="title">QA Testing</h4>
+                                    <p class="text-justify">Our SQA (Software Quality Assurance) team strives to launch high quality digital products. We ensure our products are stable, functional, and secure. We follow test-driven development (TDD), use automated testing and regression testing for reliable applications. We perform functional testing, usability testing, performance testing, and security testing. </p>
+                                    <div class="button-group mt--30">
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Content  -->
+
+                        <!-- Start Single Content  -->
+                        <div class="row sercice-details-content align-items-center pb--50 pt--50">
+                            <div class="col-lg-6 col-12 order-2 order-lg-1">
+                                <div class="details mt_md--30 mt_sm--30">
+                                    <h4 class="title">Support and Maintenance</h4>
+                                    <p class="text-justify">Ongoing support & maintenance are essential to substantially increase the lifespan of applications. Under service and software maintenance agreement we support changes based on user feedback, update evolving business requirements, and technology advancements. Also we maintain the confidentiality of the information as required. We provide the services honestly and diligently at a professional standard of skill, care and diligence.</p>
+                                    <div class="button-group mt--30">
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 order-1 order-lg-2">
+                                <div class="thumb position-relative">
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600SaaS Application Development.jpg')}}" alt="Service Images" />
+                                    <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Content  -->
+                        <!-- Start Single Content  -->
+                        <div class="row sercice-details-content align-items-center bg_color--3 pt--80 pb--80">
+                            <div class="col-lg-6 col-12">
+                                <div class="thumb">
+                                    <img class="w-100" src="{{asset('assets/images/service/web/HiLinkz 800-600Responsive Web Design.jpg')}}" alt="Service Images" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="details mt_md--30 mt_sm--30">
+                                    <h4 class="title">R&D and Prototyping</h4>
+                                    <p class="text-justify">At HiLinkz, we offer Research & Development (R&D) services for companies looking to experiment and create prototypes to test their business or startup ideas. Before investing in a complete solution developing an MVP (Minimum Viable Product) lowers the risk. Our app development team can transform many of these business ideas into reality. Also HiLinkz can be a technical partner for startups that need such services</p>
+                                    <div class="button-group mt--30">
+                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
