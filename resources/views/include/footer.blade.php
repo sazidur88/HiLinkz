@@ -19,7 +19,7 @@
                         <!-- Start Single Widget -->
                         <div class="col-lg-4 col-sm-6 col-12">
                             <div class="footer-widget">
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                {{--<div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="inner">
                                         <!-- <div class="logo">
                                             <a href="/">
@@ -30,19 +30,26 @@
                                                 </div>
                                             </a>
                                         </div> -->
-
                                     </div>
+                                </div>--}}
+                                <!-- <h1 class="text-white">HiLinkz</h1> -->
+                                <div class="logo">
+                                    <a href="/">
+                                        <div class="logo text-center text-sm-left mb--30">
+                                            <a href="#">
+                                                <img style="width: 200px;" class="logo-f" src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo images" />
+                                            </a>
+                                        </div>
+                                    </a>
                                 </div>
-                                <h1 class="text-white">HiLinkz</h1>
 
-                                <div class="content text-left footer-widget mb_sm--20" >
-                                    <p style="color: #9B9DAA">Established in 2015, HiLinkz aimed to provide IT consultancy services to organizations. Today it develops Web and mobile applications as well as collaborates with other IT organizations to provide the best solutions and services to its customers.</p>
+                                <div class="content text-left footer-widget mb_sm--20">
+                                    <p style="color: #9B9DAA" class="text-justify">Established in 2015, HiLinkz aimed to provide IT consultancy services to organizations. Today it develops Web and mobile applications as well as collaborates with other IT organizations to provide the best solutions and services to its customers.</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Widget  -->
-                        <div class="col-lg-2 col-sm-6 col-12">
-                        </div>
+                        <div class="col-lg-2 col-sm-6 col-12"></div>
                         <!-- Start Single Widget -->
                         <div class="col-lg-3 col-sm-6 col-12">
                             <div class="footer-widget">

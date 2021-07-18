@@ -3,8 +3,7 @@
 @section('custom_styles')
 <style type="text/css">
     img.logo {
-        width: 150px;
-
+        /* width: 150px; */
     /* background-color: #fff; */
     /* box-shadow: 0px 0px 40px 20px #ffffff; */
     /* box-shadow: 5px 10px #ffffff; */
@@ -17,7 +16,7 @@
 
     .zoom:hover {
         /* background-color: #f8f9fc; */
-        background-color: #f8f9fcda;
+        /* background-color: #f8f9fcda; */
         transform: scale(1.01);
     }
 </style>

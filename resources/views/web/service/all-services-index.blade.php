@@ -13,7 +13,7 @@
 
     .zoom:hover {
         /* background-color: #f8f9fc; */
-        background-color: #f8f9fcda;
+        /* background-color: #f8f9fcda; */
         transform: scale(1.01);
     }
 </style>
@@ -70,7 +70,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('consultancy')}}">Consultancy</a></h3>
                                 <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially clallenging to retain...</p>
-                                <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
                                 <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
-                                <a href="{{route('web_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('web_development')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
                                 <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their...</p>
-                                <a href="{{route('app_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('app_development')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('digital_marketing')}}">Digital Marketing</a></h3>
                                 <p>We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing...</p>
-                                <a href="{{route('digital_marketing')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('digital_marketing')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('it_solutions')}}">IT solutions and Services</a></h3>
                                 <p>Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software...</p>
-                                <a href="{{route('it_solutions')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('it_solutions')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('data_intelligence')}}">Data Intelligence</a></h3>
                                 <p>All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence, for its survival and future growth.</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                             <div class="inner p-3 bg_color--8">
                                 <h4>Consultancy</h4>
                                 <p class="text-left">We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                             <div class="inner p-3 bg_color--8">
                                 <h4>Web Development</h4>
                                 <p class="text-left">We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                             <div class="inner p-3 bg_color--8 ">
                                 <h4>App Development</h4>
                                 <p class="text-left">Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                             <div class="inner p-3 bg_color--8 ">
                                 <h4>Digital Marketing</h4>
                                 <p class="text-left">We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing...</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                             <div class="inner p-3 bg_color--8">
                                 <h4>IT solutions and Services</h4>
                                 <p class="text-left">Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software...</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                             <div class="inner p-3 bg_color--8">
                                 <h4>Data Intelligence</h4>
                                 <p class="text-left">All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence, for its survival and future growth.</p>
-                                <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
+                                <p class="text-left font-italic lm--hoverLearn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
                     </div>
