@@ -10,12 +10,12 @@
             </div>
             <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 mt--30  zoom">
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
                         <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('consultancy')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially clallenging to retain...</p>
+                                <p>We are here with our deeper levels of IT expertise to advise and guide our clients for successful digital transformation of their companies.</p>
                                 <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Corporate Images"></div>
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
-                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their...</p>
+                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
                                 <a href="{{route('app_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>

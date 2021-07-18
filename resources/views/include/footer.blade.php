@@ -2,36 +2,12 @@
 <footer class="footer-area footer-default">
     <div class="footer-wrapper">
         <div class="row align-items-end row--0">
-            <!-- <div class="col-lg-6">
-                <div class="footer-left">
-                    <div class="inner">
-                        <span>Ready To Do This</span>
-                        <h2>Let's get <br /> to work</h2>
-                        <a class="rn-button-style--2" href="{{route('contact_form')}}">
-                            <span>Contact Us</span>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
             <div class="col-lg-12">
                 <div class="footer-right" data-black-overlay="6">
                     <div class="row">
                         <!-- Start Single Widget -->
                         <div class="col-lg-4 col-sm-6 col-12">
                             <div class="footer-widget">
-                                {{--<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="inner">
-                                        <!-- <div class="logo">
-                                            <a href="/">
-                                                <div class="logo text-center text-sm-left mb_sm--10">
-                                                    <a href="#">
-                                                        <img src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo images" />
-                                                    </a>
-                                                </div>
-                                            </a>
-                                        </div> -->
-                                    </div>
-                                </div>--}}
                                 <!-- <h1 class="text-white">HiLinkz</h1> -->
                                 <div class="logo">
                                     <a href="/">
