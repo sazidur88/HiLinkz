@@ -28,7 +28,10 @@
         <div class="row ">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="tilte text-center">Web Development</h3>
+                    <div class="single-column text-justify">
+                        <h3 class="text-left title-h3">Web Development</h3>
+                        <!-- <p class="page-description-category">Consulting is more than giving advice</p> -->
+                    </div>
                     <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more. We also assist companies in maintaining their existing web applications and modernizing the legacy systems. By leveraging modern technologies, we build scalable and secure web applications.</p>
                     <p>Our designers are excellent at showcasing any company on the Web. Our software engineers are very good at developing custom business applications for SMEs and large enterprises. They are highly skilled when it comes to scalability and security. We have a defined process to develop quality and reliable software. </p>
                 </div>

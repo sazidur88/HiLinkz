@@ -28,6 +28,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <!-- <div class="single-column text-justify">
+                    <h3 class="text-left title-h3">Consultancy</h3>
+                    <p class="page-description-category">Consulting is more than giving advice</p>
+                </div> -->
                 <div class="service-details-inner">
                     <div class="inner">
                         <!-- Start Single Content  -->

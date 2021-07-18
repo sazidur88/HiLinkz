@@ -28,6 +28,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <!-- <div class="single-column text-justify">
+                    <h3 class="text-left title-h3">Consultancy</h3>
+                    <p class="page-description-category">Consulting is more than giving advice</p>
+                    <p>We are here with our deeper levels of IT expertise to advise and guide our</p>
+                </div> -->
                 <div class="service-details-inner">
                     <div class="inner">
                         <!-- Start Single Content  -->
@@ -68,7 +73,7 @@
                             </div>
                             <div class="col-lg-6 col-12 order-1 order-lg-2">
                                 <div class="thumb position-relative">
-                                    <img class="w-100" src="{{asset('assets/images/service/data/HiLinkz 800-600ProcessOfMetel.jpg')}}"  alt="Service Images" />
+                                    <img class="w-100" src="{{asset('assets/images/service/data/HiLinkz 800-600ProcessOfMetel.jpg')}}" alt="Service Images" />
                                     <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
                                 </div>
                             </div>

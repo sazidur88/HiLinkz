@@ -28,7 +28,10 @@
         <div class="row ">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="tilte text-center">App Development</h3>
+                    <div class="single-column text-justify">
+                        <h3 class="text-left title-h3">App Development</h3>
+                        <!-- <p class="page-description-category">Consulting is more than giving advice</p> -->
+                    </div>
                     <p>We have highly skilled mobile app developers who over the years have acquired extensive know how and experience. We turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business. </p>
                     <p>Over the last decade use of mobile devices such as smartphones, tables have exploded. Almost everywhere, everyone is using mobile devices. Accessing information through mobile devices is a lot easier than before. As a result, almost all business processes can be transformed to mobile apps. This offers companies a great opportunity to transform their operations by taking a mobile first approach. Custom mobile applications can improve business process management, better customer relations and innovate new revenue channels. </p>
                     <p>Developing mobile apps can be a huge undertaking for any company. As we have strong team members for app development, any company can rely on our expertise to automate their processes. We offer a full life cycle of app development, including backend development, and guide our customers throughout the development process to turn their app idea into a success story.</p>
