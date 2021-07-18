@@ -10,6 +10,16 @@
     /* box-shadow: 5px 10px #ffffff; */
 
     }
+    .zoom {
+        width: 100%;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .zoom:hover {
+        /* background-color: #f8f9fc; */
+        background-color: #f8f9fcda;
+        transform: scale(1.01);
+    }
 </style>
 @endsection
 @section('content')

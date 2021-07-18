@@ -4192,6 +4192,10 @@ p:last-child {
     background: #eef3ff;
 }
 
+.bg_color--30 {
+    background: #f8f9fcda;
+}
+
 
 /*===========================
      Background Image 
@@ -4332,25 +4336,33 @@ p:last-child {
     background-image: url(../images/bg/bg-image-30.jpg);
 }
 
+
 /* BG CUSTOM IMAGES */
+
 .bg_image--app {
     background-image: url(../images/bg/HiLinkzAppDevelopment.jpg);
 }
+
 .bg_image--consul {
     background-image: url(../images/bg/HiLinkzConsultency.jpg);
 }
+
 .bg_image--data {
     background-image: url(../images/bg/HiLinkzData.jpg);
 }
+
 .bg_image--digital {
     background-image: url(../images/bg/HiLinkzDigitalMarketing.jpg);
 }
+
 .bg_image--it {
     background-image: url(../images/bg/HiLinkzIT.jpg);
 }
+
 .bg_image--web {
     background-image: url(../images/bg/HiLinkzWebdevelopment.jpg);
 }
+
 .bg_image--contact {
     background-image: url(../images/bg/HiLinkzContactUS.jpg);
 }
@@ -11902,20 +11914,30 @@ ul.social-share.social-style--2.color-black li a:hover {
         right: 20px;
     }
 }
+
+
 /* custom */
 
-.content .inner .lm--hover:hover {
-    color: #f9004d;
+.content .lm--hover {
+    /* color: #ca3c08; */
+    color: #1d1d24;
     /* font-size: 14px; */
-    transition: 0.2s;
-
+    /* transition: 0.2s; */
 }
+
 .content .lm--hover:hover {
     color: #f9004d;
     /* font-size: 14px; */
     transition: 0.2s;
-
 }
+
+
+/* .content .lm--hover:hover {
+    color: #f9004d;
+    font-size: 14px;
+    transition: 0.2s;
+
+} */
 
 .portfolio .content .inner p {
     color: #c6c9d8;
@@ -13327,7 +13349,7 @@ a.item-portfolio-static {
 
 .standard-service .thumbnai img {
     border-radius: 2px;
-    height: 200px;
+    height: 210px;
     width: 400px;
     object-fit: cover;
 }
@@ -15741,78 +15763,82 @@ ul.list-style li+li {
      Contact Form Captcha
  ============================*/
 
+
 /* .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
 } */
 
 .contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
 }
 
 .contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
 }
 
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #ff5821;
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+    background-color: #ff5821;
 }
 
 .contact .php-email-form input {
-  padding: 20px 15px;
+    padding: 20px 15px;
 }
 
 .contact .php-email-form textarea {
-  padding: 12px 15px;
+    padding: 12px 15px;
 }
+
 
 /* .contact .php-email-form button[type="submit"] {
   background: linear-gradient(to right, #ff471a , #ffcc00);
@@ -15826,7 +15852,9 @@ ul.list-style li+li {
   background: #ff7e54;
 }
  */
- /*==========================
+
+
+/*==========================
      Contact Address 
  ============================*/
 

@@ -1,4 +1,62 @@
-<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative" id="service">
+<!-- Start Featured Area  -->
+<div class="rn-featured-service-area pt--90 pb--120 bg_color--1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 mt--30">
+                <div class="section-title text-left mb--50">
+                    <h2 class="title">Our Services</h2>
+                    <p>HiLinkz offers a range of services to assist individuals, organizations, and institutions around the world in pursuing their goals.</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt--30  zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('consultancy')}}">Consultancy</a></h3>
+                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially clallenging to retain...</p>
+                                <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
+                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
+                                <a href="{{route('web_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
+                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their...</p>
+                                <a href="{{route('app_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-group mt--50 pb--30 text-center">
+            <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View All Services </span><i class="fas fa-arrow-right"></i></a>
+        </div>
+</div>
+<!-- End Featured Area  -->
+
+
+
+
+
+
+
+{{--<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative" id="service">
     <div class="rn-masonary-wrapper">
         <div class="container">
             <div class="row">
@@ -96,132 +154,4 @@
         </div>
     </div>
 
-</div>
-
-{{--
-<!-- old services area -->
-<div class="rn-service-area rn-section-gap bg_color--1" id="service">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="section-title text-left mb--30">
-                    <h2>Our Services</h2>
-                    <p>HiLinkz offers a range of services to assist individuals, organizations, and institutions around the world in pursuing their goals. </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Start Single Service  -->
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                <div class="single-service service__style--2 bg-color-gray">
-                    <a href="{{route('consultancy')}}">
-<div class="service">
-    <div class="icon">
-        <i data-feather="book-open"></i>
-    </div>
-    <div class="content">
-        <h3 class="title">Consultancy</h3>
-        <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise...</p>
-    </div>
-</div>
-</a>
-</div>
-</div>
-<!-- End Single Service  -->
-
-<!-- Start Single Service  -->
-<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-    <div class="single-service service__style--2 bg-color-gray">
-        <a href="{{route('it_solutions')}}">
-            <div class="service">
-                <div class="icon">
-                    <i data-feather="layers"></i>
-                </div>
-                <div class="content">
-                    <h3 class="title">IT solutions & Services</h3>
-                    <!-- style="text-align:justify" -->
-                    <p>We take the burden of IT management on behalf of organizations so that they can focus on their core business...</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- End Single Service  -->
-
-<!-- Start Single Service  -->
-<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-    <div class="single-service service__style--2 bg-color-gray">
-        <a href="{{route('data_intelligence')}}">
-            <div class="service">
-                <div class="icon">
-                    <i data-feather="cloud-lightning"></i>
-                    <!-- <i class="far fa-lightbulb"></i> -->
-                </div>
-                <div class="content">
-                    <h3 class="title">Data Intelligence</h3>
-                    <p>All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence...</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- End Single Service  -->
-
-<!-- Start Single Service  -->
-<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-    <div class="single-service service__style--2 bg-color-gray">
-        <a href="{{route('app_development')}}">
-            <div class="service">
-                <div class="icon">
-                    <i data-feather="smartphone"></i>
-                </div>
-                <div class="content">
-                    <h3 class="title">App Development</h3>
-                    <p>We have established a strong expertise in the mobile domain by acquiring extensive know-how and experience...</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- End Single Service  -->
-
-<!-- Start Single Service  -->
-<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-    <div class="single-service service__style--2 bg-color-gray">
-        <a href="{{route('web_development')}}">
-            <div class="service">
-                <div class="icon">
-                    <i data-feather="monitor"></i>
-                </div>
-                <div class="content">
-                    <h3 class="title">Web Development</h3>
-                    <p>HiLinkz develops customized and unique web solutions starting from simple corporate websites to eCommerce solutions... </p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- End Single Service  -->
-
-<!-- Start Single Service  -->
-<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-    <div class="single-service service__style--2 bg-color-gray">
-        <a href="{{route('all_services')}}">
-            <div class="service">
-                <div class="icon">
-                    <i data-feather="activity"></i>
-                </div>
-                <div class="content">
-                    <h3 class="title">Digital Marketing</h3>
-                    <p>We can boost up your business growth connecting with hundreds and thousands of internet users using digital...</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- End Single Service  -->
-
-</div>
-</div>
-</div>
---}}
+</div>--}}

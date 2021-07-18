@@ -6,9 +6,14 @@
         width: 150px;
     }
 
+    .zoom {
+        width: 100%;
+        transition: 0.4s all ease-in-out;
+    }
+
     .zoom:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        transition: 0.4s ease;
+        /* background-color: #f8f9fc; */
+        background-color: #f8f9fcda;
         transform: scale(1.01);
     }
 </style>
@@ -45,7 +50,90 @@
 </div>
 <!-- End Column Area  -->
 
-<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative pb--120">
+
+
+<!-- Start Featured Area  -->
+<div class="rn-featured-service-area pt--90 pb--120 bg_color--1">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-lg-3 col-md-6 col-12 mt--30">
+                <div class="section-title text-left">
+                    <h2 class="title">Our Services</h2>
+                    <p>HiLinkz offers a range of services to assist individuals, organizations, and institutions around the world in pursuing their goals.</p>
+                </div>
+            </div> -->
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt--30  zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('consultancy')}}">Consultancy</a></h3>
+                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially clallenging to retain...</p>
+                                <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
+                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
+                                <a href="{{route('web_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
+                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their...</p>
+                                <a href="{{route('app_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('digital_marketing')}}">Digital Marketing</a></h3>
+                                <p>We can boost up your business growth connecting with thousands of internet users using digital marketing. There are many tactics in digital marketing...</p>
+                                <a href="{{route('digital_marketing')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniIT.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('it_solutions')}}">IT solutions and Services</a></h3>
+                                <p>Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software...</p>
+                                <a href="{{route('it_solutions')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniData.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Data Intelligence</a></h3>
+                                <p>All smart businesses today require data analytics and business intelligence (BI), which we call data intelligence, for its survival and future growth.</p>
+                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Featured Area  -->
+
+
+<!-- Start old service area -->
+{{--<div class="rn-gallery-area rn-section-gap-all-s bg_color--1 position-relative pb--120">
     <div class="rn-masonary-wrapper">
         <div class="wrapper plr--70 plr_sm--30 plr_md--30">
             <div class="gallery-wrapper gallery-grid mesonry-list grid-metro3" id="">
@@ -61,7 +149,7 @@
                         <div class="content text-center">
                             <div class="inner p-3 bg_color--8">
                                 <h4>Consultancy</h4>
-                                <p class="text-left">We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
+                                <p class="text-left">We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially</p>
                                 <p class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></p>
                             </div>
                         </div>
@@ -146,7 +234,7 @@
 
                 <!-- End Single Gallery -->
                 <!-- Start Single Gallery -->
-                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('data_intelligence')}}">
+                <a class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--2 cat--3" href="{{route('web_development')}}">
                     <div class="portfolio-static">
                         <div class="thumbnail-inner">
                             <div class="thumbnail">
@@ -169,87 +257,8 @@
     <div class="button-group mt--30 text-center">
         <!-- <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View All Services </span><i class="fas fa-arrow-right"></i></a> -->
     </div>
-</div>
-
-<!-- Start Featured Area  -->
-<div class="rn-featured-service-area pt--90 pb--120 bg_color--1">
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col-lg-3 col-md-6 col-12 mt--30">
-                <div class="section-title text-left">
-                    <h2 class="title">Services</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but.</p>
-                    <div class="service-btn"><a class="btn-transparent rn-btn-dark" href="service.html"><span class="text">Request Custom Service</span></a></div>
-                </div>
-            </div> -->
-            <div class="col-lg-12">
-                <div class="row ml-1 mr-1">
-                    <div class="col-lg-4 col-md-4 mt--30  zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt--30 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt--30 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt--30 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt--30 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt--30 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDigitalMarketting_New.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('data_intelligence')}}">Consultancy</a></h3>
-                                <p>We are here to advise and guide clients with our deeper levels of IT expertise to grow their business that would otherwise be financially challenging to retain...</p>
-                                <a href="{{route('data_intelligence')}}" class="text-left font-italic lm--hover">Learn more <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Featured Area  -->
+</div>--}}
+<!-- End old service area -->
 
 <!-- Start Blog Details Area  -->
 {{--
