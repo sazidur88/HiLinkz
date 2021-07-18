@@ -1,5 +1,5 @@
 <!-- Start Featured Area  -->
-<div class="rn-featured-service-area pt--90 pb--120 bg_color--1">
+<div class="rn-featured-service-area pt--90 pb--120 bg_color--1" id="service">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12 mt--30">
