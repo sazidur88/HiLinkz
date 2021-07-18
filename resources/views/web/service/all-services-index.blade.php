@@ -64,7 +64,7 @@
             </div> -->
             <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 mt--30 pb--50  zoom">
+                    <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
                         <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniConsultancy.jpg')}}" alt="Corporate Images"></div>
                             <div class="content shadow p-3 mb-3 ">
