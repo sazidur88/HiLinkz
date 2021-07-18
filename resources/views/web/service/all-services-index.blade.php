@@ -16,6 +16,13 @@
         /* background-color: #f8f9fcda; */
         transform: scale(1.01);
     }
+    .standard-service .thumbnai img {
+    border-radius: 3px;
+    /* height: 210px;
+    width: 400px;
+    object-fit: cover; */
+}
+
 </style>
 @endsection
 @section('content')
