@@ -16250,7 +16250,7 @@ ul.social-transparent li a:hover {
 
 .single-column.custom-color {
     background: #f9004d;
-    padding: 37px 29px;
+    /* padding: 37px 29px; */
 }
 
 .single-column.custom-color h4.tilte {

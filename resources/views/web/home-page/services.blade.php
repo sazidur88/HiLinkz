@@ -16,7 +16,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('consultancy')}}">Consultancy</a></h3>
                                 <p>We are here with our deeper levels of IT expertise to advise and guide our clients for successful digital transformation of their companies.</p>
-                                <a href="{{route('consultancy')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('consultancy')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -25,8 +25,8 @@
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Corporate Images"></div>
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
-                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions and many more.</p>
-                                <a href="{{route('web_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions...</p>
+                                <a href="{{route('web_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
                                 <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
-                                <a href="{{route('app_development')}}" class="text-left font-italic lm--hover a">Learn more <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('app_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>                    

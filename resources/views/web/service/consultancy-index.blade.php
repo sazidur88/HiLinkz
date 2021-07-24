@@ -23,17 +23,17 @@
 </div>
 <!-- End Breadcrump Area  -->
 <!-- Start Column Area  -->
-<div class="rn-column-area rn-section-gap-heading bg_color--1">
+<div class="rn-column-area rn-section-gap bg_color--1">
     <div class="container">
-        <div class="row ">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
                     <h3 class="text-left title-h3">Consultancy</h3>
-                    <p class="page-description-category">Consulting is more than giving advice</p>
+                    <!-- <p class="page-description-category">Consulting is more than giving advice</p> -->
                     <p>We are here with our deeper levels of IT expertise to advise and guide our clients for successful digital transformation of their companies. Companies that undergo digital transformation improve efficiency and profitability. According to a <a href="https://www.sap.com/dmc/exp/4-ways-leaders-set-themselves-apart/index.html" target="_blank" class="text-info">study, </a>organizations that have gone successful digital transformation, of them 80% reported increased profits and 85% said for increased market share. On average, leaders expect 23% higher revenue growth than competitors.</p>
 
                     <p>Digital transformation makes organizations more agile. Having the right tech tools that work together can streamline business processes and improve productivity. By automating many manual tasks and integrating data throughout the organization, it empowers team members to work more efficiently.</p>
-                    
+
                     <p>Successful digital transformation is quite a daunting task for a company. It requires many services like establishing IT infrastructure, purchasing software solutions, securing IT systems, data analytics and business intelligence, digital marketing and many more. It also requires organizations to align with the new transformation, make some bold decisions so that employees accept the transformation. According to a <a href="https://www.consulteer.com/blog/2020/09/16/70-of-digital-transformations-fail-and-heres-why/" target="_blank" class="text-info">study,</a> staggering 70% of digital transformation fails. Lack of digital transformation expertise is one of the key reasons for the failure. Having professionals for all new technologies and methods needs to be implemented is merely impossible. We are here for digital transformation with real experts, which means we take care of every technology-related struggle that a company encounters.</p>
                 </div>
             </div>
@@ -41,81 +41,86 @@
     </div>
 </div>
 <!-- End Column Area  -->
-<!-- Start Page Wrapper  -->
-
-<div class="rn-service-details rn-section-gap-heading bg_color--1">
+<!-- Start Column Area  -->
+<div class="rn-column-area mb--80 bg_color--1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="service-details-inner">
-                    <div class="inner">
-                        <!-- Start Single Content  -->
-                        <div class="row sercice-details-content align-items-center bg_color--1 pt--80 pb--80">
-                            <div class="col-lg-6 col-12">
-                                <div class="thumb">
-                                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="details mt_md--30 mt_sm--30">
-                                    <h3 class="title">Consulting is more than giving advice</h3>
-                                    <p class="text-justify">For many different purposes a company may seek consulting from a professional consultant. The purpose that is better understood and practiced; and is also more requested by clients is to diagnose a problem to solve. Consultants often furnish necessary information or make recommendations based on the diagnosis. Unlike many consultants, however, we aspire to assist the clients with implementation of the  recommended solutions and thus permanently improving organizational effectiveness.</p>
-
-                                    <div class="button-group mt--30">
-                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Content  -->
-                        <!-- Start Single Content  -->
-                        <div class="row sercice-details-content align-items-center pb--50 pt--50 bg_color--5">
-                            <div class="col-lg-6 col-12 order-2 order-lg-1">
-                                <div class="details mt_md--30 mt_sm--30">
-                                    <h3 class="title">Problem diagnosis and recommendations (subsection)</h3>
-                                    <p class="details mt_md--30 mt_sm--30 text-justify">Good consultants’ value lies in their expertise in diagnosing problems. Accurate diagnosis leads to good recommendations of problem solving. Although companies hire consultants from outside for independent diagnosis our approach is to include client team members assigned to the diagnosis process. They, not us, must do the detailed work. We help, we push — but they have to do it. In this way we get key insights of the organization members and diagnose strategic problems in connection with organizational issues. Clearly, when clients participate in the diagnostic process, they are more likely to acknowledge their role in problems, accept and implement the recommendations.  </p>
-                                    <div class="button-group mt--30">
-                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12 order-1 order-lg-2">
-                                <div class="thumb position-relative">
-                                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
-                                    <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Content  -->
-                        <!-- Start Single Content  -->
-                        <div class="row sercice-details-content align-items-center bg_color--1 pt--80 pb--80">
-                            <div class="col-lg-6 col-12">
-                                <div class="thumb">
-                                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="details mt_md--30 mt_sm--30">
-                                    <h3 class="title">Implementation of recommending actions</h3>
-                                    <p class="text-justify">The engagement characteristically concludes with a written report or oral presentation that summarizes what the consultant has learned and that recommends in some detail what the client should do. Though it may sound like a sensible division of labor, this setup is in many ways simplistic and unsatisfactory. Untold numbers of seemingly convincing reports, submitted at great expense, have no real impact because—due to constraints outside the consultant’s assumed bailiwick—the relationship stops at formulation of theoretically sound recommendations that can’t be implemented. In cases like these, each side blames the other. Reasons are given like “my client lacks the ability or courage to take the necessary steps” or “this consultant did not help translate objectives into actions.” In the most successful relationships, there is not a rigid distinction between roles; formal recommendations should contain no surprises if the client helps develop them and the consultant is concerned with their implementation.</p>
-
-                                    <div class="button-group mt--30">
-                                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Content  -->
-
-                    </div>
+                <div class="single-column text-justify">
+                    <h3 class="text-left title-h3">Consulting is more than giving advice</h3>
+                    <p>For many different purposes a company may seek consulting from a professional consultant. The purpose that is better understood and practiced; and is also more requested by clients is to diagnose a problem to solve. Consultants often furnish necessary information or make recommendations based on the diagnosis. Unlike many consultants, however, we aspire to assist the clients with implementation of the  recommended solutions and thus permanently improving organizational effectiveness.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<!-- End Column Area  -->
+<!-- Start Column Area  -->
+<div class="rn-column-area rn-section-gap bg_color--5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="thumb">
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
+                <!-- <div class="single-column"> -->
+                <h4 class="tilte">Problem diagnosis and recommendations</h4>
+                <p class="text-justify">Good consultants’ value lies in their expertise in diagnosing problems. Accurate diagnosis leads to good recommendations of problem solving. Although companies hire consultants from outside for independent diagnosis our approach is to include client team members assigned to the diagnosis process. They, not us, must do the detailed work. We help, we push — but they have to do it. In this way we get key insights of the organization members and diagnose strategic problems in connection with organizational issues. Clearly, when clients participate in the diagnostic process, they are more likely to acknowledge their role in problems, accept and implement the recommendations.  </p>
+                <div class="button-group mt--30">
+                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Column Area  -->
+<!-- Start Column Area  -->
+<div class="rn-column-area rn-section-gap bg_color--1">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12 order-sm-2">
+                <div class="thumb position-relative">
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
+                <!-- <div class="single-column"> -->
+                <h4 class="tilte">Implementation of recommending actions</h4>
+                <p class="text-justify">In most cases consultation characteristically concludes with a written report or a  presentation that summarizes the recommendations in some detail about what the client should do. Consultants assume the client is responsible to implement the recommendation actions. While theoretically this may sound ok, most often the seemingly convincing reports have no real impact, because—due to constraints outside the consultant’s assumed bailiwick the recommendations can’t be implemented. In such cases each side blames the other. However, as our approach is to engage our client team members during problem diagnosis the recommending actions address all the practical problems of implementation</p>
+                <div class="button-group mt--30">
+                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Column Area  -->
+<!-- Start Column Area  -->
+<div class="rn-column-area rn-section-gap bg_color--5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="thumb">
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
+                <!-- <div class="single-column"> -->
+                <h4 class="tilte">Improve organizational effectiveness</h4>
+                <p class="text-justify">The goal of digital transformation is to improve organizational effectiveness, which implies the ability to adapt future strategy and behavior to environmental change and to optimize the contribution of the organization’s human resources. Thus success of digital transformation not only depends on developing IT infrastructure or procuring tech tools but also requires client team members to accept and give honest efforts to make it successful. Almost in every case clients need organizational restructure, where new skilled people are to be hired or train existing members with the required skills. We help companies in modeling methods of motivation that work well in such cases. We are practitioners, not preachers, and we help lower whatever barriers to improvement are discovered. We do not just provide  expert advice but also offer practical help in improving the organization’s future performance.</p>
+                <div class="button-group mt--30">
+                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Column Area  -->
 <!-- Contact Form Starts Here -->
 <div class="rn-contact-area rn-section-gap bg_color--5" id="contact">
     <div class="contact-form--1">
