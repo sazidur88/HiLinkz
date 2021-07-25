@@ -19,14 +19,19 @@
 
     .standard-service .thumbnai img {
         border-radius: 3px;
-        /* height: 210px;
-    width: 400px;
-    object-fit: cover; */
     }
 
     .title-h3 {
         font-size: 2em !important;
     }
+
+    /* .slick-prev:before {
+        color: #f9004d;
+    }
+
+    .slick-next:before {
+        color: #f9004d;
+    } */
 </style>
 @endsection
 @section('content')
