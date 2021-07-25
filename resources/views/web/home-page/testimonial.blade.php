@@ -56,53 +56,62 @@
                             <div class="testimonial-thumbnai">
                                 <div class="thumb">
                                     <img src="{{asset('assets/images/client/Nizam Ahmed.jpg')}}" alt="Testimonial Images">
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
-                            <div class="testimonial-thumbnai">
-                                <div class="thumb">
-                                    <img src="{{asset('assets/images/client/Serajul Mawla.jpg')}}" alt="Testimonial Images">
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
-                            <div class="testimonial-thumbnai">
-                                <div class="thumb">
-                                    <img src="{{asset('assets/images/client/Hasin Pervez.jpg')}}" alt="Testimonial Images">
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">
-                            <div class="testimonial-thumbnai">
-                                <div class="thumb">
-                                    <img src="{{asset('assets/images/client/RYOGAS ICON-01.jpg')}}" alt="Testimonial Images">
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-
-                </ul>
-                <!-- End Tab Content  -->
+</div>
+</div>
+</a>
+</li>
+<li>
+    <a id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
+        <div class="testimonial-thumbnai">
+            <div class="thumb">
+                <img src="{{asset('assets/images/client/Serajul Mawla.jpg')}}" alt="Testimonial Images">
             </div>
         </div>
-    </div>
+    </a>
+</li>
+<li>
+    <a id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
+        <div class="testimonial-thumbnai">
+            <div class="thumb">
+                <img src="{{asset('assets/images/client/Hasin Pervez.jpg')}}" alt="Testimonial Images">
+            </div>
+        </div>
+    </a>
+</li>
+<li>
+    <a id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">
+        <div class="testimonial-thumbnai">
+            <div class="thumb">
+                <img src="{{asset('assets/images/client/RYOGAS ICON-01.jpg')}}" alt="Testimonial Images">
+            </div>
+        </div>
+    </a>
+</li>
+
+
+</ul>
+<!-- End Tab Content  -->
+</div>
+</div>
+</div>
 </div>
 --}}
-<!-- ======= Testimonials Section ======= -->
-<section id="testimonials" class="testimonials">
-    <div class="container" data-aos="fade-up">
 
-        <!-- <div class="owl-carousel testimonials-carousel"> -->
-        <!-- <div class="row"> -->
-            <div class=" col-md-12 rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
+
+<!-- ======= Testimonials Section ======= -->
+<div class="rn-testimonial-area rn-section-gap bg_color--1" id="testimonial">
+    <div id="testimonial" class="testimonials">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2 class="text-white">Testimonials</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="owl-carousel testimonials-carousel">
+        <div class="row"> -->
+            <div class="col-md-12 rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
                         "spaceBetween": 15, 
                         "slidesToShow": 1, 
                         "slidesToScroll": 1, 
@@ -134,7 +143,7 @@
                     <h4>Founder and CEO, SMET Services</h4>
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left fas fa-quote-left"></i>
-                        I spend an abnormal amount of time searching for the right company to automate my business. Finally, I am happy to get HiLinkz. They are highly productive with a reasonable price model. 
+                        I spend an abnormal amount of time searching for the right company to automate my business. Finally, I am happy to get HiLinkz. They are highly productive with a reasonable price model.
                         <i class="bx bxs-quote-alt-right quote-icon-right fas fa-quote-right"></i>
                     </p>
                 </div>
@@ -155,13 +164,14 @@
                     <h4>COO, RyoGas</h4>
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left fas fa-quote-left"></i>
-                        Awesome! When it comes to scalability, adopting different customer requirements, their backend designs are simply superb to accommodate changes within a short time. 
+                        Awesome! When it comes to scalability, adopting different customer requirements, their backend designs are simply superb to accommodate changes within a short time.
                         <i class="bx bxs-quote-alt-right quote-icon-right fas fa-quote-right"></i>
                     </p>
                 </div>
             </div>
-        <!-- </div> -->
-        <!-- </div> -->
+            <!-- </div>
+        </div> -->
 
-    </div>
-</section><!-- End Testimonials Section -->
+        </div>
+    </div><!-- End Testimonials Section -->
+</div>
