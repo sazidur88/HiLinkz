@@ -111,7 +111,7 @@
             </div>
             <!-- <div class="owl-carousel testimonials-carousel">
         <div class="row"> -->
-            <div class="col-md-12 rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
+            <div class="row rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
                         "spaceBetween": 15, 
                         "slidesToShow": 1, 
                         "slidesToScroll": 1, 

@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            <div class=" col-md-12 rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
+            <div class="col-lg-12 rn-slick-activation rn-slick-dot mt--10" data-slick-options='{
                         "spaceBetween": 15, 
                         "slidesToShow": 5, 
                         "slidesToScroll": 1, 
