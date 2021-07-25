@@ -23,7 +23,8 @@
     width: 400px;
     object-fit: cover; */
     }
-    .title-h3{
+
+    .title-h3 {
         font-size: 2em !important;
     }
 </style>
@@ -54,6 +55,8 @@
 @endsection
 
 @section('custom_js')
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
 <script>
     particlesJS('particles-js',
 
