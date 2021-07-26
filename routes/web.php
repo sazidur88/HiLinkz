@@ -87,6 +87,8 @@ Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
 Route::view('/data-intelligence', 'web.service.data-index')->name('data_intelligence');
 Route::view('/digital-marketing', 'web.service.digital-marketing-index')->name('digital_marketing');
 Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
+//Individual Page
+Route::view('/our-works', 'web.work.our-works-index')->name('our_works');
 
 /*
 -----------------------------------------------------------

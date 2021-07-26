@@ -12,16 +12,12 @@
     }
 
     .zoom:hover {
-        /* background-color: #f8f9fc; */
-        /* background-color: #f8f9fcda; */
         transform: scale(1.01);
     }
 
     .standard-service .thumbnai img {
         border-radius: 3px;
-        /* height: 210px;
-    width: 400px;
-    object-fit: cover; */
+
     }
 
     /* .single-column.custom-color {
@@ -117,21 +113,25 @@
                     <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
                         <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3  custom-color--1">
-                                <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
-                                <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions...</p>
-                                <a href="{{route('web_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
-                            </div>
+                            <!-- <div class="single-column custom-color"> -->
+                                <div class="content shadow p-3 mb-3  custom-color--1">
+                                    <h3><a class="text-center" href="{{route('web_development')}}">Web Development</a></h3>
+                                    <p>We develop customized and unique Web solutions starting from simple corporate websites to office automation, e-commerce solutions...</p>
+                                    <a href="{{route('web_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
                         <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
-                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to...</p>
-                                <a href="{{route('app_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
-                            </div>
+                            <!-- <div class="single-column custom-color"> -->
+                                <div class="content shadow p-3 mb-3 ">
+                                    <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
+                                    <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to...</p>
+                                    <a href="{{route('app_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">

@@ -127,6 +127,9 @@
     </div>
 </div>
 <!-- End Column Area  -->
+<div class="button-group mt--30 mb--30 text-center">
+    <a class="btn-transparent rn-btn-dark" href="{{route('all_services')}}"><span class="text font-italic">View More Services </span><i class="fas fa-arrow-right"></i></a>
+</div>
 <!-- Start Page Wrapper  -->
 {{--
 <div class="rn-service-details rn-section-gap bg_color--1">

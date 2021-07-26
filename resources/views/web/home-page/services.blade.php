@@ -35,7 +35,7 @@
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniAppDevelopment.jpg')}}" alt="Corporate Images"></div>
                             <div class="content shadow p-3 mb-3 ">
                                 <h3><a class="text-center" href="{{route('app_development')}}">App Development</a></h3>
-                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to their business.</p>
+                                <p>Our highly skilled app developers turn our customers’ app ideas into successful mobile applications very quickly to bring mobility and agility to...</p>
                                 <a href="{{route('app_development')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
