@@ -84,11 +84,14 @@ Route::view('/web-development', 'web.service.web-index')->name('web_development'
 Route::view('/app-development', 'web.service.mobile-index')->name('app_development');
 Route::view('/consultancy', 'web.service.consultancy-index')->name('consultancy');
 Route::view('/it-solutions', 'web.service.it-index')->name('it_solutions');
+Route::view('/emerging-technologies', 'web.service.emerging-tech-index')->name('emerging_technologies');
 Route::view('/data-intelligence', 'web.service.data-index')->name('data_intelligence');
 Route::view('/digital-marketing', 'web.service.digital-marketing-index')->name('digital_marketing');
 Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 //Individual Page
 Route::view('/our-works', 'web.work.our-works-index')->name('our_works');
+Route::view('/our-works/ryogas', 'web.work.ryogas-index')->name('our_works_ryogas');
+Route::view('/our-works/covi-sense', 'web.work.covi-sense-index')->name('our_works_covi_sense');
 
 /*
 -----------------------------------------------------------

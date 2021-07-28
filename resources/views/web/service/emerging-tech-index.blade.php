@@ -9,12 +9,12 @@
 @endsection
 @section('content')
 <!-- Start Breadcrump Area  -->
-<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--it" data-black-overlay="5">
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--emerging" data-black-overlay="5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient">IT SOLUTIONS & SERVICES</h2>
+                    <h2 class="title theme-gradient">EMERGING TECHNOLOGIES</h2>
                     <!-- <p>Fresh From The Press Discription</p> -->
                 </div>
             </div>
@@ -28,8 +28,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="text-left title-h3">IT Solutions and Services</h3>
-                    <p>IT solutions and services often require integration of hardware and software applications (web and/or mobile applications) because of handling complex functionalities that require interaction among multiple platforms. Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software systems for businesses. Since organizations need a wide array of solutions and services, our goal is to provide and maintain excellent IT services to organizations. In short, we take the burden of IT management on behalf of organizations so that they can focus on their core business.</p>
+                    <h3 class="text-left title-h3">High-Quality MVP for IoT, Blockchain, AI and ML on a Startup Budget</h3>
+                    <p>Our emerging technologies consulting team strives to help companies achieve success while minimizing financial risk. We partner with organizations to develop an idea and build a Minimum Viable Product (MVP) for emerging technologies like IoT, Blockchain, AI and ML with a minimum cost. It allows our partners to quickly develop and test ideas before full-fledged product development. </p>
                 </div>
             </div>
         </div>
@@ -42,8 +42,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="text-left title-h3">Cost effective custom-fit solutions</h3>
-                    <p>While procuring IT solutions and services very often organizations make mistakes in choosing the right products, thus creating many troubles and hindering growth of actual business. The reason behind this is that organizations do not know what they actually need and what to expect from the procured services. There are considerable understanding gaps because IT management is not the core business of these organizations. As a result they purchase services that under delivers their expectations or over delivers to increase the total cost. We like to provide the right solutions and services for optimum results in a cost effective way.</p>
+                    <h3 class="text-left title-h3">Artificial Intelligence</h3>
+                    <p>Artificial Intelligence (AI) refers to computer programs that allow the machines to sense, learn, understand and act to augment human capabilities. It is one of the most incredible technologies that will transform lives in almost all facets of modern society.  Thus many industry-leading organizations are adopting AI as a strategic priority. Our experienced team brings AI-driven innovation to organizations that help gain valuable data insights, identify trends, find growth opportunities, and reduce costs.</p>
                 </div>
             </div>
         </div>
@@ -61,8 +61,8 @@
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
                 <!-- <div class="single-column"> -->
-                <h4 class="tilte">Office Automation Systems</h4>
-                <p class="text-justify">We are experienced in a wide range of web based office automation software such as Human Resource Management System (HRM), Inventory Management System (IMS), Customer Relationship Management System (CRMS), Project Management System (PMS), Accounting Software and so on. We can even integrate different existing legacy systems and modernize those for seamless integration to increase productivity and boost company profitability.</p>
+                <h4 class="tilte">Machine Learning</h4>
+                <p class="text-justify">Machine Learning (ML) is a subset of AI. It learns from past data to extract patterns, make classifications and uncover key insights to predict future events. These insights subsequently drive organizations’ decision making. Organizations are eyeing onto AI and ML-enabled systems due to its promise of bringing advancement in respective industries. ML is one of the most important branches of AI that has applications in almost every industry.</p>
                 <div class="button-group mt--30">
                     <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -83,8 +83,30 @@
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
                 <!-- <div class="single-column"> -->
-                <h4 class="tilte">SaaS Application Development</h4>
-                <p class="text-justify">Software as a Service (SaaS) also known as "on-demand software" is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. The software architecture of a SaaS model, often known as multitenant architecture or multitenancy, is quite challenging and our software engineers are very adept at this. We have successfully developed the RyoGas system at ryogas.com as a SaaS model, where multiple gas stations manage their day to day activities on subscription basis.  </p>
+                <h4 class="tilte">Internet of Things</h4>
+                <p class="text-justify">The Internet of Things, in short IoT, describes the network of physical objects (Things) that communicate and exchange data with other devices over the internet. Enterprise IoT solutions empower workers to interface with connected devices for seamless experiences across and between people, processes, and platforms. We deliver IoT solutions for seamless integration of processes, software and devices for high throughput and productivity. </p>
+                <div class="button-group mt--30">
+                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Column Area  -->
+<!-- Start Column Area  -->
+<div class="rn-column-area rn-section-gap bg_color--5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="thumb">
+                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600Office Automation Software.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
+                <!-- <div class="single-column"> -->
+                <h4 class="tilte">Blockchain and dApps</h4>
+                <p class="text-justify">One of the most dangerous outcomes of the internet is the digital divide that centralized money and power to a very few. Thus decentralization is a growing necessity and blockchain is the foundational technology that can transform business processes through distributed and decentralized applications (dApps). From finance to gaming and even online gambling, dApps can be applied to many online industries.</p>
                 <div class="button-group mt--30">
                     <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
                 </div>

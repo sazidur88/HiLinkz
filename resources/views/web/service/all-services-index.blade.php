@@ -112,6 +112,26 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
                         <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniIT.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('it_solutions')}}">IT solutions and Services</a></h3>
+                                <p>Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software ...</p>
+                                <a href="{{route('it_solutions')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
+                        <div class="standard-service">
+                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniEmerging.jpg')}}" alt="Corporate Images"></div>
+                            <div class="content shadow p-3 mb-3 ">
+                                <h3><a class="text-center" href="{{route('emerging_technologies')}}">Emerging Technologies</a></h3>
+                                <p>Our emerging technologies consulting team strives to help companies achieve success while minimizing financial risk. We partner with organizations to develop ...</p>
+                                <a href="{{route('emerging_technologies')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
+                        <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniWEB.jpg')}}" alt="Corporate Images"></div>
                             <!-- <div class="single-column custom-color"> -->
                                 <div class="content shadow p-3 mb-3  custom-color--1">
@@ -144,16 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
-                        <div class="standard-service">
-                            <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniIT.jpg')}}" alt="Corporate Images"></div>
-                            <div class="content shadow p-3 mb-3 ">
-                                <h3><a class="text-center" href="{{route('it_solutions')}}">IT solutions and Services</a></h3>
-                                <p>Through our top class partner organizations we provide complete IT solutions i.e. building IT infrastructure to developing and maintaining software ...</p>
-                                <a href="{{route('it_solutions')}}" class="text-left font-italic btn-transparent rn-btn-dark"><small>Learn more</small> <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-lg-4 col-md-6 mt--30 pb--50 zoom">
                         <div class="standard-service">
                             <div class="thumbnai"><img src="{{asset('assets/images/portfolio/HiLinkzMiniDATA INTELLIGENCE.jpg')}}" alt="Corporate Images"></div>

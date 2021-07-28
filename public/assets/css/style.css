@@ -4359,12 +4359,28 @@ p:last-child {
     background-image: url(../images/bg/HiLinkzIT.jpg);
 }
 
+.bg_image--ryogas {
+    background-image: url(../images/bg/HiLinkzRyoGas.jpg);
+}
+
 .bg_image--web {
     background-image: url(../images/bg/HiLinkzWebdevelopment.jpg);
 }
 
 .bg_image--contact {
     background-image: url(../images/bg/HiLinkzContactUS.jpg);
+}
+
+.bg_image--emerging {
+    background-image: url(../images/bg/bg-image-emerging.jpg);
+}
+
+.bg_image--work {
+    background-image: url(../images/bg/portfolio-background.jpg);
+}
+
+.bg_image--covin {
+    background-image: url(../images/bg/bg-image-covin.jpg);
 }
 
 .font--1 {
@@ -5120,6 +5136,10 @@ img.react-parallax-bgimage {
     padding: 50px 0;
 }
 
+.rn-section-gap-work {
+    padding: 80px 5px;
+}
+
 .rn-section-gap-all-s {
     /* padding: 120px 0; */
     padding: 120px 80px 0;
@@ -5133,6 +5153,11 @@ img.react-parallax-bgimage {
 .rn-section-gap-heading {
     /* padding: 120px 0; */
     padding: 80px 0 0;
+}
+
+/* custom padding  */
+.rn-section-gap-custom {
+    padding: 100px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -13676,6 +13701,12 @@ a.item-portfolio-static {
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .bg_image--ryogas {
+        background-position: 20% right;
+    }
+}
+
 
 /*------------------------
  Slider Styles  
@@ -16355,7 +16386,7 @@ ul.social-transparent li a:hover {
 
 .single-column.custom-color {
     background: #f9004d;
-    /* padding: 37px 29px; */
+    padding: 37px 29px;
 }
 
 .single-column.custom-color h4.tilte {
@@ -16372,6 +16403,18 @@ ul.social-transparent li a:hover {
 
 .single-column.custom-color.custom-color--2 {
     background: #c93ec7;
+}
+
+.single-column.custom-color.custom-color--3 {
+    background: #F79F1F;
+}
+
+.single-column.custom-color.custom-color--4 {
+    background: #009432;
+}
+
+.single-column.custom-color.custom-color--5 {
+    background: #5758BB;
 }
 
 
