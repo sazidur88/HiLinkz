@@ -12,7 +12,7 @@
                     <nav class="mainmenunav d-lg-block navbar-example2">
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu nav nav-pills">
-                            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#service">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{route('our_works')}}">Works</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
