@@ -19695,7 +19695,7 @@ html {
 }
 
 .u-body h1,
-.u-body h2,
+/* .u-body h2, */
 .u-body h3,
 .u-body h4,
 .u-body h5,
@@ -19704,7 +19704,7 @@ html {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -19720,9 +19720,6 @@ h1 {
     font-size: 2.25rem;
 }
 
-h2 {
-    font-size: 1.5rem;
-}
 
 h3 {
     font-size: 1.25rem;
@@ -23299,7 +23296,8 @@ a.u-button-style.u-border-20 {
 }
 
 h1,
-h2,
+
+
 h3,
 h4,
 h5,
@@ -38899,13 +38897,13 @@ h1.u-title {
     margin-bottom: 20px;
 }
 
-h2.u-subtitle {
+/* h2.u-subtitle {
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 1.1;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 h1:not(.u-title) {
     font-weight: 400;
@@ -38915,13 +38913,13 @@ h1:not(.u-title) {
     margin-bottom: 20px;
 }
 
-h2:not(.u-subtitle) {
+/* h2:not(.u-subtitle) {
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 1.1;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 h3 {
     font-weight: 400;
@@ -39026,11 +39024,11 @@ ol {
     }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     h2.u-subtitle {
         font-size: 1.5rem;
     }
-}
+} */
 
 @media (max-width: 575px) {
     h1:not(.u-title) {
@@ -39038,12 +39036,12 @@ ol {
     }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     h2:not(.u-subtitle) {
         font-size: 1.5rem;
     }
 }
-
+ */
 @media (max-width: 575px) {
     h3 {
         font-size: 1.5rem;
@@ -39070,17 +39068,17 @@ ol {
     font-size: 3rem;
 }
 
-.u-xs h2.u-subtitle {
+/* .u-xs h2.u-subtitle {
     font-size: 1.5rem;
-}
+} */
 
 .u-xs h1:not(.u-title) {
     font-size: 2.25rem;
 }
 
-.u-xs h2:not(.u-subtitle) {
+/* .u-xs h2:not(.u-subtitle) {
     font-size: 1.5rem;
-}
+} */
 
 .u-xs h3 {
     font-size: 1.5rem;

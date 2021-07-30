@@ -37,28 +37,32 @@
 </div>
 <!-- End Column Area  -->
 <!-- Start Column Area  -->
-<div class="rn-column-area mb--80 bg_color--1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="single-column text-justify">
-                    <h3 class="text-left title-h3">Artificial Intelligence</h3>
-                    <p>Artificial Intelligence (AI) refers to computer programs that allow the machines to sense, learn, understand and act to augment human capabilities. It is one of the most incredible technologies that will transform lives in almost all facets of modern society.  Thus many industry-leading organizations are adopting AI as a strategic priority. Our experienced team brings AI-driven innovation to organizations that help gain valuable data insights, identify trends, find growth opportunities, and reduce costs.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Column Area  -->
-<!-- Start Column Area  -->
 <div class="rn-column-area rn-section-gap bg_color--5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="thumb">
-                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600Office Automation Software.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
                 </div>
             </div>
+            <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
+                <!-- <div class="single-column"> -->
+                <h4 class="tilte">Artificial Intelligence</h4>
+                <p class="text-justify">Artificial Intelligence (AI) refers to computer programs that allow the machines to sense, learn, understand and act to augment human capabilities. It is one of the most incredible technologies that will transform lives in almost all facets of modern society. Thus many industry-leading organizations are adopting AI as a strategic priority. Our experienced team brings AI-driven innovation to organizations that help gain valuable data insights, identify trends, find growth opportunities, and reduce costs.</p>
+                <div class="button-group mt--30">
+                    <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Column Area  -->
+
+<!-- Start Column Area  -->
+<div class="rn-column-area rn-section-gap bg_color--1">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
                 <!-- <div class="single-column"> -->
                 <h4 class="tilte">Machine Learning</h4>
@@ -68,19 +72,20 @@
                 </div>
                 <!-- </div> -->
             </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="thumb">
+                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600Office Automation Software.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <!-- End Column Area  -->
 <!-- Start Column Area  -->
-<div class="rn-column-area rn-section-gap bg_color--1">
+<div class="rn-column-area rn-section-gap bg_color--5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6 col-12 order-sm-2">
-                <div class="thumb position-relative">
-                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600SaaS Application Development.jpg')}}" alt="Service Images" />
-                </div>
-            </div>
+
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
                 <!-- <div class="single-column"> -->
                 <h4 class="tilte">Internet of Things</h4>
@@ -90,12 +95,17 @@
                 </div>
                 <!-- </div> -->
             </div>
+            <div class="col-lg-6 col-md-6 col-12 order-sm-2">
+                <div class="thumb position-relative">
+                    <img class="w-100" src="{{asset('assets/images/service/it/HiLinkz 800-600SaaS Application Development.jpg')}}" alt="Service Images" />
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <!-- End Column Area  -->
 <!-- Start Column Area  -->
-<div class="rn-column-area rn-section-gap bg_color--5">
+<div class="rn-column-area rn-section-gap bg_color--1">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12">
@@ -112,6 +122,7 @@
                 </div>
                 <!-- </div> -->
             </div>
+
         </div>
     </div>
 </div>

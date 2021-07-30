@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient"><b>OUR WORKS</b></h2>
+                    <h2 class="title theme-gradient">OUR WORKS</h2>
                     <!-- <p>Fresh From The Press Discription</p> -->
                 </div>
             </div>
@@ -76,16 +76,15 @@
     </div>
 </div>
 <!-- End Breadcrump Area  -->
-<!-- Start Page Wrapper  -->
 
 <!-- Start Column Area  -->
-<div class="rn-column-area rn-section-gap-heading bg_color--1">
+<div class="rn-column-area rn-section-gap-work bg_color--1">
     <div class="container">
-        <div class="row ">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="tilte text-center">HiLinkz delivers exponential growth through innovative technology solutions</h3>
-                    <p>Technology is continually evolving, providing endless opportunities for improving productivity, connecting to your customers, and discovering new products and services. Digital transformation can radically improve your business through the strategic application of modern technology for processes, products, and assets. As a top app development agency, we have over a decade of expertise in building innovative technology solutions for our clients, ranging from small businesses through large global corporations.</p>
+                    <h3 class="text-center title-h3 font-weight-bold">HiLinkz partners for exponential growth through innovative technology solutions</h3>
+                    <p>Technology is continually evolving, providing endless opportunities for organizations to improve processes, products and services. Digital transformation can radically improve organization efficiency and productivity through the strategic application of emerging technologies. As a top consulting and app development agency we have a decade of experience in building innovative technology solutions for our clients. </p>
                 </div>
             </div>
         </div>
@@ -131,58 +130,13 @@
             </div>
         </div>
 
-        <div class="" id="work-mid"></div>
-
-
-
-
-        {{--
-
-        <div class="u-container-style u-group u-image u-image-round u-radius-3 u-image-1">
-            <div class="u-container-layout u-container-layout-1"></div>
-        </div>
-        <div class="u-container-style u-expanded-width-sm u-expanded-width-xs  u-group u-radius-3 u-shape-round u-group-2 bg_color--1" data-animation-name="swing" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-            <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-2">
-                <h2 class="u-align-left u-text u-text-default u-text-1 gradient-work">RyoGas</h2>
-                <h3 class="u-align-left u-text u-text-default u-text-2 pb--10">A Smart Gas Pump Solution
-                </h3>
-                <p class="u-align-justify u-text u-text-3"> IoT Based Gas Station Management Solutions for Smart Owners</p>
-                <a class="btn-transparent rn-btn-dark mb--10 mt--10" href="{{route('all_services')}}" style="color:#4b7bec"><span class="text font-italic">Read More </span><i class="fas fa-arrow-right"></i></a>
-    </div>
-    </div>
-
-    <div class="u-container-style u-group u-image u-image-round u-radius-3 u-image-2">
-        <div class="u-container-layout u-container-layout-3"></div>
-    </div>
-    <div class="u-container-style u-expanded-width-sm u-expanded-width-xs  u-group u-radius-3 u-shape-round u-group-4 bg_color--1" data-animation-name="swing" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-        <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-4">
-            <h2 class="u-align-left u-text u-text-default u-text-4 gradient-work">RyoGas</h2>
-            <h3 class="u-align-left u-text u-text-default u-text-5 pb--10">A Smart Gas Pump Solution
-            </h3>
-            <p class="u-align-justify u-text u-text-6"> IoT Based Gas Station Management Solutions for Smart Owners</p>
-            <a class="btn-transparent rn-btn-dark mb--10 mt--10" href="{{route('all_services')}}" style="color:#4b7bec"><span class="text font-italic">Read More </span><i class="fas fa-arrow-right"></i></a>
-        </div>
-    </div>
-
-    --}}
-
-    <!-- <div class="" id="work_bottom"></div> -->
-
-
-
-
+        <div class="" id="work-mid"></div>   
+        
     </div>
 </section>
-
-
-
-
-
 
 @endsection
 
 @section('custom_js')
-<link rel="stylesheet" href="{{asset('assets/js/work.js')}}">
-<link rel="stylesheet" href="{{asset('assets/js/custom-work.js')}}">
 
 @endsection

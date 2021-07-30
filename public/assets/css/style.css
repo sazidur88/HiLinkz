@@ -13015,6 +13015,8 @@ a.item-portfolio-static {
     opacity: 0;
     visibility: hidden;
     border-radius: 10px;
+    /* background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
 }
 
 @media only screen and (max-width: 575px) {
@@ -19161,4 +19163,73 @@ a.purchase-btn:hover {
     .active-dark-mode .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown>a.open::after {
         border-color: transparent transparent #f9004d transparent;
     }
+}
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values .card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.values .card-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+/*  background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
+}
+
+.values .card-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #473d3a;
+
+}
+
+.values .card-title a {
+  color: #473d3a;
+}
+
+.values .card-text {
+  color: #4b4949;
+}
+
+.values .read-more a {
+  color: #656262;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.values .read-more a:hover {
+  text-decoration: underline;
+}
+
+.values .card:hover .card-body {
+  /* background: linear-gradient(to right, #ff471a , #ffcc00); */
+/*       background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
+            background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
+
+}
+
+.values .card:hover .read-more a, 
+.values .card:hover .card-title, 
+.values .card:hover .card-title a, 
+.values .card:hover .card-text {
+  color: #fff;
 }

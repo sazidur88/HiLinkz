@@ -11,6 +11,12 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .h3 {
+        font-size: 1.75em;
+        font-family: inherit;
+        font-weight: 500;
+    }
 </style>
 @endsection
 @section('content')
@@ -43,45 +49,121 @@
     </div>
 </div>
 <!-- End Column Area  -->
+<!-- ======= Values Section ======= -->
+<div id="values" class="values rn-column-area rn-section-gap-work bg_color--5">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
+
+                    <div class="card-body">
+                        <h5 class="card-title">For Whom</h5>
+                        <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
+                        <p class="card-text">
+                            <i data-feather="check"></i> Smart owners having one or more gas stations <br>
+                            <i data-feather="check"></i> Companies to manage gas stations remotely <br>
+                            <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
+
+                        </p>
+                        <!-- <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up">
+                <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
+                    <div class="card-body">
+                        <h5 class="card-title">For What</h5>
+                        <p class="card-text">
+                            <i data-feather="check"></i> Cash and bank statements<br>
+                            <i data-feather="check"></i> Sales profit or loss<br>
+                            <i data-feather="check"></i> Sales receipts for customers<br>
+                            <i data-feather="check"></i> Daily and monthly reports<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
+                    <div class="card-body">
+                        <h5 class="card-title">Benefits</h5>
+                        <p class="card-text">
+                            <i data-feather="check"></i> Remote and efficient gas station management<br>
+                            <i data-feather="check"></i> Reduced operational costs<br>
+                            <i data-feather="check"></i> Increased sales and profits<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
+                    <div class="card-body">
+                        <h5 class="card-title">Why RyoGas</h5>
+                        <p class="card-text">
+                            <i data-feather="check"></i> Attractive price model<br>
+                            <i data-feather="check"></i> Ease of use<br>
+                            <i data-feather="check"></i> Excellent service<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div><!-- End Values Section -->
 
 <!-- Start Column Area  -->
-<div class="rn-column-area rn-section-gap-work bg_color--5">
+{{-- <div class="rn-column-area rn-section-gap-work bg_color--5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-12" style="background-color:#f9004d">
+            <div class="col-lg-3 col-md-6 col-12" style="background-color:#f9004d">
                 <div class="single-column custom-color">
                     <h4 class="tilte">For Whom</h4>
-                    <p>For smart owners who like to manage their one or more gas stations from mobile apps. For companies that like to manage their gas stations remotely.</p>
+                    <p>
+                        <i data-feather="check"></i> Smart owners having one or more gas stations <br>
+                        <i data-feather="check"></i> Companies to manage gas stations remotely <br>
+                    </p>
+
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-12 mt_sm--30" style="background-color:#F79F1F">
+            <div class="col-lg-3 col-md-6 col-12 mt_sm--30" style="background-color:#F79F1F">
                 <div class="single-column custom-color custom-color--3">
                     <h4 class="tilte">For What</h4>
-                    <p>Smart owners can monitor daily sales, purchase, stock, cash / bank statements, sales profit / loss from anywhere. Provide sales receipts to customers. </p>
+                    <p>
+                        <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
+                        <i data-feather="check"></i> Cash and bank statements<br>
+                        <i data-feather="check"></i> Sales profit or loss<br>
+                        <i data-feather="check"></i> Sales receipts for customers<br>
+                        <i data-feather="check"></i> Daily and monthly reports<br>
+                    </p>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-12 mt_sm--30 mt_md--30" style="background-color: #c93ec7">
+            <div class="col-lg-3 col-md-6 col-12 mt_sm--30 mt_md--30" style="background-color: #c93ec7">
                 <div class="single-column custom-color custom-color--2">
                     <h4 class="tilte">Benefits</h4>
-                    <p>Remote and efficient gas station management. Reduced operational costs. Increased sales and profits.</p>
+                    <p>
+                        <i data-feather="check"></i> Remote and efficient gas station management<br>
+                        <i data-feather="check"></i> Reduced operational costs<br>
+                        <i data-feather="check"></i> Increased sales and profits<br>
+                    </p>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-12 mt_sm--30 mt_md--30" style="background-color:#009432">
+            <div class="col-lg-3 col-md-6 col-12 mt_sm--30 mt_md--30" style="background-color:#009432">
                 <div class="single-column custom-color custom-color--4">
                     <h4 class="tilte">Why RyoGas</h4>
                     <p>
                         <i data-feather="check"></i> Attractive price model<br>
                         <i data-feather="check"></i> Ease of use<br>
-                        <i data-feather="check"></i> Excellent service
+                        <i data-feather="check"></i> Excellent service<br>
                     </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Column Area  -->
 <!-- Start Column Area  -->
 <div class="rn-column-area rn-section-gap-work bg_color--1">
@@ -90,7 +172,7 @@
             <div class="col-lg-12">
                 <div class="single-column text-justify">
                     <h3 class="text-left title-h3">RyoGas Android Apps</h3>
-                    <p>There are three different android apps to facilitate managing gas stations. Station owners can subscribe to one or more apps of their convenience. </p>
+                    <p>We have three different android apps to facilitate managing gas stations. Station owners can subscribe to one or more apps of their convenience. </p>
                 </div>
             </div>
         </div>
@@ -102,13 +184,13 @@
     <div class="container">
         <div class="row ">
             <div class="single-column text-justify">
-                <h3 class="text-left title-h3 gradient-work">Project #1 : RyoGas POS</h3>
-                <p class="pb--20">There are three different android apps to facilitate managing gas stations. Station owners can subscribe to one or more apps of their convenience. </p>
+                <h3 class="text-left title-h3 gradient-work">RyoGas POS</h3>
+                <p class="pb--20">RyoGas POS app allows salespeople to record gas sales and print receipts for the customers.</p>
+                <h3 class="h3">Key Features:</h3>
             </div>
 
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="about-inner inner">
-
                     <div class="mt--30">
                         <h4>Sales Receipts</h4>
                         <ul class="list-style--1">
@@ -131,23 +213,21 @@
                             <li><i data-feather="check" width="16" height="16"></i>Allows credit sales and reconcile later on </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
-
         </div>
-
     </div>
 </div>
 <!-- End About Area  -->
+
 <!-- Start About Area  -->
 <div class="rn-column-area rn-section-gap-work  bg_color--1">
     <div class="container">
         <div class="row">
             <div class="single-column text-justify">
-                <h3 class="text-left title-h3 gradient-work">Project #2 : RyoGas Accounts</h3>
+                <h3 class="text-left title-h3 gradient-work">RyoGas Accounts</h3>
                 <p class="pb--20">This app records daily sales summary, gas purchase, gas stock, petty cash and cash statements.
-
+                <h3 class="h3">Key Features:</h3>
                 </p>
             </div>
 
@@ -179,6 +259,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="about-inner inner">
                     <div class="mt--30">
@@ -216,10 +297,51 @@
 <!-- Start About Area  -->
 <div class="rn-column-area rn-section-gap-work  bg_color--5">
     <div class="container">
+        <div class="row">
+            <div class="single-column text-justify">
+                <h3 class="text-left title-h3 gradient-work">RyoGas Map</h3>
+                <p class="pb--20">
+                    RyoGas Map helps to locate and get directions to specific Fuel or Gas stations of our customers.
+                </p>
+                <h3 class="h3">Key Features:</h3>
+            </div>
+
+
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="about-inner inner">
+                    <div class="mt--30">
+                        <h4>Search Stations</h4>
+                        <ul class="list-style--1">
+                            <li><i data-feather="check" width="16" height="16"></i>Search stations by company or Fuel type e.g. LPG / CNG / Petrol
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="about-inner inner">
+                    <div class="mt--30">
+                        <h4>Get Directions</h4>
+                        <ul class="list-style--1">
+                            <li><i data-feather="check" width="16" height="16"></i>Get directions to stations through Google Map</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End About Area  -->
+
+<!-- Start About Area  -->
+<div class="rn-column-area rn-section-gap-work  bg_color--1">
+    <div class="container">
         <div class="row ">
             <div class="single-column text-justify">
-                <h3 class="text-left title-h3 gradient-work">Project #3 : RyoGas Web Application</h3>
+                <h3 class="text-left title-h3 gradient-work">RyoGas Web Application</h3>
                 <p class="pb--20">The Web application mainly manages activities for company admin and gas station owners. </p>
+                <h3 class="h3">Key Features:</h3>
             </div>
 
             <div class="col-lg-6 order-2 order-lg-1">
@@ -228,31 +350,20 @@
                     <div class="mt--30">
                         <h4>Company profile</h4>
                         <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                            <li><i data-feather="check" width="16" height="16"></i>Update company information</li>
                         </ul>
                     </div>
                     <div class="mt--30">
-                        <h4>One or more gas station creation</h4>
+                        <h4>Gas station creation</h4>
                         <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                            <li><i data-feather="check" width="16" height="16"></i>Configure one of more gas station</li>
                         </ul>
                     </div>
-                    <div class="mt--30">
-                        <h4>Station employee registration</h4>
-                        <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
-                        </ul>
-                    </div>
+
                     <div class="mt--30">
                         <h4>Employee role management</h4>
-                           <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
-                        </ul>
-                    </div>
-                    <div class="mt--30">
-                        <h4>Manage approval process</h4>
-                            <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                        <ul class="list-style--1">
+                            <li><i data-feather="check" width="16" height="16"></i>Create employee, assign roles and gas stations</li>
                         </ul>
                     </div>
                 </div>
@@ -260,33 +371,21 @@
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="about-inner inner">
                     <div class="mt--30">
-                        <h4>Station employee registration</h4>
-                        <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
-                        </ul>
-                    </div>
-                    <div class="mt--30">
-                        <h4>Employee role management</h4>
-                        <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
-                        </ul>
-                    </div>
-                    <div class="mt--30">
                         <h4>Manage approval process</h4>
-                         <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                        <ul class="list-style--1">
+                            <li><i data-feather="check" width="16" height="16"></i>Assign employee for process management</li>
                         </ul>
                     </div>
                     <div class="mt--30">
                         <h4>Daily Reports</h4>
                         <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                            <li><i data-feather="check" width="16" height="16"></i>Download daily summary report in PDF</li>
                         </ul>
                     </div>
                     <div class="mt--30">
                         <h4>Monthly Reports</h4>
                         <ul class="list-style--1">
-                            <li><i data-feather="check" width="16" height="16"></i></li>
+                            <li><i data-feather="check" width="16" height="16"></i>Generate monthly reports on revenue and expenditures</li>
                         </ul>
                     </div>
 

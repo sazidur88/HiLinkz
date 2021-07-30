@@ -20,36 +20,6 @@
 
     }
 
-    /* .single-column.custom-color {
-        background: #ff5252;
-    }
-
-    .standard-service .content h3 a {
-        color: #ffffff;
-    }
-
-    .standard-service .content a {
-        color: #ffffff;
-    }
-
-    .standard-service .content h3 a:hover {
-        color: black;
-    }
-
-    a.btn-transparent:hover {
-        color: black;
-    }
-
-    a.btn-transparent::after {
-        position: absolute;
-        content: "";
-        left: 0;
-        bottom: 0;
-        width: 40px;
-        height: 2px;
-        background: black;
-        opacity: 0.75;
-    } */
 </style>
 @endsection
 @section('content')
@@ -75,8 +45,8 @@
         <div class="row ">
             <div class="col-lg-12">
                 <div class="single-column text-justify">
-                    <h3 class="tilte text-center">HiLinkz delivers exponential growth through innovative technology solutions</h3>
-                    <p>Technology is continually evolving, providing endless opportunities for improving productivity, connecting to your customers, and discovering new products and services. Digital transformation can radically improve your business through the strategic application of modern technology for processes, products, and assets. As a top app development agency, we have over a decade of expertise in building innovative technology solutions for our clients, ranging from small businesses through large global corporations.</p>
+                    <h3 class="tilte text-center">HiLinkz partners for exponential growth through innovative technology solutions</h3>
+                    <p>Technology is continually evolving, providing endless opportunities for organizations to improve processes, products and services. Digital transformation can radically improve organization efficiency and productivity through the strategic application of emerging technologies. As a top consulting and app development agency we have a decade of experience in building innovative technology solutions for our clients. </p>
                 </div>
             </div>
         </div>
