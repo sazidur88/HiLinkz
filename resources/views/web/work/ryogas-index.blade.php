@@ -62,8 +62,7 @@
                         <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
                         <p class="card-text">
                             <i data-feather="check"></i> Smart owners having one or more gas stations <br>
-                            <i data-feather="check"></i> Companies to manage gas stations remotely <br>
-                            <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
+                            <i data-feather="check"></i> Companies to manage gas stations remotely <br>                           
 
                         </p>
                         <!-- <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div> -->
@@ -75,6 +74,7 @@
                     <div class="card-body">
                         <h5 class="card-title">For What</h5>
                         <p class="card-text">
+ 			    <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
                             <i data-feather="check"></i> Cash and bank statements<br>
                             <i data-feather="check"></i> Sales profit or loss<br>
                             <i data-feather="check"></i> Sales receipts for customers<br>
