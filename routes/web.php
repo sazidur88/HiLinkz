@@ -80,6 +80,7 @@ Route::group(['middleware' => ['auth']], function () {
 */
 // Route::get('/web-development', 'Web\ServiceController@index')->name('web_development');
 // Route::get('/web-development', [ServiceController::class, 'index'])->name('web_development');
+Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 Route::view('/services/web-development', 'web.service.web-index')->name('web_development');
 Route::view('/services/app-development', 'web.service.mobile-index')->name('app_development');
 Route::view('/services/consultancy', 'web.service.consultancy-index')->name('consultancy');
@@ -87,11 +88,11 @@ Route::view('/services/it-solutions', 'web.service.it-index')->name('it_solution
 Route::view('/services/emerging-technologies', 'web.service.emerging-tech-index')->name('emerging_technologies');
 Route::view('/services/data-intelligence', 'web.service.data-index')->name('data_intelligence');
 Route::view('/services/digital-marketing', 'web.service.digital-marketing-index')->name('digital_marketing');
-Route::view('/all-services', 'web.service.all-services-index')->name('all_services');
 //Individual Page
 Route::view('/our-works', 'web.work.our-works-index')->name('our_works');
 Route::view('/our-works/ryogas', 'web.work.ryogas-index')->name('our_works_ryogas');
 Route::view('/our-works/covi-sense', 'web.work.covi-sense-index')->name('our_works_covi_sense');
+Route::view('/our-works/dipspace', 'web.work.dipspace-index')->name('dipspace');
 
 /*
 -----------------------------------------------------------

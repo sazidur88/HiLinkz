@@ -128,7 +128,32 @@
                 <!-- <p class="u-align-justify u-text u-text-6"> A Product Tracing System for Garment Industry</p> -->
                 <a class="btn-transparent rn-btn-dark mb--10 mt--10" href="{{route('our_works_covi_sense')}}"><span class="text font-italic">Read More </span><i class="fas fa-arrow-right"></i></a>
             </div>
+        </div>        
+
+        <div class="" id="work-mid"></div>   
+        
+    </div>
+</section>
+
+
+<section class="u-align-left u-clearfix u-section-1 bg_color--5" id="sec-ab03" >
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <a href="{{route('dipspace')}}">
+            <div class="u-container-style u-group u-image u-image-round u-image-1 u-radius-3 zoom" style="background-image: url({{asset('assets/images/work/95719420-0.jpeg')}});">
+                <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+        </a>
+        <div class="u-container-style u-expanded-width-sm u-expanded-width-xs  u-group u-radius-3 u-shape-round u-group-2 bg_color--1" data-animation-name="swing" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-2">
+                <a href="{{route('dipspace')}}">
+                    <h2 class="u-align-left u-text u-text-default u-text-1 gradient-work">DipSpace</h2>
+                </a>
+                <h3 class="u-align-left u-text u-text-default u-text-2 pb--10">To dip into digital space for digital asset management.</h3>
+                {{-- <p class="u-align-justify u-text u-text-3"> IoT Based Gas Station Management Solutions for Smart Owners</p> --}}
+                <a class="btn-transparent rn-btn-dark mb--10 mt--10" href="{{route('dipspace')}}"><span class="text font-italic">Read More </span><i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
+
 
         <div class="" id="work-mid"></div>   
         
