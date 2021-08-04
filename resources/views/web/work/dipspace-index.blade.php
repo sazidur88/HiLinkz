@@ -12,11 +12,10 @@
         -webkit-text-fill-color: transparent;
     }
 
-    .h3 {
-        font-size: 1.75em;
-        font-family: inherit;
-        font-weight: 500;
+    h3{
+        font-size: 40px;
     }
+
 </style>
 @endsection
 @section('content')
@@ -42,7 +41,7 @@
             <div class="col-lg-12">
                 <div class="single-column text-justify">
                     <h3 class="text-left title-h3">About DipSpace</h3>
-                    <p>Digital assets like documents, media files etc. can be stored, managed and shared by this software. DipSpace is a customized work built upon DSpace, an open source software for academic, non-profit & commercial organizations to build  open digital repositories. At HiLinkz we have the necessary expertise to customize DSpace and implement it for organizational repositories. </p>
+                    <p>Digital assets like documents, media files etc. can be stored, managed and shared by this software. DipSpace is a customized work built upon DSpace, an open source software for academic, non-profit & commercial organizations to build open digital repositories. At HiLinkz we have the necessary expertise to customize DSpace and implement it for organizational repositories. </p>
 
                     <p>DSpace was originally developed by MIT Libraries and Hewlett-Packard (HP) Labs as an open source project in 2002. It became a <a href="http://duraspace.org/dspace/" target="_blank"><b class="text-primary">DuraSpace</b></a> project in 2009. Today it is the most widely used repository software platform (open source or proprietary), with more than 2,000 installations worldwide. Mostly academic and research institutions use this software to manage and publish scholarly articles as an open access institutional repository. Also many other government, private and commercial institutions use this software to manage their digital assets. </p>
                 </div>
@@ -61,62 +60,32 @@
     </div>
 </div>
 <!-- End Column Area  -->
-<!-- ======= Services Section ======= -->
-<section id="services" class="services section-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up">
-                <div class="icon-box">
-                    <div class="icon"><i data-feather="layers"></i></div>
-                    <h4 class="title"><a href="">POS</a></h4>
-                    <p class="description">RyoGas POS app allows sales people to record gas sales and print receipts for the customers.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon-box">
-                    <div class="icon"><i data-feather="layers"></i></div>
-                    <h4 class="title"><a href="">Sales & Accounting</a></h4>
-                    <p class="description">Sales & Accounting app records daily sales summary, gas purchase, gas stock, petty cash and cash statements.</p>
-                </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                    <div class="icon">                                            <i data-feather="layers"></i>
-                    </div>
-                    <h5 class="card-title">Large number of users and developers</h5>
-                    <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
-                    <p class="card-text">
-                        More than 1000 organizations are using DSpace worldwide and there is a large number of developers for this software.                         
-
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section><!-- End Services Section -->
 <!-- ======= Values Section ======= -->
 <div id="values" class="values rn-column-area rn-section-gap-work bg_color--5">
     <div class="container">
 
         <div class="row">
-            <div class="col-md-4 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-no-img" >
+            <div class="col-lg-12">
+                <div class="single-column text-justify">
+                    <h3 class="text-center gradient-work">Top Reasons to use DSpace</h3>
+                </div>
+            </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title">Large number of users and developers</h5>          
+            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-no-img">
+                    <div class="card-body" style="background-color: #26de81;">
+                        <h5 class="card-title">Large number of users and developers</h5>
                         <p class="card-text">
-                            More than 1000 organizations are using DSpace worldwide and there is a large number of developers for this software.                        
+                            More than 1000 organizations are using DSpace worldwide and there is a large number of developers for this software.
                         </p>
 
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex align-items-stretch mt-4" data-aos="fade-up">
+            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up">
                 <div class="card-no-img">
-                    <div class="card-body">
+                    <div class="card-body" style="background-color: #cd84f1;">
                         <h5 class="card-title">Completely Customizable
                         </h5>
                         <p class="card-text">
@@ -125,9 +94,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-no-img" >
-                    <div class="card-body">
+            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-no-img">
+                    <div class="card-body" style="background-color: #fd9644;">
                         <h5 class="card-title">Manage all types of digital assets
                         </h5>
                         <p class="card-text">
