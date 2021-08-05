@@ -1,4 +1,4 @@
-<div class="rn-counterup-area rn-section-gap-counter bg_color--5">
+<div class="rn-counterup-area rn-section-gap-counter bg_color--1">
     <div class="container">
         <!-- <div class="row">
             <div class="col-lg-12">

@@ -14,12 +14,10 @@
                         <ul class="mainmenu nav nav-pills">
                             <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#service">Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('our_works')}}">Works</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#works">Works</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#testimonial">Testimonial</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#testimonial">Testimonial</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#contact">Contact</a></li>
                             
                         </ul>

@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="{{asset('assets/css/plugins/plugins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- Owl Carousel -->
-    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.carousel.css')}}"> -->
-    <!-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.theme.default.css')}}"> -->
+     {{-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.carousel.css')}}"> --}}
+     {{-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.theme.default.css')}}"> --}}
 
 
     <!-- Custom CSS Area -->
@@ -54,7 +54,7 @@
 
         @include('include.messages')
         <!-- Error/Success Message Show -->
-        <!-- <div class="container">
+        {{-- <div class="container">
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
                     <strong>Whoops!</strong> There were some problems with your input.<br><br>
@@ -65,7 +65,7 @@
                     </ul>
                 </div>
             @endif
-        </div> -->
+        </div>  --}}
         
         <!-- Start Content Area -->
         @yield('content')
@@ -138,11 +138,9 @@
     <script src="{{asset('assets/js/vendor/js.cookie.js')}}"></script>
     <script src="{{asset('assets/js/vendor/jquery.style.switcher.js')}}"></script>
     <!-- Owl Carousel  -->
-    <!-- <script src="{{asset('assets/js/owl_carousel.js')}}"></script> -->
+    {{-- <script src="{{asset('assets/js/owl_carousel.js')}}"></script> --}}
     <!-- Main JS -->
     <script src="{{asset('assets/js/main.js')}}"></script>
-
-
     
 
     <!-- Custom JS area -->

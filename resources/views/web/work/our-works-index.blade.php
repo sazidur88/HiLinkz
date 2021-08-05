@@ -55,7 +55,6 @@
 
 
 
-
 <link rel="stylesheet" href="{{asset('assets/css/work.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/custom-work.css')}}">
 

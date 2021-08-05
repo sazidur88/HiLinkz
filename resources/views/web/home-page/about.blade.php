@@ -1,4 +1,4 @@
-<div class="about-area rn-section-gap bg_color--5" id="about">
+<div class="about-area rn-section-gap bg_color--1" id="about">
     <div class="about-wrapper">
         <div class="container">
             <div class="row row--35 align-items-center">
