@@ -32,11 +32,7 @@
     .slick-next:before {
         color: #f9004d;
     } */
-    .gradient-work {
-        background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+
     .card:hover h5{
         background: #ffffff;
         -webkit-background-clip: text;
