@@ -13,8 +13,8 @@
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu nav nav-pills">
                             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('all_services')}}">Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('our_works')}}">Works</a></li>
+                            <li class="nav-item"><a class="nav-link {{ request()->is('all-services') ? 'active' : ''}}" href="{{route('all_services')}}">Services</a></li>
+                            <li class="nav-item"><a class="nav-link {{ request()->is('our-works') ? 'active' : ''}}" href="{{route('our_works')}}">Works</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#testimonial">Testimonial</a></li>

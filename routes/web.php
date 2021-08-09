@@ -20,9 +20,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home')->name('/');
+// });
+
+Route::view('/', 'home')->name('/');
+
 
 
 Route::get('/clear-all/{id}', function ($id) {
