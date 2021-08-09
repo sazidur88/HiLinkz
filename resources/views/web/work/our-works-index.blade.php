@@ -119,7 +119,9 @@
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/DipSpace.jpg')}});">
                     <div class="card-body-right bg_color--9">
-                        <h2 class="card-title theme-gradient">DipSpace</h2>
+                        <a href="{{route('dipspace')}}">
+                            <h2 class="card-title theme-gradient">DipSpace</h2>
+                        </a>
                         <h3 class="card-text">To dip into digital space for digital asset management<br></h3>
 
                         <div class="read-more ">
