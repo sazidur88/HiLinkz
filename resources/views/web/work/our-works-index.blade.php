@@ -156,7 +156,7 @@
     </div>
 </div>
 
-<div id="works-page" class="works-page rn-column-area bg_color--5">
+<div id="works-page" class="works-page rn-column-area bg_color--5 pb--30">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
