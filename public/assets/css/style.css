@@ -18671,6 +18671,10 @@
         
         .active-dark-mode .standard-service .content h3 a {
             color: #ffffff;
+        }        
+
+        .active-dark-mode .standard-service .content {
+            background: #101010 ;
         }
         
         .active-dark-mode .rn-card .rn-card-header a.btn {
