@@ -61,7 +61,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="thumb">
-                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Problem diagnosis.jpg')}}" alt="Service Images" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
@@ -83,7 +83,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12 order-sm-2">
                 <div class="thumb position-relative">
-                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Implementation of recommending actions1.jpg')}}" alt="Service Images" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
@@ -105,7 +105,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="thumb">
-                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Consultency.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/consultency/HiLinkz 800-600Improve organizational effectiveness.jpg')}}" alt="Service Images" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">

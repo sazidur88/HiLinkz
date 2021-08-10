@@ -38,6 +38,19 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .ease-out {
+        /* border: 5px solid #ccc; */
+        /* float: left; */
+        margin-top: 10px;
+        -webkit-transition: margin 0.5s ease-out;
+        -moz-transition: margin 0.5s ease-out;
+        -o-transition: margin 0.5s ease-out;
+    }
+
+    .ease-out:hover {
+        margin-top: 2px;
+    }
 </style>
 @endsection
 @section('content')

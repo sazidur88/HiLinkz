@@ -19,14 +19,15 @@
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30" data-aos="fade-up" data-aos-delay="200">
                             <div class="card" style="background-image: url({{asset('assets/images/work/portfolio-2.jpg')}});">
 
-                                <div class="card-body">
-                                    <h5 class="card-title theme-gradient">RyoGas</h5>
+                                <div class="card-body bg_color--9 ease-out">
+                                    <h4 class="card-title theme-gradient">RyoGas</h4>
                                     <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
                                     <p class="card-text">
                                         A Smart Gas Pump Solution<br> <br>
 
                                     </p>
-                                    <div class="read-more pt--10"><a href="{{route('our_works_ryogas')}}">Explore <i class="fas fa-arrow-right"></i></a></div>
+                                    {{-- <div class="read-more pt--10"><a href="{{route('our_works_ryogas')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
+                                    <a href="{{route('our_works_ryogas')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -34,12 +35,13 @@
                     <a href="{{route('dipspace')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30" data-aos="fade-up">
                             <div class="card" style="background-image: url({{asset('assets/images/work/DipSpace.jpg')}});">
-                                <div class="card-body">
-                                    <h5 class="card-title theme-gradient">DipSpace</h5>
+                                <div class="card-body bg_color--9 ease-out">
+                                    <h4 class="card-title theme-gradient">DipSpace</h4>
                                     <p class="card-text">
                                         To dip into digital space for digital asset management.
                                     </p>
-                                    <div class="read-more pt--10"><a href="{{route('dipspace')}}">Explore <i class="fas fa-arrow-right"></i></a></div>
+                                    {{-- <div class="read-more pt--10"><a href="{{route('dipspace')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
+                                    <a href="{{route('dipspace')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -47,12 +49,13 @@
                     <a href="{{route('our_works_covi_sense')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30" data-aos="fade-up" data-aos-delay="100">
                             <div class="card" style="background-image: url({{asset('assets/images/work/CoviSense.jpg')}});">
-                                <div class="card-body">
-                                    <h5 class="card-title theme-gradient">CoviSense </h5>
+                                <div class="card-body bg_color--9 ease-out">
+                                    <h4 class="card-title theme-gradient">CoviSense </h4>
                                     <p class="card-text">
                                         A low cost IoT device for sensing COVID Symptoms
                                     </p>
-                                    <div class="read-more pt--10"><a href="{{route('our_works_covi_sense')}}">Explore <i class="fas fa-arrow-right"></i></a></div>
+                                    {{-- <div class="read-more pt--10"><a href="{{route('our_works_covi_sense')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
+                                    <a href="{{route('our_works_covi_sense')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

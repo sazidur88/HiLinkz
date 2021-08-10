@@ -15,6 +15,19 @@
     h3 {
         font-size: 40px;
     }
+
+    .ease-out {
+        /* border: 5px solid #ccc; */
+        /* float: left; */
+        margin-top: 10px;
+        -webkit-transition: margin 0.5s ease-out;
+        -moz-transition: margin 0.5s ease-out;
+        -o-transition: margin 0.5s ease-out;
+    }
+
+    .ease-out:hover {
+        margin-top: 2px;
+    }
 </style>
 @endsection
 @section('content')
@@ -71,7 +84,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4 ease-out">
                 <div class="service-item style-2">
                     <div class="content">
                         <h5 class="card-title">Large number of users and developers</h5>
@@ -81,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4 ease-out">
                 <div class="service-item style-2">
                     <div class="content">
                         <h5 class="card-title">Completely Customizable</h5>
@@ -91,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4 ease-out">
                 <div class="service-item style-2">
                     <div class="content">
                         <h5 class="card-title">Manage all types of digital assets</h5>

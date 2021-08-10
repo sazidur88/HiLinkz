@@ -18966,7 +18966,7 @@
             }
         }
 /*--------------------------------------------------------------
-# Values
+# Values || RyoGas Cards
 --------------------------------------------------------------*/
         
         .values .card {
@@ -18985,27 +18985,17 @@
             margin-bottom: 20px;
             text-align: center;
             height: 300px;
-            /* background-color: #26de81; */
-            /* background-color: #45aaf2; */
-            /* position: relative; */
-            /* background: #fff; */
-            /* position: relative; */
-            /* width: 100%; */
-            /* background-size: cover; */
-            /* background-repeat: no-repeat; */
-            /* background-position: center center; */
+
         }
         
         .values .card-body {
             z-index: 10;
-            background: rgba(255, 255, 255, 0.9);
+            /* background: rgba(255, 255, 255, 0.89); */
             padding: 15px 30px;
             box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
             transition: 0.3s;
             transition: ease-in-out 0.4s;
             border-radius: 5px;
-            /* background-color: #fc9842; */
-            /* background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
         }
         
         .values .card-title {
@@ -19014,6 +19004,8 @@
             text-align: left;
             margin-bottom: 15px;
             color: #473d3a;
+            transition: 0.4s;
+
         }
        
         
@@ -19026,34 +19018,35 @@
             text-align: left;
         }
         
-        .values .read-more a {
-            color: #656262;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 12px;
-            transition: 0.4s;
+
+        
+        .values .card:hover .card-body {
+            background: rgba(255, 255, 255, 1);
+
         }
         
-        .values .read-more a:hover {
-            text-decoration: underline;
+/*         .values .card:hover .card-title,
+        .values .card:hover .card-text {
+            color: #fff;
+        }  */       
+
+        .values .card:hover .card-title{
+            color: rgb(254, 44, 84);
+            font-size: 1.35rem;
         }
-        
-        .values .card:hover .card-body,
-        .card-no-img:hover .card-body {
-            /* background: linear-gradient(to right, #ff471a , #ffcc00); */
-            /*       background-color: #fc9842;
-            background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
-            background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-        }
-        
-        .values .card:hover .read-more a,
-        .card-no-img:hover .read-more a,
-        .values .card:hover .card-title,
-        .card-no-img:hover .card-title,
-        .values .card:hover .card-title a,
-        .card-no-img:hover .card-title a,
-        .values .card:hover .card-text,
-        .card-no-img:hover .card-text {
+
+        .active-dark-mode .values .card-body{
+            background: #191919
+        }         
+
+        .active-dark-mode .values .card-body:hover,
+        .active-dark-mode .values .card:hover .card-body{
+            background: #191919
+        }    
+
+
+        .active-dark-mode .values .card-title,
+        .active-dark-mode .values .card-text{
             color: #fff;
         }
 
@@ -19436,14 +19429,14 @@
             color: #fff;
         }        
 
-        .active-dark-mode .card-body-left,
-        .active-dark-mode .card-body-right{
+        .active-dark-mode .works-page .card-body-left,
+        .active-dark-mode .works-page .card-body-right{
             background: #191919;
         }
 
         
 /*--------------------------------------------------------------
-# works
+# works || Home Work Section
 --------------------------------------------------------------*/
         
         .works .btn-work {
@@ -19489,31 +19482,29 @@
                 background-repeat: no-repeat;
                 background-position: center center;
             }
-            .works .btn-work {
-                /* padding-top: 0; */
-            }
+
         }
         
-        .works .card-no-img .card-body {
+/*         .works .card-no-img .card-body {
             padding: 50px 20px;
             margin-top: 20px;
             margin-bottom: 20px;
             text-align: center;
             height: 300px;
-            /* background-color: #26de81; */
-            /* background-color: #45aaf2; */
+            background-color: #26de81;
+            background-color: #45aaf2;
             position: relative;
-            /* background: #fff; */
-            /* position: relative; */
-            /* width: 100%; */
-            /* background-size: cover; */
-            /* background-repeat: no-repeat; */
-            /* background-position: center center; */
-        }
+            background: #fff;
+            position: relative;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        } */
         
         .works .card-body {
             /* z-index: 10; */
-            background: rgba(255, 255, 255, 0.97);
+            /* background: rgba(255, 255, 255, 0.97); */
             margin: 10px 10px -115px 10px;
             box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
             transition: 0.3s;
@@ -19528,6 +19519,7 @@
             text-align: left;
             margin-bottom: 15px;
             color: #473d3a;
+            transition: 0.4s;
         }
         
         .works .card-title a {
@@ -19548,24 +19540,20 @@
         
         .works .read-more a:hover {
             text-decoration: underline;
-        }
+        }     
+
+        .works .card .card-body:hover .card-title{
+            /* color: rgb(254, 44, 84); */
+            font-size: 1.45rem;
+        }   
+
         
-        .works .card:hover .card-body,
-        .card-no-img:hover .card-body {
-            /* background: linear-gradient(to right, #ff471a , #ffcc00); */
-            /*       background-color: #fc9842;
-            background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
-            background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-        }
-        
-        .works .card:hover .read-more a,
-        .card-no-img:hover .read-more a,
-        .works .card:hover .card-title,
-        .card-no-img:hover .card-title,
-        .works .card:hover .card-title a,
-        .card-no-img:hover .card-title a,
-        .works .card:hover .card-text,
-        .card-no-img:hover .card-text {
+        .active-dark-mode .works .card .card-body{
+            background: #191919;
+        }        
+
+        .active-dark-mode .works .card .read-more a,
+        .active-dark-mode .works .card .card-text{
             color: #fff;
         }
 
@@ -19592,10 +19580,10 @@
 
         }
         
-        .service-item.style-2:hover .content {
+/*         .service-item.style-2:hover .content {
             background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
             border-color: #eee;
-        }
+        } */
              
 
         .service-item.style-2 .content h5 {
@@ -19629,7 +19617,8 @@
         
         .service-item.style-2 .content h5:after {
             background-color: #2f4353;
-            background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+            /* background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%); */
+            background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
             bottom: 0;
             content: "";
             height: 2px;
@@ -19682,15 +19671,15 @@
             padding: 7px 14px;
             text-transform: uppercase;
         }
-        
+/*         
         .service-item.style-2 .content:hover .btn-link {
             background: #fff;
 
             color: #4b4949;
-        }
+        } */
 
-        .service-item .content:hover h5,
+/*         .service-item .content:hover h5,
         .service-item .content:hover .card-text
          {
             color: #fff;
-        }
+        } */

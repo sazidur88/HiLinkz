@@ -50,14 +50,14 @@
 </div>
 <!-- End Column Area  -->
 <!-- ======= Values Section ======= -->
-<div id="values" class="values rn-column-area rn-section-gap-work bg_color--5">
+<div class="values rn-column-area rn-section-gap-work bg_color--5">
     <div class="container">
 
         <div class="row">
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
 
-                    <div class="card-body">
+                    <div class="card-body bg_color--9">
                         <h5 class="card-title">For Whom</h5>
                         <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
                         <p class="card-text">
@@ -71,7 +71,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up">
                 <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
-                    <div class="card-body">
+                    <div class="card-body bg_color--9">
                         <h5 class="card-title">For What</h5>
                         <p class="card-text">
  			    <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
-                    <div class="card-body">
+                    <div class="card-body bg_color--9">
                         <h5 class="card-title">Benefits</h5>
                         <p class="card-text">
                             <i data-feather="check"></i> Remote and efficient gas station management<br>
@@ -97,7 +97,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
-                    <div class="card-body">
+                    <div class="card-body bg_color--9">
                         <h5 class="card-title">Why RyoGas</h5>
                         <p class="card-text">
                             <i data-feather="check"></i> Attractive price model<br>
