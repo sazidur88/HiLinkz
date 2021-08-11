@@ -88,7 +88,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="thumb">
-                    <img class="w-100" src="{{asset('assets/images/service/app/HiLinkz 800-600Android App Development.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/app/HiLinkz 800-600MobileAppDevelopmentProcess.jpg')}}" alt="Service Images" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
