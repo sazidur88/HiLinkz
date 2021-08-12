@@ -10028,6 +10028,7 @@
         }
         
         .header-area.header--sticky .header-wrapper .logo a img.logo-1 {
+            width: 150px;
             display: block;
         }
         
@@ -10152,6 +10153,8 @@
         }
         
         .header-area.header--sticky.sticky .logo a img.logo-2 {
+            width: 140px;
+            height: 60px;
             display: block;
         }
         
