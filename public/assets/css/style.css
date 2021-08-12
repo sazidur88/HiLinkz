@@ -4328,7 +4328,11 @@
         }
         
         .bg_image--emerging {
-            background-image: url(../images/bg/bg-image-emerging.jpg);
+            background-image: url(../images/bg/EmergingTechBnner2.jpg);
+        }        
+
+        .bg_image--service {
+            background-image: url(../images/bg/OurService.jpg);
         }
         
         .bg_image--work {

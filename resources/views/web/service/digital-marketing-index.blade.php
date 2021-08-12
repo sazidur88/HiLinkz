@@ -156,7 +156,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12 order-sm-2">
                 <div class="thumb position-relative">
-                    <img class="w-100" src="{{asset('assets/images/service/dig_markt/HiLinkz 800-600Social media marketing.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/dig_markt/HiLinkz 800-600WebsiteMarketing.jpg')}}" alt="Service Images" />
                     <!-- <a class="video-popup play__btn" href="https://www.youtube.com/watch?v=ZOoVOfieAF8"><span class="play-icon"></span></a> -->
                 </div>
             </div>

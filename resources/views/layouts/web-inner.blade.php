@@ -21,10 +21,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/vendor/lightbox.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/plugins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    <!-- Owl Carousel -->
-     {{-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.carousel.css')}}"> --}}
-     {{-- <link rel="stylesheet" href="{{asset('assets/css/owl_carousel/owl.theme.default.css')}}"> --}}
-
 
     <!-- Custom CSS Area -->
     @yield('custom_styles')
