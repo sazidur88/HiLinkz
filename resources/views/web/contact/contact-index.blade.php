@@ -35,7 +35,7 @@
                     </div>
                     <div class="inner">
                         <h4 class="title">Contact via Phone</h4>
-                        <p><a href="tel:+8801719347688">+88 01719-347688</a></p>
+                        <p><a href="tel:+8801792806811">+88 01792-806811</a></p>
                         <p><a href="tel:+88017075381238">+88 01707-538123</a></p>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="inner">
                         <h4 class="title">Email Address</h4>
-                        <p><a href="mailto:info@hilinkz.com">info@hilinkz.com</a></p>
+                        <p><a href="mailto:info@hilinkz.com">contact@hilinkz.com</a></p>
                         <p><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></p>
                     </div>
                 </div>

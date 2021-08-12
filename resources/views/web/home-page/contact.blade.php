@@ -6,8 +6,8 @@
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                         <h2 class="title">Get To Work</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
-                            <a href="tel: +8801719347688"> +88 01719-347688</a> or email:
-                            <a href="mailto:info@hilinkz.com">info@hilinkz.com</a>
+                            <a href="tel: +8801719347688"> +88 01792-806811</a> or email:
+                            <a href="mailto:info@hilinkz.com">contact@hilinkz.com</a>
                         </p>
                     </div>
                     <div class="form-wrapper">
@@ -51,7 +51,7 @@
                         <img src="{{asset('assets/images/about/LetsTalk.jpg')}}" alt="trydo" />
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 order-1 order-lg-2">
+                {{-- <div class="col-lg-6 order-1 order-lg-2">
                     <div class="footer-left">
                         <div class="inner">
                             <span>Ready To Do This</span>
@@ -61,7 +61,7 @@
                             </a>
                         </div>
                     </div>
-                </div> -->
+                </div> --}}
             </div>
         </div>
     </div>

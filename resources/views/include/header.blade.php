@@ -3,8 +3,8 @@
                 <div class="header-left">
                     <div class="logo">
                         <a href="/">
-                            <img class="logo-1 " src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo Images">
-                            <img class="logo-2 " src="{{asset('assets/images/logo/HLINKZ-Logo-Transperant.png')}}" alt="Logo Images">
+                            <img class="logo-1" src="{{asset('assets/images/logo/HiLinkz-text.png')}}" alt="Logo Images">
+                            <img class="logo-2" src="{{asset('assets/images/logo/HLINKZ-Logo-Transperant.png')}}" alt="Logo Images">
                         </a>
                     </div>
                 </div>
