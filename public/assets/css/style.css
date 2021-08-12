@@ -4348,7 +4348,7 @@
         }
         
         .bg_image--dipspace {
-            background-image: url(../images/bg/HiLinkzDipSpace.jpg);
+            background-image: url(../images/bg/DipspaceBanner.jpg);
         }
         
         .font--1 {
@@ -13586,6 +13586,12 @@
             .bg_image--it {
                 background-position: 25% left;
             }
+        }        
+
+        @media only screen and (max-width: 575px) {
+            .bg_image--emerging {
+                background-position: 35% center;
+            }
         }
         
         @media only screen and (max-width: 575px) {
@@ -19587,7 +19593,7 @@
             background-color: #fff;
             border: 1px solid #eee;
             padding: 28px;
-            min-height: 350px;
+            min-height: 310px;
 
         }
         

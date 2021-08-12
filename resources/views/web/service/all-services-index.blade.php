@@ -1,11 +1,8 @@
 @extends('layouts.web-inner')
+@section('title', 'Our Services')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
-
     .zoom {
         width: 100%;
         transition: 0.4s all ease-in-out;

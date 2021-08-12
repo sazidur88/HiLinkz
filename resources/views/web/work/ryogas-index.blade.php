@@ -1,10 +1,8 @@
 @extends('layouts.web-inner')
+@section('title', 'RyoGas')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
 
     .gradient-work {
         background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
@@ -55,7 +53,7 @@
 
         <div class="row">
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
+                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devforWhom.jpg')}});">
 
                     <div class="card-body bg_color--9">
                         <h5 class="card-title">For Whom</h5>
@@ -70,7 +68,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up">
-                <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
+                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devforWhat.jpg')}});">
                     <div class="card-body bg_color--9">
                         <h5 class="card-title">For What</h5>
                         <p class="card-text">
@@ -84,7 +82,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card" style="background-image: url({{asset('assets/img/app_2.jpg')}});">
+                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devBenefits.jpg')}});">
                     <div class="card-body bg_color--9">
                         <h5 class="card-title">Benefits</h5>
                         <p class="card-text">
@@ -96,7 +94,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="card" style="background-image: url({{asset('assets/img/app.jpg')}});">
+                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devforWhom.jpg')}});">
                     <div class="card-body bg_color--9">
                         <h5 class="card-title">Why RyoGas</h5>
                         <p class="card-text">
@@ -113,57 +111,7 @@
 </div><!-- End Values Section -->
 
 <!-- Start Column Area  -->
-{{-- <div class="rn-column-area rn-section-gap-work bg_color--5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-12" style="background-color:#f9004d">
-                <div class="single-column custom-color">
-                    <h4 class="tilte">For Whom</h4>
-                    <p>
-                        <i data-feather="check"></i> Smart owners having one or more gas stations <br>
-                        <i data-feather="check"></i> Companies to manage gas stations remotely <br>
-                    </p>
 
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mt_sm--30" style="background-color:#F79F1F">
-                <div class="single-column custom-color custom-color--3">
-                    <h4 class="tilte">For What</h4>
-                    <p>
-                        <i data-feather="check"></i> Monitor daily sales, purchase and stock<br>
-                        <i data-feather="check"></i> Cash and bank statements<br>
-                        <i data-feather="check"></i> Sales profit or loss<br>
-                        <i data-feather="check"></i> Sales receipts for customers<br>
-                        <i data-feather="check"></i> Daily and monthly reports<br>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mt_sm--30 mt_md--30" style="background-color: #c93ec7">
-                <div class="single-column custom-color custom-color--2">
-                    <h4 class="tilte">Benefits</h4>
-                    <p>
-                        <i data-feather="check"></i> Remote and efficient gas station management<br>
-                        <i data-feather="check"></i> Reduced operational costs<br>
-                        <i data-feather="check"></i> Increased sales and profits<br>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mt_sm--30 mt_md--30" style="background-color:#009432">
-                <div class="single-column custom-color custom-color--4">
-                    <h4 class="tilte">Why RyoGas</h4>
-                    <p>
-                        <i data-feather="check"></i> Attractive price model<br>
-                        <i data-feather="check"></i> Ease of use<br>
-                        <i data-feather="check"></i> Excellent service<br>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
 <!-- End Column Area  -->
 <!-- Start Column Area  -->
 <div class="rn-column-area rn-section-gap-work bg_color--1">

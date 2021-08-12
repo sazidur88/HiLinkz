@@ -1,10 +1,9 @@
 @extends('layouts.web-inner')
+@section('title', 'IT solutions and Services')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
+
 </style>
 @endsection
 @section('content')

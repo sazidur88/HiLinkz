@@ -2,10 +2,6 @@
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
-
     .zoom {
         width: 100%;
         transition: 0.4s all ease-in-out;
@@ -24,14 +20,6 @@
     .title-h3 {
         font-size: 2em !important;
     }
-
-    /* .slick-prev:before {
-        color: #f9004d;
-    }
-
-    .slick-next:before {
-        color: #f9004d;
-    } */
 
     .card:hover h5{
         background: #ffffff;

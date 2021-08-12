@@ -1,17 +1,8 @@
 @extends('layouts.web-inner')
+@section('title', 'DipSpace')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
-
-    .gradient-work {
-        background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
     h3 {
         font-size: 40px;
     }
@@ -79,7 +70,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="single-column text-center pb--40">
-                    <h3 class="text-center gradient-work">Top Reasons to use DSpace</h3>
+                    <h3 class="text-center theme-gradient">Top Reasons to use DSpace</h3>
                 </div>
             </div>
         </div>
@@ -87,7 +78,7 @@
             <div class="col-md-4 col-lg-4 ease-out">
                 <div class="service-item style-2">
                     <div class="content">
-                        <h5 class="card-title">Large number of users and developers</h5>
+                        <h5 class="card-title">Large number of users</h5>
 
                         <p class="card-text">More than 1000 organizations are using DSpace worldwide and there is a large number of developers for this software.</p>
                         <!-- <a class="btn-link" href="#">read more</a> -->
@@ -99,7 +90,7 @@
                     <div class="content">
                         <h5 class="card-title">Completely Customizable</h5>
 
-                        <p class="card-text">DSpace can be customized to give the look and feel of any institution’s website. It is also locally customizable for authentication and configurable to what fields one likes to display for browsing.</p>
+                        <p class="card-text">DSpace is customizable for authentication, look and feel of an institution’s website and any fields one likes to display for browsing.</p>
                         <!-- <a class="btn-link" href="#">read more</a> -->
                     </div>
                 </div>
@@ -107,7 +98,7 @@
             <div class="col-md-4 col-lg-4 ease-out">
                 <div class="service-item style-2">
                     <div class="content">
-                        <h5 class="card-title">Manage all types of digital assets</h5>
+                        <h5 class="card-title">All types of digital assets</h5>
 
                         <p class="card-text">Although DSpace can recognize and manage file formats such as PDF, Word, JPEG, MPEG, TIFF etc., files of any format can be managed.</p>
                         <!-- <a class="btn-link" href="#">read more</a> -->
@@ -119,57 +110,6 @@
     </div>
 </div>
 <!-- Services Section End -->
-
-<!-- ======= Values Section ======= -->
-{{-- <div id="values" class="values rn-column-area rn-section-gap-work bg_color--5">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="single-column text-justify">
-                    <h3 class="text-center gradient-work">Top Reasons to use DSpace</h3>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-no-img">
-                    <div class="card-body">
-                        <!-- style="background-color: #26de81;" -->
-                        <h5 class="card-title">Large number of users and developers</h5>
-                        <p class="card-text">
-                            More than 1000 organizations are using DSpace worldwide and there is a large number of developers for this software.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up">
-                <div class="card-no-img">
-                    <div class="card-body" style="background-color: #cd84f1;">
-                        <h5 class="card-title">Completely Customizable</h5>
-                        <p class="card-text">
-                            DSpace can be customized to give the look and feel of any institution’s website. It is also locally customizable for authentication and configurable to what fields one likes to display for browsing.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-3d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-no-img">
-                    <div class="card-body" style="background-color: #fd9644;">
-                        <h5 class="card-title">Manage all types of digital assets</h5>
-                        <p class="card-text">
-                            Although DSpace can recognize and manage file formats such as PDF, Word, JPEG, MPEG, TIFF etc., files of any format can be managed.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</div> --}}
-<!-- End Values Section -->
-
 
 
 

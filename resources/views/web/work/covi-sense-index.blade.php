@@ -1,16 +1,9 @@
 @extends('layouts.web-inner')
+@section('title', 'CoviSense')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
 
-    .gradient-work {
-        background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
 </style>
 @endsection
 @section('content')

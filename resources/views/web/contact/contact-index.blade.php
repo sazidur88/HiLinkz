@@ -1,4 +1,5 @@
 @extends('layouts.web-inner')
+@section('title', 'Contact With Us')
 
 @section('custom_styles')
 <style type="text/css">

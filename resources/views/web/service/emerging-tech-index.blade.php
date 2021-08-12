@@ -1,10 +1,9 @@
 @extends('layouts.web-inner')
+@section('title', 'Emerging Technologies')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
+
 </style>
 @endsection
 @section('content')
@@ -65,7 +64,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-12 order-sm-2">
                 <div class="thumb">
-                    <img class="w-100" src="{{asset('assets/images/service/emerging-tech/HiLinkz 800-600Internet of Things.jpg')}}" alt="Service Images" />
+                    <img class="w-100" src="{{asset('assets/images/service/emerging-tech/HiLinkz 800-600MachineLearning.jpg')}}" alt="Service Images" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt_sm--30">

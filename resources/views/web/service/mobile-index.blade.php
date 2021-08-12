@@ -1,10 +1,9 @@
 @extends('layouts.web-inner')
+@section('title', 'Mobile Application Development')
 
 @section('custom_styles')
 <style type="text/css">
-    img.logo {
-        width: 150px;
-    }
+
 </style>
 @endsection
 @section('content')

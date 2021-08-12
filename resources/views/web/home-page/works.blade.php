@@ -17,7 +17,7 @@
                 <div class="row mt--30">
                     <a href="{{route('our_works_ryogas')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30" data-aos="fade-up" data-aos-delay="200">
-                            <div class="card" style="background-image: url({{asset('assets/images/work/portfolio-2.jpg')}});">
+                            <div class="card" style="background-image: url({{asset('assets/images/work/devRyoGas.jpg')}});">
 
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">RyoGas</h4>
@@ -34,7 +34,7 @@
                     </a>
                     <a href="{{route('dipspace')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30" data-aos="fade-up">
-                            <div class="card" style="background-image: url({{asset('assets/images/work/DipSpace.jpg')}});">
+                            <div class="card" style="background-image: url({{asset('assets/images/work/devDipSpace.jpg')}});">
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">DipSpace</h4>
                                     <p class="card-text">
