@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devforWhom.jpg')}});">
+                <div class="card" style="background-image: url({{asset('assets/images/work/ryogas/devWhy.jpg')}});">
                     <div class="card-body bg_color--9">
                         <h5 class="card-title">Why RyoGas</h5>
                         <p class="card-text">
