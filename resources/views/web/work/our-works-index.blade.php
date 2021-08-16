@@ -99,7 +99,7 @@
 </div>
 
 
-<div id="works-page" class="works-page rn-column-area">
+<div id="works-page" class="works-page rn-column-area pb--100">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
@@ -120,26 +120,6 @@
     </div>
 </div>
 
-<div id="works-page" class="works-page rn-column-area bg_color--5 pb--100">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/devDipSpace.jpg')}});">
-                    <div class="card-body-right bg_color--9">
-                        <a href="{{route('dipspace')}}">
-                            <h2 class="card-title theme-gradient">DipSpace</h2>
-                        </a>
-                        <h3 class="card-text">To dip into digital space for digital asset management<br></h3>
-
-                        <div class="read-more ">
-                            <a class="btn-transparent rn-btn-dark" href="{{route('dipspace')}}"><span class="text font-italic">Explore </span><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- End Values Section -->
 
