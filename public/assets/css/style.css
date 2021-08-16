@@ -4306,7 +4306,8 @@
         .bg_image--consul {
             background-image: url(../images/bg/HiLinkzConsultency.jpg);
         }
-        
+
+       
         .bg_image--data {
             background-image: url(../images/bg/HiLinkzData.jpg);
         }
@@ -13592,7 +13593,20 @@
             .bg_image--emerging {
                 background-position: 35% center;
             }
+        }        
+
+        @media only screen and (max-width: 575px) {
+            .bg_image--consul {
+                background-position: 87% center;
+            }
         }
+
+        @media only screen and (min-width: 600px) and (max-width: 1200px){
+                .bg_image--consul {
+                background-position: 90% center;
+            }
+
+       }
         
         @media only screen and (max-width: 575px) {
             .bg_image--digital {
@@ -19264,14 +19278,7 @@
 
         }
         
-/*         .works-page .card-no-img .card-body {
-            padding: 50px 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-            height: 350px;
 
-        } */
         
         .works-page .card-body-right {
             /* width: 55%; */
@@ -19502,22 +19509,6 @@
 
         }
         
-/*         .works .card-no-img .card-body {
-            padding: 50px 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-            height: 300px;
-            background-color: #26de81;
-            background-color: #45aaf2;
-            position: relative;
-            background: #fff;
-            position: relative;
-            width: 100%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-        } */
         
         .works .card-body {
             /* z-index: 10; */
@@ -19596,11 +19587,6 @@
             min-height: 310px;
 
         }
-        
-/*         .service-item.style-2:hover .content {
-            background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
-            border-color: #eee;
-        } */
              
 
         .service-item.style-2 .content h5 {
@@ -19688,15 +19674,3 @@
             padding: 7px 14px;
             text-transform: uppercase;
         }
-/*         
-        .service-item.style-2 .content:hover .btn-link {
-            background: #fff;
-
-            color: #4b4949;
-        } */
-
-/*         .service-item .content:hover h5,
-        .service-item .content:hover .card-text
-         {
-            color: #fff;
-        } */

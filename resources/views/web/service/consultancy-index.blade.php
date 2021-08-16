@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
-                    <h2 class="title theme-gradient">CONSULTENCY</h2>
+                    <h2 class="title theme-gradient">CONSULTANCY</h2>
                     <!-- <p>Fresh From The Press Discription</p> -->
                 </div>
             </div>
