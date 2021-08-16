@@ -4350,11 +4350,7 @@
         .bg_image--dipspace {
             background-image: url(../images/bg/DipspaceBanner.jpg);
         }        
-
-        .bg_image--about {
-            background-image: url(../images/bg/OurService.jpg);
-        }
-        
+       
         .font--1 {
             font-size: 1px !important;
         }
