@@ -33,6 +33,7 @@
                                 <ul class="ft-link">
                                     <li><a href="/">Home Page</a></li>
                                     <li><a href="{{route('all_services')}}">Our Services</a></li>
+                                    <li><a href="{{route('our_works')}}">Our Works</a></li>
                                     <li><a href="{{route('contact_form')}}">Let's Talk</a></li>
                                 </ul>
                             </div>
@@ -43,9 +44,9 @@
                             <div class="footer-widget">
                                 <h4>Say Hello</h4>
                                 <ul class="ft-link">
-                                    <li><a href="mailto:info@hilinkz.com">info@hilinkz.com</a></li>
+                                    <li><a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a></li>
                                     <li><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></li>
-                                    <li><a href="tel: +8801719347688"> +88 01719-347688</a></li>
+                                    <li><a href="tel:+8801792806811">+88 01792-806811</a></li>
                                 </ul>
 
                                 <div class="social-share-inner">

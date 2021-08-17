@@ -51,7 +51,7 @@
                     </div>
                     <div class="inner">
                         <h4 class="title">Email Address</h4>
-                        <p><a href="mailto:info@hilinkz.com">contact@hilinkz.com</a></p>
+                        <p><a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a></p>
                         <p><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></p>
                     </div>
                 </div>
@@ -86,8 +86,8 @@
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                         <h2 class="title">Let's Talk.</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
-                            <a href="tel: +8801719347688"> +88 01719-347688</a> or email:
-                            <a href="mailto:info@hilinkz.com">info@hilinkz.com</a>
+                            <a href="tel:+8801792806811">+88 01792-806811</a> or email:
+                            <a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a>
                         </p>
                     </div>
                     <div class="form-wrapper">

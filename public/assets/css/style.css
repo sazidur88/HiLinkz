@@ -13584,13 +13584,21 @@
                     
                     @media only screen and (max-width: 575px) {
                         .bg_image--it {
-                            background-position: 38% center;
+                            background-image: url(../images/portfolio/HiLinkzMiniIT.jpg);
+                            background-position: 20% center;
                         }
                     }
                     
                     @media only screen and (max-width: 575px) {
                         .bg_image--emerging {
-                            background-position: 80% center;
+                            background-image: url(../images/portfolio/HiLinkzMiniEmerging.jpg);
+                            background-position: 30% center;
+                        }
+                    }
+
+                    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+                        .bg_image--emerging {
+                            background-position: 10% center;
                         }
                     }
                     
@@ -13647,7 +13655,12 @@
                             background-position: 70% center;
                         }
                     }
-                    /*------------------------
+                    @media only screen and (max-width: 575px) {
+                        .bg_image--service {
+                            background-position: 42% center;
+                        }
+                    }
+/*------------------------
  Slider Styles  
  --------------------------*/
                     
@@ -19512,7 +19525,13 @@
                     .active-dark-mode .works .card .card-text {
                         color: #fff;
                     }
-                    /*--------------------------------------------------------------
+
+                    @media only screen and (min-width: 768px) and (max-width: 1100px){
+                        .works .wb--30{
+                            margin-bottom: 30px;
+                        }
+                    }
+/*--------------------------------------------------------------
 #Service Css Style Two
 --------------------------------------------------------------*/
                     
