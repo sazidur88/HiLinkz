@@ -97,6 +97,8 @@ Route::view('/our-works/ryogas', 'web.work.ryogas-index')->name('our_works_ryoga
 Route::view('/our-works/KnotERP', 'web.work.knot-erp-index')->name('KnotERP');
 Route::view('/our-works/covi-sense', 'web.work.covi-sense-index')->name('our_works_covi_sense');
 Route::view('/our-works/dipspace', 'web.work.dipspace-index')->name('dipspace');
+Route::view('/our-works/minias', 'web.work.minias-index')->name('minias');
+Route::view('/our-works/sims/', 'web.work.sims-index')->name('sims');
 
 /*
 -----------------------------------------------------------
