@@ -94,7 +94,7 @@ Route::view('/services/digital-marketing', 'web.service.digital-marketing-index'
 //WORK PageS
 Route::view('/our-works', 'web.work.our-works-index')->name('our_works');
 Route::view('/our-works/ryogas', 'web.work.ryogas-index')->name('our_works_ryogas');
-Route::view('/our-works/KnotERP', 'web.work.KnotERP-index')->name('KnotERP');
+Route::view('/our-works/KnotERP', 'web.work.knot-erp-index')->name('KnotERP');
 Route::view('/our-works/covi-sense', 'web.work.covi-sense-index')->name('our_works_covi_sense');
 Route::view('/our-works/dipspace', 'web.work.dipspace-index')->name('dipspace');
 
