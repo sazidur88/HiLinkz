@@ -67,7 +67,7 @@
                         </a>
                         <h3 class="card-text">A Smart Gas Pump Solution<br></h3>
 
-                        <div class="read-more ">
+                        <div class="read-more">
                             <a class="btn-transparent rn-btn-dark" href="{{route('our_works_ryogas')}}"><span class="text font-italic">Explore </span><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -81,8 +81,29 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/devDipSpace.jpg')}});">
+                <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/erp-banner.jpg')}});">
                     <div class="card-body-right bg_color--9">
+                        <a href="{{route('dipspace')}}">
+                            <h2 class="card-title theme-gradient">KnotERP</h2>
+                        </a>
+                        <h3 class="card-text">Accounting, HRMS, CRM, e-Commerce and Inventory Management<br></h3>
+
+                        <div class="read-more ">
+                            <a class="btn-transparent rn-btn-dark" href="{{route('KnotERP')}}"><span class="text font-italic">Explore </span><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="works-page" class="works-page rn-column-area bg_color--5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-left zoom" style="background-image: url({{asset('assets/images/work/devDipSpace.jpg')}});">
+                    <div class="card-body-left bg_color--9">
                         <a href="{{route('dipspace')}}">
                             <h2 class="card-title theme-gradient">DipSpace</h2>
                         </a>
@@ -103,8 +124,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-left zoom" style="background-image: url({{asset('assets/images/work/CoviSense.jpg')}});">
-                    <div class="card-body-left bg_color--9">
+                <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/CoviSense.jpg')}});">
+                    <div class="card-body-right bg_color--9">
                         <a href="{{route('our_works_covi_sense')}}">
                             <h2 class="card-title theme-gradient">CoviSense</h2>
                         </a>
