@@ -251,6 +251,14 @@ Index All JS
                 overflow: ""
             })
         })
+        $('.close-menu-on-mobile-view').on('click', function (e) {
+            e.preventDefault();
+            $('.header-wrapper').removeClass('menu-open');
+            $('.has-droupdown > a').removeClass('open').siblings('.submenu').removeClass('active');
+            $('html').css({
+                overflow: ""
+            })
+        })
         $('.has-droupdown > a').on('click', function (e) {
             e.preventDefault();
             $(this).siblings('.submenu').toggleClass('active');

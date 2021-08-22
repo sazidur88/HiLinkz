@@ -4351,6 +4351,10 @@
                         background-image: url(../images/bg/DipspaceBanner.jpg);
                     }
                     
+                    .bg_image--KnotERP {
+                        background-image: url(../images/bg/HiLinkzERPbanner.jpg);
+                    }
+                    
                     .font--1 {
                         font-size: 1px !important;
                     }
@@ -13658,6 +13662,11 @@
                     @media only screen and (max-width: 575px) {
                         .bg_image--service {
                             background-position: 42% center;
+                        }
+                    }
+                    @media only screen and (max-width: 575px) {
+                        .bg_image--KnotERP {
+                            background-position: 87% center;
                         }
                     }
 /*------------------------
