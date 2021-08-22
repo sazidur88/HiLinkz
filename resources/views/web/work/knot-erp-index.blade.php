@@ -8,6 +8,15 @@
             display: inline-block;
             color: #717173;
         }
+        .key {
+            font-weight: 500;
+            display: inline-block;
+            color: #525252;
+            transition: 400ms;
+        }
+        .key:hover {
+            color: #f74831;
+        }
 
         .a ul {
             list-style: none;
@@ -46,7 +55,7 @@
     </div>
     <!-- End Breadcrump Area  -->
     <!-- Start Column Area  -->
-    <div class="rn-column-area rn-section-gap bg_color--1">
+    <div class="rn-column-area rn-section-gap-work bg_color--1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -84,30 +93,20 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt_sm--30 ">
-
-                    <div class="about-inner inner">
-
-
+                    <div class="about-inner inner">    
                         <div class="single-tab-content">
+                                <h4 class="key">Key Features: </h4>                       
                             <ul class="a">
-                                <li> <a>Chart of
-                                        Accounts (COA) - </a> Create accounts in groups</li>
-                                <li> <a>General
-                                        Ledgers - </a> Store and organize financial data</li>
-                                <li> <a>Invoicing
-                                        - </a> Create and send professional-looking invoices in seconds</li>
-                                <li> <a>Expenses
-                                        - </a> Keep track of all expenses </li>
-                                <li> <a>Account
-                                        Reconciliation - </a> Maintain complete and accurate account balances</li>
-                                <li> <a>VAT Tax
-                                        Calculation - </a> Keep track of VAT and tax</li>
-                                <li> <a>Financial
-                                        Reports - </a> See business performance with a range of popular reports</li>
+                                <li> <a>Chart of Accounts (COA) - </a> Create accounts in groups</li>
+                                <li> <a>General Ledgers - </a> Store and organize financial data</li>
+                                <li> <a>Invoicing - </a> Create and send professional-looking invoices in seconds</li>
+                                <li> <a>Expenses - </a> Keep track of all expenses </li>
+                                <li> <a>Account Reconciliation - </a> Maintain complete and accurate account balances</li>
+                                <li> <a>VAT Tax Calculation - </a> Keep track of VAT and tax</li>
+                                <li> <a>Financial Reports - </a> See business performance with a range of popular reports</li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="button-group mt--30">
                         <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get
                             Started <i class="fas fa-arrow-right"></i></a>
@@ -130,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-sm-2">
+                <div class="col-lg-6 order-lg-2">
                     <div class="thumbnail">
                         <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600HRMS.jpg') }}"
                             alt="Service Images" />
@@ -139,6 +138,7 @@
                 <div class="col-lg-6 mt_sm--30">
                     <div class="about-inner inner">
                         <div class="single-tab-content">
+                            <h4 class="key">Key Features: </h4>                       
                             <ul class="a">
                                 <li> <a>Organogram - </a> Can create any hierarchical organogram </li>
                                 <li> <a>Recruitment - </a> Job posting, CV collection, interview scheduling</li>
@@ -185,6 +185,7 @@
 
                     <div class="about-inner inner">
                         <div class="single-tab-content">
+                            <h4 class="key">Key Features: </h4>                       
                             <ul class="a">
                                 <li> <a>Lead Generation - </a> Store potential customer details</li>
                                 <li> <a>Customer Information - </a> Store customer details for easy search and retrieval
@@ -221,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-sm-2">
+                <div class="col-lg-6 order-lg-2">
                     <div class="thumbnail position-relative">
                         <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600E-commerce.jpg') }}"
                             alt="Service Images" />
@@ -230,6 +231,8 @@
                 <div class="col-lg-6 mt_sm--30">
                     <div class="about-inner inner">
                         <div class="single-tab-content">
+                            <h4 class="key">Key Features: </h4>                       
+
                             <ul class="a">
                                 <li> <a>Product Catalog - </a> reate and share complete list of items in different
                                     categories</li>
