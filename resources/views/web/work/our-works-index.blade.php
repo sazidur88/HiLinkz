@@ -83,7 +83,7 @@
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/erp-banner.jpg')}});">
                     <div class="card-body-right bg_color--9">
-                        <a href="{{route('dipspace')}}">
+                        <a href="{{route('KnotERP')}}">
                             <h2 class="card-title theme-gradient">KnotERP</h2>
                         </a>
                         <h3 class="card-text">Accounting, HRMS, CRM, e-Commerce and Inventory Management<br></h3>
