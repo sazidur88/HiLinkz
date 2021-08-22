@@ -19442,8 +19442,8 @@
                     
                     .works .card {
                         border: 0;
-                        padding: 180px 20px 20px 20px;
-                        /* margin-top: 80px; */
+                        padding: 160px 20px 20px 20px;
+                        margin-bottom: 130px;
                         position: relative;
                         width: 100%;
                         background-size: cover;
@@ -19538,6 +19538,11 @@
                     @media only screen and (min-width: 768px) and (max-width: 1100px){
                         .works .wb--30{
                             margin-bottom: 30px;
+                        }
+                    }
+                    @media only screen and (max-width: 600px) {
+                        .wmt--50{
+                            margin-top: 50px;
                         }
                     }
 /*--------------------------------------------------------------
