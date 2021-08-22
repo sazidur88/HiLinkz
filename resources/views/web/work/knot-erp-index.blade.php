@@ -67,21 +67,26 @@
     <div class="rn-column-area rn-section-gap bg_color--5">
         <div class="container">
             <div class="row align-items-center">
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="thumb">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600Accounting.jpg') }}"
-                            alt="Service Images" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
-
-                    <div class="about-inner inner">
+                <div class="col-12">
+                    <div class="about-inner inner mb--40">
                         <div class="section-title">
                             <h4 class="theme-gradient">Accounting Module</h4>
                             <p class="description">The accounting module ensures a double-entry system of bookkeeping to
                                 prepare accurate financial statements, allowing for improved detection of errors.</p>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="thumbnail">
+                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600Accounting.jpg') }}"
+                            alt="Service Images" />
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--30 ">
+
+                    <div class="about-inner inner">
+
 
                         <div class="single-tab-content">
                             <ul class="a">
@@ -116,20 +121,23 @@
     <div class="rn-column-area rn-section-gap bg_color--1">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-12 order-sm-2">
-                    <div class="thumb position-relative">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600HRMS.jpg') }}"
-                            alt="Service Images" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
-                    <div class="about-inner inner">
+                <div class="col-12">
+                    <div class="about-inner inner mb--40">
                         <div class="section-title">
                             <h4 class="theme-gradient">HRM Module</h4>
                             <p class="description">Human Resource Management (HRM) module automates the practice of
                                 recruiting, onboarding and managing an organization's employees.</p>
                         </div>
-
+                    </div>
+                </div>
+                <div class="col-lg-6 order-sm-2">
+                    <div class="thumbnail">
+                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600HRMS.jpg') }}"
+                            alt="Service Images" />
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--30">
+                    <div class="about-inner inner">
                         <div class="single-tab-content">
                             <ul class="a">
                                 <li> <a>Organogram - </a> Can create any hierarchical organogram </li>
@@ -156,23 +164,26 @@
     <div class="rn-column-area rn-section-gap bg_color--5">
         <div class="container">
             <div class="row align-items-center">
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="thumb">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600CRM.jpg') }}"
-                            alt="Service Images" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
-
-                    <div class="about-inner inner">
+                <div class="col-12">
+                    <div class="about-inner inner mb--40">
                         <div class="section-title">
                             <h4 class="theme-gradient">CRM Module</h4>
                             <p class="description">Customer Relationship Management (CRM) module manages business
                                 relationships with customers. The module enables teams to capture leads, nurture their sales
                                 pipelines and retain customers in one customizable platform.</p>
                         </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-6">
+                    <div class="thumbnail">
+                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600CRM.jpg') }}"
+                            alt="Service Images" />
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--30 ">
+
+                    <div class="about-inner inner">
                         <div class="single-tab-content">
                             <ul class="a">
                                 <li> <a>Lead Generation - </a> Store potential customer details</li>
@@ -201,20 +212,23 @@
     <div class="rn-column-area rn-section-gap bg_color--1">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-12 order-sm-2">
-                    <div class="thumb position-relative">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600HRMS.jpg') }}"
-                            alt="Service Images" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
-                    <div class="about-inner inner">
+                <div class="col-12">
+                    <div class="about-inner inner mb--40">
                         <div class="section-title">
                             <h4 class="theme-gradient">e-Commerce Module</h4>
                             <p class="description">This module enables companies to run an e-commerce platform for online
                                 sales of items.</p>
                         </div>
-
+                    </div>
+                </div>
+                <div class="col-lg-6 order-sm-2">
+                    <div class="thumbnail position-relative">
+                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600E-commerce.jpg') }}"
+                            alt="Service Images" />
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--30">
+                    <div class="about-inner inner">
                         <div class="single-tab-content">
                             <ul class="a">
                                 <li> <a>Product Catalog - </a> reate and share complete list of items in different
@@ -240,52 +254,61 @@
         </div>
     </div>
     <!-- End Column Area  -->
-        <!-- Start Column Area  -->
-        <div class="rn-column-area rn-section-gap bg_color--5">
-            <div class="container">
-                <div class="row align-items-center">
-    
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="thumb">
-                            <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600inventory.jpg') }}"
-                                alt="Service Images" />
+    <!-- Start Column Area  -->
+    <div class="rn-column-area rn-section-gap bg_color--5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="about-inner inner mb--40">
+                        <div class="section-title">
+                            <h4 class="theme-gradient">Inventory Module</h4>
+                            <p class="description">Inventory module manages and tracks stocks of goods in one or multiple
+                                warehouses. Even the goods.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt_sm--30 ">
-    
-                        <div class="about-inner inner">
-                            <div class="section-title">
-                                <h4 class="theme-gradient">Inventory Module</h4>
-                                <p class="description">Inventory module manages and tracks stocks of goods in one or multiple warehouses. Even the goods.</p>
-                            </div>
-    
-                            <div class="single-tab-content">
-                                <ul class="a">
-                                    <li> <a>Warehouse Management - </a> Manage one or more warehouses, their shelves and  personnel.</li>
-                                    <li> <a>Shipment Tracking - </a> For exported items track product shipment</li>
-                                    <li> <a>Barcoding and Tagging - </a> Exactly pinpoint about the location of an item through barcoding and tagging</li>
-                                    <li> <a>Inventory Update - </a>Automatically updates inventory when items are checked in or out</li>
-                                    <li> <a>Inventory Forecasting - </a> Based on sales trends forecasts for optimum inventory</li>
-                                    <li> <a>Inventory Alerts - </a> Alert generation if inventory drops to a certain level
-                                    </li>
-                                    <li> <a>Stock Return Handling - </a> Handle return items, their payment etc.
-                                    </li>
-                                    <li> <a>Vendor Managemen - </a> Store and manage vendor or supplier information
-                                    </li>
-                                    <li> <a>Reporting and Analytics - </a> Real-time data regarding product status, driver’s whereabouts, order status, shipment and much more</li>
-                                </ul>
-                            </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="thumbnail">
+                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600inventory.jpg') }}"
+                            alt="Service Images" />
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--30 ">
+
+                    <div class="about-inner inner">
+                        <div class="single-tab-content">
+                            <ul class="a">
+                                <li> <a>Warehouse Management - </a> Manage one or more warehouses, their shelves and
+                                    personnel.</li>
+                                <li> <a>Shipment Tracking - </a> For exported items track product shipment</li>
+                                <li> <a>Barcoding and Tagging - </a> Exactly pinpoint about the location of an item through
+                                    barcoding and tagging</li>
+                                <li> <a>Inventory Update - </a>Automatically updates inventory when items are checked in or
+                                    out</li>
+                                <li> <a>Inventory Forecasting - </a> Based on sales trends forecasts for optimum inventory
+                                </li>
+                                <li> <a>Inventory Alerts - </a> Alert generation if inventory drops to a certain level
+                                </li>
+                                <li> <a>Stock Return Handling - </a> Handle return items, their payment etc.
+                                </li>
+                                <li> <a>Vendor Managemen - </a> Store and manage vendor or supplier information
+                                </li>
+                                <li> <a>Reporting and Analytics - </a> Real-time data regarding product status, driver’s
+                                    whereabouts, order status, shipment and much more</li>
+                            </ul>
                         </div>
-    
-                        <div class="button-group mt--30">
-                            <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get
-                                Started <i class="fas fa-arrow-right"></i></a>
-                        </div>
+                    </div>
+
+                    <div class="button-group mt--30">
+                        <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get
+                            Started <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Column Area  -->
+    </div>
+    <!-- End Column Area  -->
     <div class="button-group mt--30 mb--30 text-center">
         <a class="btn-transparent rn-btn-dark" href="{{ route('all_services') }}"><span class="text font-italic">View More
                 Services </span><i class="fas fa-arrow-right"></i></a>
@@ -332,21 +355,21 @@
                     </div>
 
                     <div class="col-lg-6 order-1 order-lg-2">
-                        <div class="thumbnail mb_md--40 mb_sm--40">
+                        <div class="thumbnailnail mb_md--40 mb_sm--40">
                             <img src="{{ asset('assets/images/about/LetsTalk.jpg') }}" alt="trydo" />
                         </div>
                     </div>
                     <!-- <div class="col-lg-6 order-1 order-lg-2">
-                                                <div class="footer-left">
-                                                    <div class="inner">
-                                                        <span>Ready To Do This</span>
-                                                        <h2 class="text-white">Get to work</h2>
-                                                        <a class="rn-button-style--2" href="{{ route('contact_form') }}">
-                                                            <span>Contact Us</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+                                                        <div class="footer-left">
+                                                            <div class="inner">
+                                                                <span>Ready To Do This</span>
+                                                                <h2 class="text-white">Get to work</h2>
+                                                                <a class="rn-button-style--2" href="{{ route('contact_form') }}">
+                                                                    <span>Contact Us</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div> -->
                 </div>
             </div>
         </div>
