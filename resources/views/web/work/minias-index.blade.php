@@ -86,7 +86,7 @@
 
                 <div class="col-lg-6 ">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600Accounting.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/minias/bookkeeping-615384_1280.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>

@@ -13676,6 +13676,11 @@
                         }
                     }
                     @media only screen and (max-width: 575px) {
+                        .bg_image--minias {
+                            background-position: 28% center;
+                        }
+                    }
+                    @media only screen and (max-width: 575px) {
                         .bg_image--sims {
                             background-image: url(../images/work/sims_s.jpg);
                             background-position: 10% center;
