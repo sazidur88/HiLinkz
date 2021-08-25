@@ -13,15 +13,6 @@
         transform: scale(1.02);
     }
 
-   /* a.btn-transparent::after {
-
-        height: 3px;
-        background: #4b7bec;
-    }
-
-    a.btn-transparent:hover::after {
-        width: 100%;
-    } */
 </style>
 @endsection
 @section('content')
@@ -98,7 +89,7 @@
     </div>
 </div>
 
-<div id="works-page" class="works-page rn-column-area bg_color--5">
+<div id="works-page" class="works-page rn-column-area bg_color--1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
@@ -119,8 +110,49 @@
     </div>
 </div>
 
+<div id="works-page" class="works-page rn-column-area bg_color--5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-right zoom" style="background-image: url({{asset('assets/images/work/minias.jpg')}});">
+                    <div class="card-body-right bg_color--9">
+                        <a href="{{route('minias')}}">
+                            <h2 class="card-title theme-gradient">Minias</h2>
+                        </a>
+                        <h3 class="card-text">Mini Accounting as Service<br></h3>
 
-<div id="works-page" class="works-page rn-column-area pb--100">
+                        <div class="read-more ">
+                            <a class="btn-transparent rn-btn-dark" href="{{route('minias')}}"><span class="text font-italic">Explore </span><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="works-page" class="works-page rn-column-area bg_color--1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-left zoom" style="background-image: url({{asset('assets/images/work/sims_s.jpg')}});">
+                    <div class="card-body-left bg_color--9">
+                        <a href="{{route('sims')}}">
+                            <h2 class="card-title theme-gradient">SIMS</h2>
+                        </a>
+                        <h3 class="card-text">School Information Management System<br></h3>
+
+                        <div class="read-more ">
+                            <a class="btn-transparent rn-btn-dark" href="{{route('sims')}}"><span class="text font-italic">Explore </span><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="works-page" class="works-page rn-column-area pb--100 bg_color--5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
