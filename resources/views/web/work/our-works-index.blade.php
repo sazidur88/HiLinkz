@@ -1,21 +1,19 @@
 @extends('layouts.web-inner')
 @section('title', 'Our Works')
 
-
 @section('custom_styles')
 <style type="text/css">
     .zoom {
         width: 100%;
         transition: 0.2s all ease-in-out;
     }
-
     .zoom:hover {
         transform: scale(1.02);
     }
-
 </style>
 @endsection
 @section('content')
+
 <!-- Start Breadcrump Area  -->
 <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--work" data-black-overlay="3">
     <div class="container">

@@ -398,7 +398,6 @@
 
 
 
-    <!-- End Column Area  -->
     <div class="button-group mt--30 mb--30 text-center">
         <a class="btn-transparent rn-btn-dark" href="{{ route('our_works') }}"><span class="text font-italic">View More
                 Works </span><i class="fas fa-arrow-right"></i></a>

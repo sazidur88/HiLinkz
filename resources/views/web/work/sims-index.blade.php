@@ -41,7 +41,7 @@
 @endsection
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--KnotERP" data-black-overlay="5">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--sims" data-black-overlay="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -71,7 +71,7 @@
     <!-- End Column Area  -->
 
     <!-- Start Column Area  -->
-    <div class="rn-column-area rn-section-gap bg_color--5">
+    <div class="rn-column-area rn-section-gap-work bg_color--5">
         <div class="container">
             <div class="row align-items-center">
                 {{-- <div class="col-12">
@@ -86,7 +86,7 @@
 
                 <div class="col-lg-6 ">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600Accounting.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/sims/sims_800_600.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -118,8 +118,8 @@
     <!-- End Column Area  -->
 
     <div class="button-group mt--30 mb--30 text-center">
-        <a class="btn-transparent rn-btn-dark" href="{{ route('all_services') }}"><span class="text font-italic">View More
-                Services </span><i class="fas fa-arrow-right"></i></a>
+        <a class="btn-transparent rn-btn-dark" href="{{ route('our_works') }}"><span class="text font-italic">View More
+            Works </span><i class="fas fa-arrow-right"></i></a>
     </div>
     <!-- Contact Form Starts Here -->
     <div class="rn-contact-area rn-section-gap bg_color--5" id="contact">
