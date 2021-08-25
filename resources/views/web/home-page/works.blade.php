@@ -62,7 +62,7 @@
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="{{route('sims')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30 wb--30" data-aos="fade-up" data-aos-delay="100">
                             <div class="card" style="background-image: url({{asset('assets/images/work/sims_s.jpg')}});">
                                 <div class="card-body bg_color--9 ease-out">
@@ -71,13 +71,13 @@
                                         School Information Management System 
                                     </p>
                                     {{-- <div class="read-more pt--10"><a href="{{route('our_works_covi_sense')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
-                                    <a href="#" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
+                                    <a href="{{route('sims')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="minias">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30 wb--30" data-aos="fade-up" data-aos-delay="100">
                             <div class="card" style="background-image: url({{asset('assets/images/work/minias.jpg')}});">
                                 <div class="card-body bg_color--9 ease-out">
@@ -86,7 +86,7 @@
                                         Mini Accounting as Service<br> <br>
                                     </p>
                                     {{-- <div class="read-more pt--10"><a href="{{route('our_works_covi_sense')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
-                                    <a href="#" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
+                                    <a href="{{route('minias')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
