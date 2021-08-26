@@ -77,7 +77,7 @@
                         </div>
                     </a>
 
-                    <a href="minias">
+                    <a href="{{route('minias')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30 wb--30" data-aos="fade-up" data-aos-delay="100">
                             <div class="card" style="background-image: url({{asset('assets/images/work/minias.jpg')}});">
                                 <div class="card-body bg_color--9 ease-out">
