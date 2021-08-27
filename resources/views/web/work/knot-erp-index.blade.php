@@ -41,12 +41,12 @@
 @endsection
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--KnotERP" data-black-overlay="5">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--KnotERP" data-black-overlay="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="rn-page-title text-center pt--100">
-                        <h2 class="title theme-gradient">KnotERP</h2>
+                        <h2 class="title theme-gradient"></h2>
                         <!-- <p>Fresh From The Press Discription</p> -->
                     </div>
                 </div>

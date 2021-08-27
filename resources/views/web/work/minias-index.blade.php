@@ -41,7 +41,7 @@
 @endsection
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--minias" data-black-overlay="3">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--minias" data-black-overlay="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

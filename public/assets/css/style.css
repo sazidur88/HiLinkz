@@ -4354,11 +4354,17 @@
                     .bg_image--KnotERP {
                         background-image: url(../images/bg/HiLinkzERPbanner.jpg);
                     }
+                    .work_image--knotErp {
+                        background-image: url(../images/work/KnotERP_640_427.jpg);
+                    }
                     .bg_image--sims {
                         background-image: url(../images/bg/bg-image-sims.jpg);
                     }
                     .bg_image--minias {
                         background-image: url(../images/bg/bg-image-minias.jpg);
+                    }
+                    .work_image--minias {
+                        background-image: url(../images/work/MIMS_640_427.jpg);
                     }
                     
                     .font--1 {
@@ -13675,11 +13681,33 @@
                             background-position: 87% center;
                         }
                     }
+                    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+                        .bg_image--KnotERP {
+                            background-image: url(../images/bg/KnotERPBannaertablet.jpg);
+                        }
+                    }
                     @media only screen and (max-width: 575px) {
                         .bg_image--minias {
                             background-position: 28% center;
                         }
                     }
+                    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+                        .bg_image--minias {
+                            background-image: url(../images/work/HiLinkz_800-600minias.jpg);
+
+                        }
+                    }
+                    @media only screen and (max-width: 575px) {
+                        .work_image--minias{
+                            background-image: url(../images/work/HiLinkz_800-600minias.jpg);
+                        }
+                    }
+                    @media only screen and (max-width: 575px) {
+                        .work_image--knotErp {
+                            background-image: url(../images/work/HiLinkz_KnotERP_800-600.jpg);
+                        }
+                    }
+                    
                     @media only screen and (max-width: 575px) {
                         .bg_image--sims {
                             background-image: url(../images/work/sims_s.jpg);
@@ -13691,6 +13719,7 @@
                             background-image: url(../images/work/sims_s.jpg);
                         }
                     }
+
 /*------------------------
  Slider Styles  
  --------------------------*/
@@ -19321,7 +19350,7 @@
                         color: #4b4949;
                         text-align: left;
                         font-weight: 700;
-                        font-size: 1.875rem;
+                        font-size: 1.675rem;
                         margin: 8px auto 0 0;
                     }
                     
@@ -19412,7 +19441,7 @@
                             color: #473d3a;
                         }
                         .works-page .card-text {
-                            font-size: 20px;
+                            font-size: 18px;
                             font-weight: 600;
                             margin-top: 15px;
                             color: #4b4949;

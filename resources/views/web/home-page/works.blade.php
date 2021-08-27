@@ -34,7 +34,7 @@
 
                     <a href="{{route('KnotERP')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30 wb--30" data-aos="fade-up" data-aos-delay="200">
-                            <div class="card" style="background-image: url({{asset('assets/images/work/erp-banner.jpg')}});">
+                            <div class="card" style="background-image: url({{asset('assets/images/work/HiLinkz_KnotERP_800-600.jpg')}});">
 
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">KnotERP</h4>
@@ -79,7 +79,7 @@
 
                     <a href="{{route('minias')}}">
                         <div class="col-lg-4 col-md-6 sm-12 d-flex align-items-stretch mt--30 wb--30" data-aos="fade-up" data-aos-delay="100">
-                            <div class="card" style="background-image: url({{asset('assets/images/work/minias.jpg')}});">
+                            <div class="card" style="background-image: url({{asset('assets/images/work/HiLinkz_800-600minias.jpg')}});">
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">Minias </h4>
                                     <p class="card-text">
