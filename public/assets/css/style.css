@@ -13688,12 +13688,13 @@
                     }
                     @media only screen and (max-width: 575px) {
                         .bg_image--minias {
-                            background-position: 28% center;
+                            background-position: 19% center;
                         }
+
                     }
                     @media only screen and (min-width: 600px) and (max-width: 1200px) {
                         .bg_image--minias {
-                            background-image: url(../images/work/HiLinkz_800-600minias.jpg);
+                            background-image: url(../images/bg/Minius800-600_tablet.jpg);
 
                         }
                     }
