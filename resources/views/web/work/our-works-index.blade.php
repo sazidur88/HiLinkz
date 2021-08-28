@@ -11,14 +11,14 @@
         .zoom:hover {
             transform: scale(1.02);
         }
-
+}
 
     </style>
 @endsection
 @section('content')
 
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--work" data-black-overlay="3">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--work" data-black-overlay="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -63,7 +63,9 @@
                             <a href="{{ route('our_works_ryogas') }}">
                                 <h2 class="card-title theme-gradient">RyoGas</h2>
                             </a>
-                            <h3 class="card-text">A Smart Gas Pump Solution<br></h3>
+                            <h3 class="card-text">IoT Based Gas Station Management Solutions for Smart Owners
+                                <br>
+                            </h3>
 
                             <div class="read-more">
                                 <a class="btn-transparent rn-btn-dark" href="{{ route('our_works_ryogas') }}"><span

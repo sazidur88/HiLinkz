@@ -29,7 +29,7 @@
             <div class="col-lg-12">
                 <div class="rn-page-title text-center pt--100">
                     <h2 class="title theme-gradient">DipSpace</h2>
-                    <!-- <p>Fresh From The Press Discription</p> -->
+                     <p>To dip into digital space for digital asset management</p> 
                 </div>
             </div>
         </div>

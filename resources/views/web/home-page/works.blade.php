@@ -23,7 +23,7 @@
                                     <h4 class="card-title theme-gradient">RyoGas</h4>
                                     <!-- <p class="card-text">Our Vision is to make the LPG, CNG, Or any Other Fuel stations into Next Generation Smart Stations.</p> -->
                                     <p class="card-text">
-                                        A Smart Gas Pump Solution<br> <br>
+                                        IoT Based Gas Station Management Solutions<br><br>
                                     </p>
                                     {{-- <div class="read-more pt--10"><a href="{{route('our_works_ryogas')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
                                     <a href="{{route('our_works_ryogas')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
@@ -39,7 +39,7 @@
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">KnotERP</h4>
                                     <p class="card-text">
-                                        Run a business in a smart way<br> <br>
+                                        Accounting, HRMS, CRM, e-Commerce and Inventory Management
                                     </p>
                                     <a href="{{route('KnotERP')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>
                                 </div>
@@ -53,7 +53,7 @@
                                 <div class="card-body bg_color--9 ease-out">
                                     <h4 class="card-title theme-gradient">DipSpace</h4>
                                     <p class="card-text">
-                                        To dip into digital space for digital asset management.
+                                        To dip into digital space for digital asset management<br><br>
                                     </p>
                                     {{-- <div class="read-more pt--10"><a href="{{route('dipspace')}}">Explore <i class="fas fa-arrow-right"></i></a></div> --}}
                                     <a href="{{route('dipspace')}}" class="text-left font-italic btn-transparent rn-btn-dark pt--10"><small>Explore </small> <i class="fas fa-arrow-right"></i></a>

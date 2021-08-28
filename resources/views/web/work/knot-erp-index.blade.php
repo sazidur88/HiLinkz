@@ -88,7 +88,7 @@
 
                 <div class="col-lg-6 ">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600Accounting.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/knot-erp/HiLinkz 800-600Accounting.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-2">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600HRMS.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/knot-erp/HiLinkz 800-600HRMS.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -177,7 +177,7 @@
 
                 <div class="col-lg-6">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600CRM.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/knot-erp/HiLinkz 800-600CRM.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-2">
                     <div class="thumbnail position-relative">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600E-commerce.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/knot-erp/HiLinkz 800-600E-commerce.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -273,7 +273,7 @@
 
                 <div class="col-lg-6">
                     <div class="thumbnail">
-                        <img class="w-100" src="{{ asset('assets/images/work/KnotERP/HiLinkz 800-600inventory.jpg') }}"
+                        <img class="w-100" src="{{ asset('assets/images/work/knot-erp/HiLinkz 800-600inventory.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -295,7 +295,7 @@
                                 </li>
                                 <li> <a>Stock Return Handling - </a> Handle return items, their payment etc.
                                 </li>
-                                <li> <a>Vendor Managemen - </a> Store and manage vendor or supplier information
+                                <li> <a>Vendor Management - </a> Store and manage vendor or supplier information
                                 </li>
                                 <li> <a>Reporting and Analytics - </a> Real-time data regarding product status, driver’s
                                     whereabouts, order status, shipment and much more</li>

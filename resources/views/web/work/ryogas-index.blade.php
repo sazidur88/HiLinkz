@@ -25,7 +25,7 @@
                 <div class="col-lg-12">
                     <div class="rn-page-title text-center pt--100">
                         <h2 class="title theme-gradient">RyoGas</h2>
-                        <!-- <p>Fresh From The Press Discription</p> -->
+                        <p>A Smart Gas Pump Solution</p> 
                     </div>
                 </div>
             </div>

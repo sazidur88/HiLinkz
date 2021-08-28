@@ -36,7 +36,7 @@
                 <div class="inner-wrapper">
                     <div class="inner pb--20">
                         <div class="thumbnail">
-                            <img class="" src="{{asset('assets/images/work/CoviSense_DIAG.jpg')}}" alt="Blog Images">
+                            <img class="" src="{{asset('assets/images/work/covisense/CoviSense_DIAG.jpg')}}" alt="Blog Images">
                         </div>
                     </div>
                     <span class="font-weight-bold">Figure 1: Functional principle of the sensor (datasheet, 2019)
@@ -62,7 +62,7 @@
                 <div class="inner-wrapper">
                     <div class="inner pb--20">
                         <div class="thumbnail">
-                            <img class="" style="max-width:80%" src="{{asset('assets/images/work/CoviSense_Project.jpg')}}" alt="Blog Images">
+                            <img class="" style="max-width:80%" src="{{asset('assets/images/work/covisense/CoviSense_Project.jpg')}}" alt="Blog Images">
                         </div>
                     </div>
                     <span class="font-weight-bold pt--5">Figure 2: Application of CoviSense on children to measure pulse rate (BPM) and SpO2 (%)</span>
