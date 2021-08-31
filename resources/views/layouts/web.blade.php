@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta property="og:image" content="https://hilinkz.com/assets/images/logo/logo-symbol-dark.png" />
+    <meta property="og:image" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/favicon.png')}}">
 
