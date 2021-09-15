@@ -131,7 +131,7 @@
                             </div>
                             <div class="member-info">
                                 <h4>Md. Ariful Haque</h4>
-                                <span>Security & System Architucture Specialist</span>
+                                <span>Security & System Architecture Specialist</span>
                             </div>
                         </div>
                     </div>
