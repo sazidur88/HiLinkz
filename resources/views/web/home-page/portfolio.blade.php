@@ -29,7 +29,7 @@
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape1.png')}}" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape1.png')}}" alt="HiLinkz">
                         </div>
                     </div>
                     <div class="content">
@@ -46,7 +46,7 @@
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape2.png')}}" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape2.png')}}" alt="HiLinkz">
                         </div>
                     </div>
                     <div class="content">
@@ -63,7 +63,7 @@
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape5.png')}}" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape5.png')}}" alt="HiLinkz">
                         </div>
                     </div>
                     <div class="content">
@@ -80,7 +80,7 @@
                 <div class="portfolio-static">
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
-                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape4.png')}}" alt="Portfolio Images">
+                            <img src="{{asset('assets/images/portfolio/HiLinkzDemoLandscape4.png')}}" alt="HiLinkz">
                         </div>
                     </div>
                     <div class="content">

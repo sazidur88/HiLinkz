@@ -18,6 +18,7 @@
                             <li class="nav-item"><a class="close-menu-on-mobile-view nav-link smoth-animation" href="#about">About</a></li>
                             <li class="nav-item"><a class="close-menu-on-mobile-view nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="close-menu-on-mobile-view nav-link smoth-animation" href="#testimonial">Testimonial</a></li>
+                            <li class="nav-item"><a class="close-menu-on-mobile-view nav-link smoth-animation" href="#team">Team</a></li>
                             <li class="nav-item"><a class="close-menu-on-mobile-view nav-link smoth-animation" href="#contact">Contact</a></li>
                             
                         </ul>

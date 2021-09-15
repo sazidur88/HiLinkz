@@ -56,9 +56,9 @@
 
 @include('web.home-page.counter')
 
-{{--@include('web.home-page.team')--}}
-
 @include('web.home-page.testimonial')
+
+@include('web.home-page.team')
 
 {{--@include('web.home-page.blogs')--}}
 

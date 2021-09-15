@@ -18,6 +18,7 @@
                             <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link" href="/#testimonial">Testimonial</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/#team">Team</a></li>
                             <li class="nav-item"><a class="nav-link {{ request()->is('contact-form') ? 'active' : ''}}" href="{{route('contact_form')}}">Contact</a></li>                  
                         </ul>
                         <!-- End Mainmanu Nav -->
