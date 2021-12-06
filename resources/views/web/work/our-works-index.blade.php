@@ -11,7 +11,7 @@
         .zoom:hover {
             transform: scale(1.02);
         }
-}
+
 
     </style>
 @endsection

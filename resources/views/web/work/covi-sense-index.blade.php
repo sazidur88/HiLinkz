@@ -55,7 +55,8 @@
             <div class="col-lg-12">
                 <div class="single-column text-justify">
                     {{-- <h3 class="text-left title-h3">About CoviSense</h3> --}}
-                    <p>A research paper on the performance analysis of CoviSense has been accepted for presentation in the 2021 IEEE International Conference on IoT, Electronics and Mechatronics (IEMTRONICS), which was held virtually in Toronto, Canada from 21-24 April 2021. The research contribution created quite a good resonance among the audience. Navid and Nuzhat Arifa presented the paper in that conference and won the best presenter title competing with the presenters from 7 other countries in the session. </p>
+
+                    <p>A <a href="{{ url('storage/uploaded_file/covi_sense_1570708908_Navid Bin Ahmed_Bangladesh_Final Version.pdf') }}" target="_blank" class="text-info font-weight-bold">research paper </a> on the performance analysis of CoviSense has been accepted for presentation in the 2021 IEEE International Conference on IoT, Electronics and Mechatronics (IEMTRONICS), which was held virtually in Toronto, Canada from 21-24 April 2021. The research contribution created quite a good resonance among the audience. Navid and Nuzhat Arifa presented the paper in that conference and won the best presenter title competing with the presenters from 7 other countries in the session. </p>
                 </div>
             </div>
             <div class="col-lg-12 text-center mt--50 mb--30">
@@ -88,8 +89,8 @@
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                         <h2 class="title">Get Started</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
-                            <a href="tel: +8801719347688"> +88 01719-347688</a> or email:
-                            <a href="mailto:info@hilinkz.com">info@hilinkz.com</a>
+                            <a href="tel: +8801792806811"> +88 01792-806811</a> or email:
+                            <a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a>
                         </p>
                     </div>
                     <div class="form-wrapper">

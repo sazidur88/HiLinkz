@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>HiLinkz - @yield('title')</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="Hilinkz, Hilinkz Ltd.,Software Comapny,hilinkz,hilinkz.com, Best software development company in Bangladesh, Business software, business solution systems software">
+    <meta name="description" content="Hilinkz Ltd, we are providing creative website design, reliable web application development, Android application development, SEO, Digital Marketing, E-commerce services, Accounting, School and Hospital management system, domain & hosting services, software and website maintainance etc.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta property="og:image" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg" />
@@ -142,6 +143,35 @@
 
     <!-- Custom JS area -->
     @yield('custom_js')
+
+
+    <!-- Messenger Chat Plugin Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Chat Plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "104412004674768");
+          chatbox.setAttribute("attribution", "biz_inbox");
+
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v12.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
 
 
 </body>

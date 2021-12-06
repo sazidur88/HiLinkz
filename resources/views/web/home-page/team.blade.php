@@ -45,13 +45,13 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Md. Nahid Hasan</h4>
+                                <h4>Md. Nahid Hassan</h4>
                                 <span>Chief Technology Officer</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    {{-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
                                 <img src="{{ asset('assets/images/team/team-dourjoy.jpg') }}" class="img-fluid"
@@ -66,7 +66,7 @@
                                 <span>Chief Marketing Officer</span>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
@@ -118,6 +118,23 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="700">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="{{ asset('assets/images/team/team-afridi.jpeg') }}" class="img-fluid"
+                                    alt="HiLinkz">
+                                <div class="social">
+                                    <a href="https://www.facebook.com/aiafridi" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/md-afridi-hasan-8694b9225" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Afridi Hasan</h4>
+                                <span>Mobile App Developer</span>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="600">
                         <div class="member">
@@ -165,7 +182,24 @@
                             </div>
                             <div class="member-info">
                                 <h4>Asif Hassan Rahul</h4>
-                                <span>Trainee Software Engineer</span>
+                                <span>Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="700">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="{{ asset('assets/images/team/team-farhana.jpg') }}" class="img-fluid"
+                                    alt="HiLinkz">
+                                {{-- <div class="social">
+                                    <a href="https://www.facebook.com/ahr3665" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/asif-hassan-rahul/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                </div> --}}
+                            </div>
+                            <div class="member-info">
+                                <h4>Farhana Khan</h4>
+                                <span>UX Designer</span>
                             </div>
                         </div>
                     </div>
