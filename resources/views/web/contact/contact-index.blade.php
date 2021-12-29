@@ -7,6 +7,11 @@
             width: 150px;
         }
 
+        @media only screen and (max-width: 600px) {
+            .mtm-10{
+                margin-top:30px;
+            }
+        }
     </style>
 @endsection
 
@@ -30,27 +35,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="text-center mb-5 ">Bangladesh Address </h3><br>
-                    <div class=" mt_dec--40">
+                    <h3 class="text-center mb-5">Bangladesh Address </h3><br>
+                    <div class="mt_dec--40">
                         <!-- Start Single Address  -->
                         <div class="">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1878157431133!2d90.42111361489641!3d23.811919492340486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7be9f19d62b%3A0x65917897cd5576c9!2sHilinkz!5e0!3m2!1sen!2sbd!4v1640780132937!5m2!1sen!2sbd"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1878157431133!2d90.42111361489638!3d23.81191949234048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7be9f19d62b%3A0x65917897cd5576c9!2sHilinkz!5e0!3m2!1sen!2sbd!4v1640786322013!5m2!1sen!2sbd"
                                 width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
                             <div class="rn-address">
                                 {{-- <div class="icon">
                                     <i class="fas fa-phone"></i>
                                 </div> --}}
                                 <div class="inner mb-4">
-                                    <h4 class="title theme-color"><i class="fas fa-phone fa-lg"></i> &nbsp;&nbsp;Contact via Phone</h4>
+                                    <h4 class="title theme-color"><i class="fas fa-phone fa-lg"></i> &nbsp;&nbsp;Contact via
+                                        Phone</h4>
 
                                     <p><a href="tel:+8801792806811">+88 01792-806811</a></p>
                                     <p><a href="tel:+88017075381238">+88 01707-538123</a></p>
                                 </div>
                                 <div class="inner mb-4">
-                                    <h4 class="title theme-color"><i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp;Email Address</h4>
-                                    <p><a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a></p>
-                                    <p><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></p>
+                                    <h4 class="title theme-color"><i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp;Email
+                                        Address</h4>
+                                    <p><a href="mailto:into@hilinkz.com">into@hilinkz.com</a></p>
+                                    <p><a href="mailto:hilinkzltd@gmail.com">hilinkzltd@gmail.com</a></p>
                                 </div>
                                 <div class="inner mb-4">
                                     <h4 class="title theme-color"><i class="fas fa-map-marker-alt fa-lg"></i>
@@ -64,24 +71,25 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-center mb-5 ">Australia Address </h3><br>
-                    <div class=" mt_dec--40">
+                    <h3 class="text-center mb-5 mtm-10">Australia Address </h3><br>
+                    <div class="mt_dec--40">
                         <!-- Start Single Address  -->
                         <div class="">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.2270141852914!2d144.5667986904529!3d-37.6981708477524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad692d4eef4e1ef%3A0xcf1a71b49b8aa0e!2sUnit%2017%2F3%20Austin%20Pl%2C%20Melton%20South%20VIC%203338%2C%20Australia!5e0!3m2!1sen!2sbd!4v1640780332073!5m2!1sen!2sbd"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.914573982389!2d144.56712671543778!3d-37.69820523521288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad692d4eef4e1ef%3A0xcf1a71b49b8aa0e!2sUnit%2017%2F3%20Austin%20Pl%2C%20Melton%20South%20VIC%203338%2C%20Australia!5e0!3m2!1sen!2sbd!4v1640786485968!5m2!1sen!2sbd"
                                 width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                            <div class="rn-address">
 
+                            <div class="rn-address">
                                 <div class="inner mb-4">
-                                    <h4 class="title theme-color"><i class="fas fa-phone fa-lg"></i> &nbsp;&nbsp;Contact via Phone</h4>
+                                    <h4 class="title theme-color"><i class="fas fa-phone fa-lg"></i> &nbsp;&nbsp;Contact via
+                                        Phone</h4>
                                     <p><a href="tel:+61466 612 281">+61466 612 281</a></p>
-                                    <p class="text-white"><a href="tel:+88017075381238"></a>--------</p>
+                                    <p class="text-white unselectable"><a href="tel:+88017075381238"></a>--------</p>
                                 </div>
                                 <div class="inner mb-4">
-                                    <h4 class="title theme-color"><i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp;Email Address</h4>
-                                    <p><a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a></p>
-                                    <p class="text-white"><a href="mailto:mshb95@gmail.com"></a>--------</p>
+                                    <h4 class="title theme-color"><i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp;Email
+                                        Address</h4>
+                                    <p><a href="mailto:into@hilinkz.com">into@hilinkz.com</a></p>
+                                    <p><a href="mailto:au.manager@hilinkz.com">au.manager@hilinkz.com</a></p>
                                 </div>
                                 <div class="inner mb-4">
                                     <h4 class="title theme-color"><i class="fas fa-map-marker-alt fa-lg"></i>
@@ -92,21 +100,15 @@
                             </div>
                         </div>
                         <!-- End Single Address  -->
-
-
-
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     </div>
     <!-- End Contact Address Area  -->
 
     <!-- Start Contact Area  -->
-    <div class="rn-contact-area rn-section-gap bg_color--5 contact" id="contact">
+    <div class="rn-contact-area bg_color--5 contact" id="contact">
         <div class="contact-form--1">
             <div class="container">
                 <div class="row row--35 align-items-start">
