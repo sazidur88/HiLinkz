@@ -199,7 +199,7 @@
                             </div>
                             <div class="member-info">
                                 <h4>Farhana Khan</h4>
-                                <span>UX Designer</span>
+                                <span>Web Developer</span>
                             </div>
                         </div>
                     </div>
