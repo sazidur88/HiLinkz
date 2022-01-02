@@ -16815,12 +16815,33 @@
 
                     .rn-address {
                         margin-top: 30px;
-                        border: 1px solid #ebebeb;
-                        padding: 40px;
+                        /* margin-top: 10px; */
+                        /* border: 1px solid #ebebeb; */
+                        padding: 25px;
                         border-radius: 10px;
                         padding-top: 54px;
-                        background: #fff;
+                        /* background: #fff; */
                         padding-bottom: 50px;
+                    }
+                    @media only screen and (max-width: 600px) {
+                        .rn-address {
+                            margin-top: 30px;
+                            padding: 10px;
+                            padding-top: 10px;
+                            padding-bottom: 30px;
+                        }
+                        .bg_text_color{
+                            display: none;
+                        }
+                    }
+                    @media only screen and (max-width: 768px) {
+                        .rn-address {
+                            margin-top: 10px;
+                            margin-bottom: 30px;
+                            padding: 25px;
+                            padding-top: 10px;
+                            padding-bottom: 30px;
+                        }
                     }
 
                     .rn-address .icon {
