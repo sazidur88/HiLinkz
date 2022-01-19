@@ -206,7 +206,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="700">
                         <div class="member">
                             <div class="member-img">
-                                <img src="{{ asset('assets/images/team/mustafiz_2.jpg') }}" class="img-fluid"
+                                <img src="{{ asset('assets/images/team/mustafiz.jpg') }}" class="img-fluid"
                                     alt="HiLinkz">
                                 <div class="social">
                                     <a href="https://www.facebook.com/mustafiz.ridom" target="_blank"><i class="fab fa-facebook"></i></a>

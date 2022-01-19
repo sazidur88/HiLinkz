@@ -1,38 +1,13 @@
 @extends('layouts.web-inner')
 @section('title', 'Career')
+{{-- @section('meta_og_image')
+    <meta property="og:url" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg">
+    <meta property="og:image" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg">
+    <meta property="og:description" content="HiLinkz Career">
+@endsection --}}
 
 @section('custom_styles')
-    <style type="text/css">
-        .bg_text_color {
-            color: #f8f9fc !important;
-        }
-
-        .shadow-sm,
-        .shadow-sm--on-hover:hover {
-            box-shadow: 0 0.125rem 0.25rem rgba(132, 138, 163, 0.1) !important
-        }
-
-        .color--heading {
-            color: #101f41 !important
-        }
-
-        .color--text {
-            color: #4f5464 !important
-        }
-
-        .badge-circle {
-            border-radius: 50%;
-            height: 2.5rem;
-            width: 2.5rem;
-            font-size: 1rem;
-            line-height: 2.5rem;
-            padding: 0
-        }
-
-        .text-white {
-            color: #fff !important;
-        }
-
+    <style>
         .background--white,
         .bg-white {
             background-color: #fff !important
@@ -92,26 +67,16 @@
             background-color: #f6f8fb !important
         }
 
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            min-height: 1px;
+            /* padding: 0.65rem; */
+            padding: 0.65rem 1.25rem;
+        }
+
         a {
             text-decoration: none !important;
-        }
-
-        .job-title {
-            font-weight: 600;
-            line-height: 1.3em;
-            color: #333;
-            font-size: 20px;
-            margin: 0;
-        }
-        .section__title{
-            font-size: 28px;
-
-        }
-
-        span:hover .pl{
-            transition: 0.5s ease-out;
-
-            padding-left: 3px;
         }
 
     </style>
@@ -151,51 +116,192 @@ $map_aus = $address['map_aus'];
                 <div class="col-lg-12">
                     <div class="row row-grid justify-content-center">
                         <div class="col-md-8 col-lg-7 col-xl-6 text-center mb-10">
-                            <h2 class="text-center text-uppercase section__title">Join us to learn together</h2>       
-                                    <p>We are searching for amazing people to join our team. Take a look at our current openings and grab the opportunity to start your career with us.</p><br>
-        
+                            <h2 class="text-center text-uppercase section__title">Join us to learn together</h2>
+                            <p>We are searching for amazing people to join our team. Take a look at our current openings and
+                                grab the opportunity to start your career with us.</p><br>
+
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Column Area  -->
+        <!-- End Column Area  -->
 
-    <section id="sectionJobList" class="rn-column-area rn-section-gap-heading section section-job-list bg_color--5">
-        <div class="container">
+        <section id="sectionJobList" class="rn-column-area rn-section-gap-heading bg_color--5">
+            <div class="container">
 
-            <div class="row row-grid justify-content-center">
+                <div class="row row-grid justify-content-center">
 
-                {{-- <div class="col-md-8 col-lg-7 col-xl-6 text-center mb-10">
+                    {{-- <div class="col-md-8 col-lg-7 col-xl-6 text-center mb-10">
                     <h2 class="section__title mb-4">Jobs Openings at Fluxo</h2>
                     <h3 class="text-center text-uppercase">Join us to learn together</h3>
                     <p>We’re always searching for amazing people to join our team. Take a look at our current openings.</p><br>
 
                 </div> --}}
 
-                <div class="col-md-10">
+                    <div class="col-md-10">
 
-                    <div class="job-list__wrapper mb-6 mb--100">
-                        <h3 class="mb-4 text-center">Available Positions</h3>
+                        <div class="job-list__wrapper mb-6 mb--100">
+                            <h3 class="mb-4 text-center">Available Internship Positions</h3>
 
-                        <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
-                            <div class="card-body">
-                                <span class="row justify-content-between align-items-center">
-                                    <span class="job-title col-md-8 col-sm-12 color--heading">
-                                        <a href="{{route('career_intern')}}"><span class="badge badge-circle background--success text-white mr-3">#</span>Intern (Web Design, PHP, React, Flutter, Business Development)</a>
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--primary text-white mr-3">#</span>Web
+                                                Design</a>
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 3
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details
+                                                <small><i class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
                                     </span>
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--warning text-white mr-3">#</span>PHP
+                                                (Laravel)</a>
+                                        </span>
 
-                                    <span class="col-md-4 col-sm-12 my-3 text-center color--text">                                        
-                                        <a href="{{route('career_intern')}}" class="btn btn-danger text-white">Details <small><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right pl"></i></small> </a>
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 3
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details
+                                                <small><i class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
                                     </span>
-                                </span>
-                            </div>
-                        </div> <!-- Job Card -->
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--danger text-white mr-3">#</span>React
+                                                JS</a>
+                                        </span>
 
-                    
-                    
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 5
+                                        </span>
 
-                        {{-- <a href="career-single.html" class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details
+                                                <small><i class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--info text-white mr-3">#</span>Flutter</a>
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 5
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details
+                                                <small><i class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--success text-white mr-3">#</span>Software
+                                                Quality Assurance</a>
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text text-left">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 3
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details
+                                                <small><i class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--dark text-white mr-3">#</span>System
+                                                Analysis</a>
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 3
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details <small><i
+                                                        class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div> <!-- Job Card -->
+                            <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
+                                <div class="card-body">
+                                    <span class="row justify-content-between align-items-center">
+                                        <span class="job-title col-md-5 col-sm-12 color--heading">
+                                            <a href="{{ route('career_intern') }}"><span
+                                                    class="badge badge-circle background--primary text-white mr-3">#</span>Business
+                                                Development</a>
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 my-sm-0 color--text">
+                                            <i class="fa fa-users mr-1"></i> Vacancy 3
+                                        </span>
+
+                                        <span class="col-md-3 col-sm-6 my-3 text-left color--text">
+                                            <a href="{{ route('career_intern') }}"
+                                                class="btn btn-danger text-white">Details <small><i
+                                                        class="fas fa-chevron-right"></i><i
+                                                        class="fas fa-chevron-right pl"></i></small> </a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div> <!-- Job Card -->
+
+
+
+
+                            {{-- <a href="career-single.html" class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
                             <div class="card-body">
                                 <span class="row justify-content-between align-items-center">
                                     <span class="col-md-5 color--heading">
@@ -217,15 +323,15 @@ $map_aus = $address['map_aus'];
                                 </span>
                             </div>
                         </a> --}}
+                        </div>
                     </div>
+
                 </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Start Contact Area  -->
-    {{-- <div class="rn-contact-area contact rn-section-gap bg_color--1" id="contact">
+        <!-- Start Contact Area  -->
+        {{-- <div class="rn-contact-area contact rn-section-gap bg_color--1" id="contact">
         <div class="contact-form--1">
             <div class="container">
                 <div class="row row--35 align-items-start">
@@ -334,10 +440,10 @@ $map_aus = $address['map_aus'];
             </div>
         </div>
     </div> --}}
-    <!-- End Contact Area  -->
+        <!-- End Contact Area  -->
 
 
-@endsection
+    @endsection
 
-@section('extra_js')
-@endsection
+    @section('extra_js')
+    @endsection

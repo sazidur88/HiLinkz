@@ -1,6 +1,10 @@
 @extends('layouts.web-inner')
 @section('title', 'Job Details')
-
+@section('meta_og_image')
+    <meta property="og:url" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg">
+    <meta property="og:image" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg">
+    <meta property="og:description" content="HiLinkz Career">
+@endsection
 @section('custom_styles')
     <style type="text/css">
 
@@ -40,18 +44,13 @@ $map_aus = $address['map_aus'];
             <div class="row">
                 <div class="col-lg-12">
                     <div class="single-column text-justify">
-                        <h3 class="text-left title-h3 text-danger mb--50">Intern (Web Design, PHP, React, Flutter, Business
-                            Development)</h3>
+                        <h3 class="text-left title-h3 text-danger mb--50">Intern (Web Design, PHP, React JS, Flutter, Software Quality Assurance, System Analysis, Business Development)</h3>
 
                         <div class="mb--50">
-                            <h6 class="text-light bg-dark p-1">Qualifications & Requirements for Web Design, PHP, React and
-                                Flutter</h6>
-                            <ul class="">
+                            <h4 class="text-light bg-dark p-1">Qualifications & Requirements</h4>
+                            <ul class="pb-2">
                                 <li class="">
                                     <p>Students of Bachelor of Science in CSE or equivalent degree</p>
-                                </li>
-                                <li class="">
-                                    <p>Proficiency in HTML, CSS, and JavaScript</p>
                                 </li>
                                 <li class="">
                                     <p>Analytical and problem-solving mindset</p>
@@ -59,14 +58,95 @@ $map_aus = $address['map_aus'];
                                 <li class="">
                                     <p>Familiarity with any code versioning tool</p>
                                 </li>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">Web Design:</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Proficiency in HTML, CSS, and JavaScript</p>
+                                </li>
+                                <li class="">
+                                    <p>Awareness of UI/UX principles</p>
+                                </li>
+                                <li class="">
+                                    <p>Knowledge in Responsive Design for different devices (PC/Mobile/Tabs)</p>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">PHP (Laravel):</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Knowledge of OOP concept is must</p>
+                                </li>
+                                <li class="">
+                                    <p>Having some experience in PHP</p>
+                                </li>
+                                <li class="">
+                                    <p>Knowledge of Laravel framework is a plus</p>
+                                </li>
+                                </li>
+                                <li class="">
+                                    <p>Experienced with MySQL/PostgreSQL</p>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">React JS:</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Knowledge of JavaScript is must</p>
+                                </li>
+                                <li class="">
+                                    <p>Proficiency in HTML and CSS</p>
+                                </li>
+                                <li class="">
+                                    <p>Awareness of UI/UX principles</p>
+                                </li>
+                                <li class="">
+                                    <p>Knowledge of any JavaScript Framework is a plus</p>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">Flutter:</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Experienced with mobile app development</p>
+                                </li>
+                                <li class="">
+                                    <p>Knowledge about Flutter widgets</p>
+                                </li>
+                                <li class="">
+                                    <p>Basic knowledge of RESTfull APIs</p>
+                                </li>
+                                <li class="">
+                                    <p>Understanding of cross-platform ecosystem </p>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">Software Quality Assurance:</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Sound Knowledge of Software Testing Life-cycle</p>
+                                </li>
+                                <li class="">
+                                    <p>Experience in writing test plans and test cases</p>
+                                </li>
+                            </ul>
+                            <h5 class="font-weight-bold pt-2">System Analysis:</h5>
+                            <ul class="">
+                                <li class="">
+                                    <p>Analytical and conceptual thinking skills</p>
+                                </li>
+                                <li class="">
+                                    <p>Excellent technical documentation skills</p>
+                                </li>
+                                </li>
+                                <li class="">
+                                    <p>Excellent writing and verbal communication skill to work closely with the stakeholders</p>
+                                </li>
                             </ul>
                         </div>
 
                         <div class="mb--50">
-                            <h6 class="text-light bg-dark p-1">Qualifications & Requirements for Business Development</h6>
+                            <h4 class="text-light bg-dark p-1">Qualifications & Requirements for Business Development</h4>
                             <ul class="">
                                 <li class="">
-                                    <p>Students of Bachelor of Business Administration or equivalent degree</p>
+                                    <p>Students of BBA/BSc/BSS or from any equivalent background can apply</p>
                                 </li>
                                 <li class="">
                                     <p>Interested in sales, marketing or related field</p>
@@ -81,15 +161,15 @@ $map_aus = $address['map_aus'];
                         </div>
 
                         <div class="">
-                            <h6 class="text-light bg-dark p-1">Application Process</h6>
+                            <h4 class="text-light bg-dark p-1">Application Process</h4>
 
                             <p class="mb--30">If you are interested to apply for the position, please follow the
                                 below link and submit your application with updated Resume. Good Luck!
 
-                            <p class=""><b>Application link:</b> <a href="https://forms.gle/FnmVt5DEiT1N45WVA"target="_blank"
-                                    class="text-primary">https://forms.gle/FnmVt5DEiT1N45WVA</a></p>
+                            <p class=""><b>Application link:</b> <a href="https://forms.gle/FnmVt5DEiT1N45WVA"
+                                    target="_blank" class="text-primary">https://forms.gle/FnmVt5DEiT1N45WVA</a></p>
 
-                            <p class=""><b>Deadline:</b> February 10, 2022</p>
+                            <p class=""><b>Deadline:</b> January 27, 2022</p>
                             <p class=""><b>**</b> Only short listed candidates will be invited for the
                                 interview.</p>
                             <br>
@@ -110,7 +190,7 @@ $map_aus = $address['map_aus'];
                 <div class="row row--35 align-items-start">
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
-                            <h2 class="title">Get Started</h2>
+                            <h2 class="title">Contact us</h2>
                             <p class="description">We always want to hear from you. Connect with us via phone:
                                 <a href="tel:{{ $phone_bd1 }}"> {{ $phone_bd1 }}</a> or email:
                                 <a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a>

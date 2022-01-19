@@ -4379,6 +4379,7 @@
                     .bg_image--team {
                         background-image: url(../images/bg/team_13.jpg);
                     }
+
                     /* .bg_image--team-mob {
                         background-image: url(../images/bg/team_mob.jpg);
                     } */
@@ -4386,7 +4387,7 @@
                     @media only screen and (max-width: 575px) {
                         .bg_image--team {
                             background-image: url(../images/bg/team_mob.jpg);
-                            background-position: 53% center;
+                            background-position: 55% center;
                         }
                     }
 
@@ -16843,6 +16844,7 @@
                         /* background: #fff; */
                         padding-bottom: 50px;
                     }
+
                     @media only screen and (max-width: 600px) {
                         .rn-address {
                             margin-top: 30px;
@@ -16850,10 +16852,12 @@
                             padding-top: 10px;
                             padding-bottom: 30px;
                         }
-                        .bg_text_color{
+
+                        .bg_text_color {
                             display: none;
                         }
                     }
+
                     @media only screen and (max-width: 768px) {
                         .rn-address {
                             margin-top: 10px;
@@ -20602,3 +20606,60 @@ custom class
                     .team .member:hover .social {
                         opacity: 1;
                     }
+
+                    /*--------------------------------------------------------------
+# Career page
+--------------------------------------------------------------*/
+
+                    .bg_text_color {
+                        color: #f8f9fc !important;
+                    }
+
+                    .shadow-sm,
+                    .shadow-sm--on-hover:hover {
+                        box-shadow: 0 0.125rem 0.25rem rgba(132, 138, 163, 0.1) !important
+                    }
+
+                    .color--heading {
+                        color: #101f41 !important
+                    }
+
+                    .color--text {
+                        color: #4f5464 !important
+                    }
+
+                    .badge-circle {
+                        border-radius: 50%;
+                        height: 2.5rem;
+                        width: 2.5rem;
+                        font-size: 1rem;
+                        line-height: 2.5rem;
+                        padding: 0
+                    }
+
+                    .text-white {
+                        color: #fff !important;
+                    }
+
+                                       
+
+                    .job-title {
+                        font-weight: 600;
+                        line-height: 1.3em;
+                        color: #333;
+                        font-size: 20px;
+                        margin: 0;
+                    }
+
+                    .section__title {
+                        font-size: 28px;
+
+                    }
+
+                    span:hover .pl {
+                        transition: 0.5s ease-out;
+
+                        padding-left: 3px;
+                    }
+
+                    
