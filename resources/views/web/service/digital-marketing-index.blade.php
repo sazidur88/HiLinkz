@@ -6,6 +6,19 @@
 
     </style>
 @endsection
+@php
+$address = hilinkz_contact();
+$location_bd = $address['address_bd'];
+$location_aus = $address['address_aus'];
+$email_bd1 = $address['email_bd1'];
+$email_bd2 = $address['email_bd2'];
+$email_aus = $address['email_aus'];
+$phone_bd1 = $address['phone_bd1'];
+$phone_bd2 = $address['phone_bd2'];
+$phone_aus = $address['phone_aus'];
+$map_bd = $address['map_bd'];
+$map_aus = $address['map_aus'];
+@endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
     <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--digital" data-black-overlay="5">
@@ -50,7 +63,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img class="w-100" src="{{ asset('assets/images/service/dig_markt/HiLinkz 800-600SEO.jpg') }}"
+                        <img class="w-100"
+                            src="{{ asset('assets/images/service/dig_markt/HiLinkz 800-600SEO.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -178,7 +192,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img class="w-100" src="{{ asset('assets/images/service/dig_markt/HiLinkz 800-600Blogging.jpg') }}"
+                        <img class="w-100"
+                            src="{{ asset('assets/images/service/dig_markt/HiLinkz 800-600Blogging.jpg') }}"
                             alt="Service Images" />
                     </div>
                 </div>
@@ -228,7 +243,8 @@
                             track of the results of any advertising campaigns, which helps a business to decide if any
                             changes are required. </p>
                         <div class="button-group mt--30">
-                            <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get
+                            <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation"
+                                href="#contact">Get
                                 Started <i class="fas fa-arrow-right"></i></a>
                         </div>
                         <!-- </div> -->
@@ -253,7 +269,8 @@
                     <div class="about-inner inner">
                         <!-- <div class="single-column"> -->
                         <h4 class="tilte">Paid search/Contextual advertising</h4>
-                        <p class="text-justify">Contextual advertisement is one of the effective ways of advertising because
+                        <p class="text-justify">Contextual advertisement is one of the effective ways of advertising
+                            because
                             it reaches the target audience. Contextual advertisements are cost effective because, when the
                             customer clicks on the ads, they are charged for the click only, not for the display of ads on
                             the screen. This type of advertising is helpful for the customers as they readily find the
@@ -261,7 +278,8 @@
                             to connect with customers and get feedback. And since it offers multiple targeting options, ads
                             are seen by the right audience.</p>
                         <div class="button-group mt--30">
-                            <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation" href="#contact">Get
+                            <a class="rn-button-style--2 btn_solid btn-size-sm nav-link smoth-animation"
+                                href="#contact">Get
                                 Started <i class="fas fa-arrow-right"></i></a>
                         </div>
                         <!-- </div> -->
@@ -272,7 +290,8 @@
     </div>
     <!-- End Column Area  -->
     <div class="button-group mt--30 mb--30 text-center">
-        <a class="btn-transparent rn-btn-dark" href="{{ route('all_services') }}"><span class="text font-italic">View More
+        <a class="btn-transparent rn-btn-dark" href="{{ route('all_services') }}"><span class="text font-italic">View
+                More
                 Services </span><i class="fas fa-arrow-right"></i></a>
     </div>
 
@@ -285,8 +304,8 @@
                         <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                             <h2 class="title">Get Started</h2>
                             <p class="description">We always want to hear from you. Connect with us via phone:
-                                <a href="tel:+8801792806811">+88 01792-806811</a> or email:
-                                <a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a>
+                                <a href="tel:{{ $phone_bd1 }}"> {{ $phone_bd1 }}</a> or email:
+                                <a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a>
                             </p>
                         </div>
                         <div class="form-wrapper">
@@ -323,16 +342,16 @@
                         </div>
                     </div>
                     <!-- <div class="col-lg-6 order-1 order-lg-2">
-                        <div class="footer-left">
-                            <div class="inner">
-                                <span>Ready To Do This</span>
-                                <h2 class="text-white">Get to work</h2>
-                                <a class="rn-button-style--2" href="{{ route('contact_form') }}">
-                                    <span>Contact Us</span>
-                                </a>
+                            <div class="footer-left">
+                                <div class="inner">
+                                    <span>Ready To Do This</span>
+                                    <h2 class="text-white">Get to work</h2>
+                                    <a class="rn-button-style--2" href="{{ route('contact_form') }}">
+                                        <span>Contact Us</span>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                    </div> -->
+                        </div> -->
                 </div>
             </div>
         </div>

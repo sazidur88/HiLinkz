@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
+use App\Http\Controllers\Web\CareerController;
 use App\Http\Controllers\Web\ServiceController;
 use App\Http\Controllers\CommonControllers\DashboardController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
@@ -108,6 +109,14 @@ Route::view('/our-works/sims/', 'web.work.sims-index')->name('sims');
 Route::view('/contact-form', 'web.contact.contact-index')->name('contact_form');
 Route::POST('/contact_us_send_message', [App\Http\Controllers\Web\ContactUsController::class, 'contact_us_send_message'])->name('contact_us_send_message');
 Route::get('/refresh-captcha', [App\Http\Controllers\Web\ContactUsController::class, 'refreshCaptcha'])->name('reload_captcha');
+
+/*
+-----------------------------------------------------------
+ ==== Career  ===
+-----------------------------------------------------------
+*/
+Route::get('/career-index', [CareerController::class, 'index'])->name('career_index');
+Route::get('/career-details', [CareerController::class, 'show'])->name('career_details');
 
 
 // Admin

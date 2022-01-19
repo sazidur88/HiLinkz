@@ -6,6 +6,19 @@
 
     </style>
 @endsection
+@php
+$address = hilinkz_contact();
+$location_bd = $address['address_bd'];
+$location_aus = $address['address_aus'];
+$email_bd1 = $address['email_bd1'];
+$email_bd2 = $address['email_bd2'];
+$email_aus = $address['email_aus'];
+$phone_bd1 = $address['phone_bd1'];
+$phone_bd2 = $address['phone_bd2'];
+$phone_aus = $address['phone_aus'];
+$map_bd = $address['map_bd'];
+$map_aus = $address['map_aus'];
+@endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
     <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--data" data-black-overlay="5">
@@ -30,7 +43,8 @@
                         <h3 class="text-left title-h3">Data Intelligence</h3>
                         <p>All smart businesses today require data analytics and business intelligence (BI), which we call
                             data intelligence, for its survival and future growth. According to <a
-                                href="https://go.forrester.com/" target="_blank" class="text-info">Forrester, </a>“Business
+                                href="https://go.forrester.com/" target="_blank" class="text-info">Forrester,
+                            </a>“Business
                             Intelligence is a set of methodologies, processes, platforms, applications, architectures, and
                             technologies that transform <b>raw data</b> into meaningful and useful information used to
                             enable more effective strategic, tactical, and operational insights and decision-making”. For
@@ -125,7 +139,8 @@
                     <div class="about-inner inner">
                         <!-- <div class="single-column"> -->
                         <h4 class="tilte">Model Training and Validation</h4>
-                        <p class="text-justify">This phase requires the right machine learning model technique selection and
+                        <p class="text-justify">This phase requires the right machine learning model technique selection
+                            and
                             application, model training, model hyperparameter setting and adjustment, model validation,
                             ensemble model development and testing, algorithm selection, and model optimization. Next, the
                             trained models are tested and evaluated as to what extent the models can get
@@ -158,7 +173,8 @@
                     <div class="about-inner inner">
                         <!-- <div class="single-column"> -->
                         <h4 class="tilte">Deployment and Data Visualization</h4>
-                        <p class="text-justify">Finally the model is deployed to see how it works in the real world. This is
+                        <p class="text-justify">Finally the model is deployed to see how it works in the real world. This
+                            is
                             the
                             time to turn the predictions and insights from the fine tuned model into actions. The deployment
                             can
@@ -193,8 +209,8 @@
                         <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                             <h2 class="title">Get Started</h2>
                             <p class="description">We always want to hear from you. Connect with us via phone:
-                                <a href="tel:+8801792806811">+88 01792-806811</a> or email:
-                                <a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a>
+                                <a href="tel:{{ $phone_bd1 }}"> {{ $phone_bd1 }}</a> or email:
+                                <a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a>
                             </p>
                         </div>
                         <div class="form-wrapper">
@@ -231,16 +247,16 @@
                         </div>
                     </div>
                     <!-- <div class="col-lg-6 order-1 order-lg-2">
-                            <div class="footer-left">
-                                <div class="inner">
-                                    <span>Ready To Do This</span>
-                                    <h2 class="text-white">Get to work</h2>
-                                    <a class="rn-button-style--2" href="{{ route('contact_form') }}">
-                                        <span>Contact Us</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> -->
+                                    <div class="footer-left">
+                                        <div class="inner">
+                                            <span>Ready To Do This</span>
+                                            <h2 class="text-white">Get to work</h2>
+                                            <a class="rn-button-style--2" href="{{ route('contact_form') }}">
+                                                <span>Contact Us</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
                 </div>
             </div>
         </div>

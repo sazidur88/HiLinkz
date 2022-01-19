@@ -15,6 +15,19 @@
 
     </style>
 @endsection
+@php
+$address = hilinkz_contact();
+$location_bd = $address['address_bd'];
+$location_aus = $address['address_aus'];
+$email_bd1 = $address['email_bd1'];
+$email_bd2 = $address['email_bd2'];
+$email_aus = $address['email_aus'];
+$phone_bd1 = $address['phone_bd1'];
+$phone_bd2 = $address['phone_bd2'];
+$phone_aus = $address['phone_aus'];
+$map_bd = $address['map_bd'];
+$map_aus = $address['map_aus'];
+@endphp
 @section('content')
 
     <!-- Start Breadcrump Area  -->

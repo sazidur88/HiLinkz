@@ -6,6 +6,19 @@
 
     </style>
 @endsection
+@php
+$address = hilinkz_contact();
+$location_bd = $address['address_bd'];
+$location_aus = $address['address_aus'];
+$email_bd1 = $address['email_bd1'];
+$email_bd2 = $address['email_bd2'];
+$email_aus = $address['email_aus'];
+$phone_bd1 = $address['phone_bd1'];
+$phone_bd2 = $address['phone_bd2'];
+$phone_aus = $address['phone_aus'];
+$map_bd = $address['map_bd'];
+$map_aus = $address['map_aus'];
+@endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
     <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--it" data-black-overlay="5">
@@ -137,8 +150,8 @@
                         <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                             <h2 class="title">Get Started</h2>
                             <p class="description">We always want to hear from you. Connect with us via phone:
-                                <a href="tel:+8801792806811">+88 01792-806811</a> or email:
-                                <a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a>
+                                <a href="tel:{{ $phone_bd1 }}"> {{ $phone_bd1 }}</a> or email:
+                                <a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a>
                             </p>
                         </div>
                         <div class="form-wrapper">

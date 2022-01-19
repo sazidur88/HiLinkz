@@ -44,17 +44,17 @@
                             <div class="footer-widget">
                                 <h4>Say Hello</h4>
                                 <ul class="ft-link">
-                                    <li><a href="mailto:contact@hilinkz.com">contact@hilinkz.com</a></li>
-                                    <li><a href="mailto:mshb95@gmail.com">mshb95@gmail.com</a></li>
-                                    <li><a href="tel:+8801792806811">+88 01792-806811</a></li>
+                                    <li><a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a></li>
+                                    <li><a href="mailto:{{ $email_bd2 }}">{{ $email_bd2 }}</a></li>
+                                    <li><a href="tel:{{ $phone_bd1 }}">{{ $phone_bd1 }}</a></li>
                                 </ul>
 
                                 <div class="social-share-inner">
                                     <ul class="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                                         <li><a href="https://www.facebook.com/hilinkz"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/hilinkz"><i class="fab fa-linkedin-in"></i></a></li>
+                                        {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
+                                        {{-- <li><a href="#"><i class="fab fa-instagram"></i></a></li> --}}
                                     </ul>
                                 </div>
                             </div>

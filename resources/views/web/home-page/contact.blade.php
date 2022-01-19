@@ -6,8 +6,8 @@
                     <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
                         <h2 class="title">Get To Work</h2>
                         <p class="description">We always want to hear from you. Connect with us via phone:
-                            <a href="tel: +8801719347688"> +88 01792-806811</a> or email:
-                            <a href="mailto:info@hilinkz.com">contact@hilinkz.com</a>
+                            <a href="tel:{{ $phone_bd1 }}"> {{ $phone_bd1 }}</a> or email:
+                            <a href="mailto:{{ $email_bd1 }}">{{ $email_bd1 }}</a>
                         </p>
                     </div>
                     <div class="form-wrapper">
