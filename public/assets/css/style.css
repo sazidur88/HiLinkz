@@ -4268,6 +4268,12 @@
                         background-image: url(../images/bg/bg-image-19.jpg);
                     }
 
+                    @media only screen and (max-width: 575px) {
+                        .bg_image--19 {
+                            background-position: 80% center;
+                        }
+                    }
+
                     .bg_image--20 {
                         background-image: url(../images/bg/bg-image-20.jpg);
                     }
@@ -4368,6 +4374,22 @@
 
                     .bg_image--KnotERP {
                         background-image: url(../images/bg/HiLinkzERPbanner.jpg);
+                    }
+
+                    .bg_image--team {
+                        background-image: url(../images/bg/team_13.jpg);
+                    }
+                    /* .bg_image--team-mob {
+                        background-image: url(../images/bg/team_mob.jpg);
+                    } */
+
+                    @media only screen and (max-width: 575px) {
+                        .bg_image--team {
+                            background-image: url(../images/bg/team_mob.jpg);
+                            background-position: 53% center;
+
+
+                        }
                     }
 
                     .work_image--knotErp {

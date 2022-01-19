@@ -115,8 +115,8 @@ Route::get('/refresh-captcha', [App\Http\Controllers\Web\ContactUsController::cl
  ==== Career  ===
 -----------------------------------------------------------
 */
-Route::get('/career-index', [CareerController::class, 'index'])->name('career_index');
-Route::get('/career-details', [CareerController::class, 'show'])->name('career_details');
+Route::get('/career', [CareerController::class, 'index'])->name('career');
+Route::get('/career/intern', [CareerController::class, 'show'])->name('career_intern');
 
 
 // Admin

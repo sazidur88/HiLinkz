@@ -203,6 +203,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="700">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="{{ asset('assets/images/team/mustafiz_2.jpg') }}" class="img-fluid"
+                                    alt="HiLinkz">
+                                <div class="social">
+                                    <a href="https://www.facebook.com/mustafiz.ridom" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/md-sifat-yasir-mustafiz-36a093153/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Mustafiz Ridom</h4>
+                                <span>Business Development Executive</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 

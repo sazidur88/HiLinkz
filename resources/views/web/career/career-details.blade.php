@@ -21,7 +21,7 @@ $map_aus = $address['map_aus'];
 @endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--contact" data-black-overlay="5">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--19" data-black-overlay="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -40,13 +40,60 @@ $map_aus = $address['map_aus'];
             <div class="row">
                 <div class="col-lg-12">
                     <div class="single-column text-justify">
-                        <h3 class="text-left title-h3 text-danger mb--50">Intern (Web, PHP, React, Flutter, Startup-Development &
-                            Marketing)</h3>
-                        <p class="mb--30">If you are interested to apply for the position, please follow the below Google Form link and submit your application with updated Resume. Good Luck!<br>
+                        <h3 class="text-left title-h3 text-danger mb--50">Intern (Web Design, PHP, React, Flutter, Business
+                            Development)</h3>
 
-                            <p class="">Application link: <a href="http://form.google.com" class="text-primary">http://form.google.com/###########################</a></p>
+                        <div class="mb--50">
+                            <h6 class="text-light bg-dark p-1">Qualifications & Requirements for Web Design, PHP, React and
+                                Flutter</h6>
+                            <ul class="">
+                                <li class="">
+                                    <p>Students of Bachelor of Science in CSE or equivalent degree</p>
+                                </li>
+                                <li class="">
+                                    <p>Proficiency in HTML, CSS, and JavaScript</p>
+                                </li>
+                                <li class="">
+                                    <p>Analytical and problem-solving mindset</p>
+                                </li>
+                                <li class="">
+                                    <p>Familiarity with any code versioning tool</p>
+                                </li>
+                            </ul>
+                        </div>
 
-                            <p class="mb--30">** Only short listed candidates will be called for interview.</p><br>
+                        <div class="mb--50">
+                            <h6 class="text-light bg-dark p-1">Qualifications & Requirements for Business Development</h6>
+                            <ul class="">
+                                <li class="">
+                                    <p>Students of Bachelor of Business Administration or equivalent degree</p>
+                                </li>
+                                <li class="">
+                                    <p>Interested in sales, marketing or related field</p>
+                                </li>
+                                <li class="">
+                                    <p>Public communication skills and IT fluency</p>
+                                </li>
+                                <li class="">
+                                    <p>Profeciency in documentation tools (Word, Excel, PowerPoint)</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="">
+                            <h6 class="text-light bg-dark p-1">Application Process</h6>
+
+                            <p class="mb--30">If you are interested to apply for the position, please follow the
+                                below link and submit your application with updated Resume. Good Luck!
+
+                            <p class=""><b>Application link:</b> <a href="https://forms.gle/FnmVt5DEiT1N45WVA"target="_blank"
+                                    class="text-primary">https://forms.gle/FnmVt5DEiT1N45WVA</a></p>
+
+                            <p class=""><b>Deadline:</b> February 10, 2022</p>
+                            <p class=""><b>**</b> Only short listed candidates will be invited for the
+                                interview.</p>
+                            <br>
+                        </div>
 
                     </div>
                 </div>
@@ -102,17 +149,17 @@ $map_aus = $address['map_aus'];
                             <img src="{{ asset('assets/images/about/LetsTalk.jpg') }}" alt="trydo" />
                         </div>
                     </div>
-                    <!-- <div class="col-lg-6 order-1 order-lg-2">
+                    {{-- <div class="col-lg-6 order-1 order-lg-2">
                             <div class="footer-left">
                                 <div class="inner">
                                     <span>Ready To Do This</span>
                                     <h2 class="text-white">Get to work</h2>
-                                    <a class="rn-button-style--2" href="{{ route('contact_form') }}">
+                                    <a class="rn-button-style--2" href="">
                                         <span>Contact Us</span>
                                     </a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div> --}}
                 </div>
             </div>
         </div>

@@ -7,18 +7,9 @@
             color: #f8f9fc !important;
         }
 
-        body {
-            /* margin-top: 20px; */
-        }
-
         .shadow-sm,
         .shadow-sm--on-hover:hover {
             box-shadow: 0 0.125rem 0.25rem rgba(132, 138, 163, 0.1) !important
-        }
-
-        .gradient-light--lean-left {
-            background-image: -webkit-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%);
-            background-image: -ms-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%)
         }
 
         .color--heading {
@@ -28,7 +19,6 @@
         .color--text {
             color: #4f5464 !important
         }
-
 
         .badge-circle {
             border-radius: 50%;
@@ -42,7 +32,6 @@
         .text-white {
             color: #fff !important;
         }
-
 
         .background--white,
         .bg-white {
@@ -119,6 +108,12 @@
 
         }
 
+        span:hover .pl{
+            transition: 0.5s ease-out;
+
+            padding-left: 3px;
+        }
+
     </style>
 @endsection
 @php
@@ -136,12 +131,12 @@ $map_aus = $address['map_aus'];
 @endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--contact" data-black-overlay="5">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--team" data-black-overlay="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="rn-page-title text-center pt--100">
-                        <h2 class="title theme-gradient">Career</h2>
+                        <h2 class="title text-light">Career</h2>
                     </div>
                 </div>
             </div>
@@ -157,7 +152,7 @@ $map_aus = $address['map_aus'];
                     <div class="row row-grid justify-content-center">
                         <div class="col-md-8 col-lg-7 col-xl-6 text-center mb-10">
                             <h2 class="text-center text-uppercase section__title">Join us to learn together</h2>       
-                                    <p>We’re always searching for amazing people to join our team. Take a look at our current openings and grab the opportunity to start your career with us.</p><br>
+                                    <p>We are searching for amazing people to join our team. Take a look at our current openings and grab the opportunity to start your career with us.</p><br>
         
                         </div>
                 </div>
@@ -166,7 +161,7 @@ $map_aus = $address['map_aus'];
     </div>
     <!-- End Column Area  -->
 
-    <section id="sectionJobList" class="rn-column-area rn-section-gap-heading section section-job-list gradient-light--lean-left">
+    <section id="sectionJobList" class="rn-column-area rn-section-gap-heading section section-job-list bg_color--5">
         <div class="container">
 
             <div class="row row-grid justify-content-center">
@@ -181,38 +176,24 @@ $map_aus = $address['map_aus'];
                 <div class="col-md-10">
 
                     <div class="job-list__wrapper mb-6 mb--100">
-                        {{-- <h3 class="mb-4 text-center">Available Positions</h3> --}}
+                        <h3 class="mb-4 text-center">Available Positions</h3>
 
                         <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
                             <div class="card-body">
                                 <span class="row justify-content-between align-items-center">
                                     <span class="job-title col-md-8 col-sm-12 color--heading">
-                                        <a href="{{route('career_details')}}"><span class="badge badge-circle background--success text-white mr-3">#</span>Intern (Web, PHP, React, Flutter, Startup-Development & Marketing)</a>
+                                        <a href="{{route('career_intern')}}"><span class="badge badge-circle background--success text-white mr-3">#</span>Intern (Web Design, PHP, React, Flutter, Business Development)</a>
                                     </span>
 
                                     <span class="col-md-4 col-sm-12 my-3 text-center color--text">                                        
-                                        <a href="{{route('career_details')}}" class="btn btn-danger text-white">Details <small><i class="fas fa-chevron-right"></i></small> </a>
+                                        <a href="{{route('career_intern')}}" class="btn btn-danger text-white">Details <small><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right pl"></i></small> </a>
                                     </span>
                                 </span>
                             </div>
                         </div> <!-- Job Card -->
 
-                        <div class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
-                            <div class="card-body">
-                                <span class="row justify-content-between align-items-center">
-                                    <span class="job-title col-md-8 col-sm-12 color--heading">
-                                        <a href="{{route('career_details')}}"><span class="badge badge-circle background--warning text-white mr-3">#</span>Web, PHP, React, Flutter, Startup-Development & Marketing Intern</a>
-                                    </span>
-
-                                    <span class="col-md-4 col-sm-12 my-3 text-center color--text">                                        
-                                        <a href="{{route('career_details')}}" class="btn btn-danger text-white">Details <small><i class="fas fa-chevron-right"></i></small> </a>
-                                    </span>
-                                </span>
-                            </div>
-                        </div> <!-- Job Card -->
-                        
-                        
-
+                    
+                    
 
                         {{-- <a href="career-single.html" class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover">
                             <div class="card-body">
