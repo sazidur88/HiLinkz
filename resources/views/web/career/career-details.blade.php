@@ -44,7 +44,7 @@ $map_aus = $address['map_aus'];
             <div class="row">
                 <div class="col-lg-12">
                     <div class="single-column text-justify">
-                        <h3 class="text-left title-h3 text-danger mb--50">Intern (Web Design, PHP, React JS, Flutter, Software Quality Assurance, System Analysis, Business Development)</h3>
+                        <h4 class="text-left title-h4 text-danger mb--50">Intern (Web Design, PHP, React JS, Flutter, Software Quality Assurance, System Analysis, Business Development)</h4>
 
                         <div class="mb--50">
                             <h4 class="text-light bg-dark p-1">Qualifications & Requirements</h4>
@@ -56,7 +56,7 @@ $map_aus = $address['map_aus'];
                                     <p>Analytical and problem-solving mindset</p>
                                 </li>
                                 <li class="">
-                                    <p>Familiarity with any code versioning tool</p>
+                                    <p>Familiarity with version controlling tools</p>
                                 </li>
                                 </li>
                             </ul>
@@ -156,6 +156,27 @@ $map_aus = $address['map_aus'];
                                 </li>
                                 <li class="">
                                     <p>Profeciency in documentation tools (Word, Excel, PowerPoint)</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mb--50">
+                            <h4 class="text-light bg-dark p-1">Benefits</h4>
+                            <ul class="">
+                                <li class="">
+                                    <p>Remuneration: Negotiable</p>
+                                </li>
+                                <li class="">
+                                    <p>Offer Letter</p>
+                                </li>
+                                <li class="">
+                                    <p>Internship Certificate</p>
+                                </li>
+                                <li class="">
+                                    <p>Occasional Outdoor Meetups</p>
+                                </li>
+                                <li class="">
+                                    <p>Opportunity to have a permanent position (Based on Performance)</p>
                                 </li>
                             </ul>
                         </div>

@@ -10,7 +10,7 @@
     <meta name="description" content="Hilinkz Ltd, we are providing creative website design, reliable web application development, Android application development, SEO, Digital Marketing, E-commerce services, Accounting, School and Hospital management system, domain & hosting services, software and website maintainance etc.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta property="og:image" content="https://hilinkz.herokuapp.com/assets/img/HiLinkz_OG.jpg" />
+    <meta property="og:image" content="{{asset('assets/images/hilinkz-og.jpg')}}" />
     {{-- @yield('meta_og_image') --}}
 
     <!-- Favicon -->

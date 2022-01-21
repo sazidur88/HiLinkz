@@ -2,8 +2,6 @@
 
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
-use App\Http\Controllers\Web\CareerController;
-use App\Http\Controllers\Web\ServiceController;
 use App\Http\Controllers\CommonControllers\DashboardController;
 use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
@@ -115,8 +113,8 @@ Route::get('/refresh-captcha', [App\Http\Controllers\Web\ContactUsController::cl
  ==== Career  ===
 -----------------------------------------------------------
 */
-Route::get('/career', [CareerController::class, 'index'])->name('career');
-Route::get('/career/intern', [CareerController::class, 'show'])->name('career_intern');
+Route::get('/career', [App\Http\Controllers\Web\CareerController::class, 'index'])->name('career');
+Route::get('/career/intern', [App\Http\Controllers\Web\CareerController::class, 'show'])->name('career_intern');
 
 
 // Admin

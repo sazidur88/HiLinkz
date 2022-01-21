@@ -96,12 +96,12 @@ $map_aus = $address['map_aus'];
 @endphp
 @section('content')
     <!-- Start Breadcrump Area  -->
-    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--team" data-black-overlay="5">
+    <div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--19" data-black-overlay="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="rn-page-title text-center pt--100">
-                        <h2 class="title text-light">Career</h2>
+                        <h2 class="title theme-gradient">Career</h2>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--primary text-white mr-3">#</span>Web
                                                 Design</a>
                                         </span>
@@ -170,7 +170,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--warning text-white mr-3">#</span>PHP
                                                 (Laravel)</a>
                                         </span>
@@ -192,7 +192,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--danger text-white mr-3">#</span>React
                                                 JS</a>
                                         </span>
@@ -214,7 +214,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--info text-white mr-3">#</span>Flutter</a>
                                         </span>
 
@@ -235,7 +235,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--success text-white mr-3">#</span>Software
                                                 Quality Assurance</a>
                                         </span>
@@ -257,7 +257,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--dark text-white mr-3">#</span>System
                                                 Analysis</a>
                                         </span>
@@ -279,7 +279,7 @@ $map_aus = $address['map_aus'];
                                 <div class="card-body">
                                     <span class="row justify-content-between align-items-center">
                                         <span class="job-title col-md-5 col-sm-12 color--heading">
-                                            <a href="{{ route('career_intern') }}"><span
+                                            <a href="{{ route('career_intern') }}" class="text-dark"><span
                                                     class="badge badge-circle background--primary text-white mr-3">#</span>Business
                                                 Development</a>
                                         </span>
