@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\BlogCategoryController;
+use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Web\WebBlogController;
 use App\Http\Controllers\Admin\ManageRolesController;
 use App\Http\Controllers\Admin\ManageUsersController;
 use App\Http\Controllers\CommonControllers\DashboardController;
@@ -7,6 +10,7 @@ use App\Http\Controllers\CommonControllers\EditProfileController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -119,8 +123,17 @@ Route::get('/career/intern', [App\Http\Controllers\Web\CareerController::class, 
 
 // Admin
 // Contact Us
-Route::get('/view-inbox-messages',[App\Http\Controllers\Web\ContactUsController::class, 'view_inbox_messages'])->middleware('auth')->name('view_inbox_messages');
-Route::POST('/view_individual_message',[App\Http\Controllers\Web\ContactUsController::class, 'view_individual_message'])->middleware('auth')->name('view_individual_message');
+Route::get('/view-inbox-messages', [App\Http\Controllers\Web\ContactUsController::class, 'view_inbox_messages'])->middleware('auth')->name('view_inbox_messages');
+Route::POST('/view_individual_message', [App\Http\Controllers\Web\ContactUsController::class, 'view_individual_message'])->middleware('auth')->name('view_individual_message');
 
 
 
+/*
+    -----------------------------------------------------------
+     ==== Admin Multimedia Routes Starts Here  ===
+    -----------------------------------------------------------
+    */
+Route::resource('/blogs', BlogController::class);
+Route::resource('/blog-categories', BlogCategoryController::class);
+Route::get('/', [App\Http\Controllers\Web\WebBlogController::class, 'home_blogs']);
+Route::get('/blog/{blog_id}', [App\Http\Controllers\Web\WebBlogController::class, 'single_blog'])->name('single_blog');

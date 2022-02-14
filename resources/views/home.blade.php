@@ -21,7 +21,7 @@
         font-size: 2em !important;
     }
 
-    .card:hover h5{
+    .card:hover h5 {
         background: #ffffff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -38,6 +38,27 @@
 
     .ease-out:hover {
         margin-top: 2px;
+    }
+
+    .blog-section {
+        padding-top: 80px;
+        padding-bottom: 1px;
+    }
+
+    .blog-thumbnail {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .blog textarea {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        border: none;
+        resize: none;
+        overflow: hidden;
     }
 </style>
 @endsection
@@ -74,7 +95,7 @@ $map_aus = $address['map_aus'];
 
 @include('web.home-page.team')
 
-{{--@include('web.home-page.blogs')--}}
+@include('web.home-page.blogs')
 
 @include('web.home-page.contact')
 
