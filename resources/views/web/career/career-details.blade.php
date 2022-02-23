@@ -160,37 +160,8 @@ $map_aus = $address['map_aus'];
                         </ul>
                     </div>
 
-<<<<<<< .mine
-                        <div class="mb--50">
-                            <h4 class="text-light bg-dark p-1">Benefits</h4>
-                            <ul class="">
-                                <li class="">
-                                    <p>Remuneration: Negotiable</p>
-                                </li>
-                                <li class="">
-                                    <p>Offer Letter</p>
-                                </li>
-                                <li class="">
-                                    <p>Internship Certificate</p>
-                                </li>
-                                <li class="">
-                                    <p>Occasional Outdoor Meetups</p>
-                                </li>
-                                <li class="">
-                                    <p>Opportunity to have a permanent position (Based on Performance)</p>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="">
-                            <h4 class="text-light bg-dark p-1">Application Process</h4>
-||||||| .r5069
-                        <div class="">
-                            <h4 class="text-light bg-dark p-1">Application Process</h4>
-=======
                     <div class="">
                         <h4 class="text-light bg-dark p-1">Application Process</h4>
->>>>>>> .r5235
 
                         <p class="mb--30">If you are interested to apply for the position, please follow the
                             below link and submit your application with updated Resume. Good Luck!
